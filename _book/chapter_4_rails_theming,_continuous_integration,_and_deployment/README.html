@@ -1,0 +1,720 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Chapter 4: Rails Theming, Continuous Integration, and Deployment | Code Rails</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    
+    <link rel="prev" href="../chapter_3_rails_resources/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+    
+    <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-exercises/exercises.css">
+    
+
+
+        
+    <div class="book"  data-level="4" data-basepath=".." data-revision="1410593979028">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1" data-path="how_we_teach_this_course.html">
+            
+                
+                    <a href="../how_we_teach_this_course.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                         Course Objectives
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1.1" data-path="give_students_new_super_powers.html">
+            
+                
+                    <a href="../give_students_new_super_powers.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.1.</b>
+                        
+                         Give students new Super Powers
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
+            
+                
+                    <a href="../make_learning_faster_and_easier_with_science.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.</b>
+                        
+                         Make learning faster and easier with science
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1.2.1" data-path="kolbs_learning_cycles.html">
+            
+                
+                    <a href="../kolbs_learning_cycles.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.1.</b>
+                        
+                         Kolb&#39;s learning cycles
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.2" data-path="kathy_sierra_on_rapid_learning.html">
+            
+                
+                    <a href="../kathy_sierra_on_rapid_learning.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.2.</b>
+                        
+                         Kathy Sierra on Rapid learning
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.3" data-path="chunking.html">
+            
+                
+                    <a href="../chunking.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.3.</b>
+                        
+                         Chunking
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.4" data-path="tight_feedback_loops.html">
+            
+                
+                    <a href="../tight_feedback_loops.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.4.</b>
+                        
+                         Tight feedback loops
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.3" data-path="guide_you_in_building_a_real_app.html">
+            
+                
+                    <a href="../guide_you_in_building_a_real_app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.3.</b>
+                        
+                         Guide you in building a real app
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2" data-path="our_values.html">
+            
+                
+                    <a href="../our_values.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                         Primary values
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.2.1" data-path="best_practices.html">
+            
+                
+                    <a href="../best_practices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.1.</b>
+                        
+                         Best practices
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.2" data-path="behavior_driven_development.html">
+            
+                
+                    <a href="../behavior_driven_development.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.2.</b>
+                        
+                         Behavior Driven Development
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.3" data-path="engaging_communication.html">
+            
+                
+                    <a href="../engaging_communication.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.3.</b>
+                        
+                         Engaging communication
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.4" data-path="build_upon_fundamentals.html">
+            
+                
+                    <a href="../build_upon_fundamentals.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.4.</b>
+                        
+                         Build upon fundamentals
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.5" data-path="paths_and_sondboxes.html">
+            
+                
+                    <a href="../paths_and_sondboxes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.5.</b>
+                        
+                         Paths and Sondboxes
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.6" data-path="the_honor_code.html">
+            
+                
+                    <a href="../the_honor_code.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.6.</b>
+                        
+                         The honor code
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.7" data-path="diversity_&amp;_equality.html">
+            
+                
+                    <a href="../diversity_&amp;_equality.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.7.</b>
+                        
+                         Diversity &amp; equality
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.3" data-path="installing_ruby_and_rails.html">
+            
+                
+                    <a href="../installing_ruby_and_rails.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                         Installing Ruby and Rails
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="chapter_1_code_rails/README.html">
+            
+                
+                    <a href="../chapter_1_code_rails/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Chapter 1: BDD &amp; TATFT
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="chapter_2_rails_best_practices/README.html">
+            
+                
+                    <a href="../chapter_2_rails_best_practices/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Chapter 2: Rails Best Practices
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="chapter_3_rails_resources/README.html">
+            
+                
+                    <a href="../chapter_3_rails_resources/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Chapter 3: Rails Resources
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4" data-path="chapter_4_rails_theming,_continuous_integration,_and_deployment/README.html">
+            
+                
+                    <a href="../chapter_4_rails_theming,_continuous_integration,_and_deployment/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Chapter 4: Rails Theming, Continuous Integration, and Deployment
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Code Rails</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2822">
+                    
+                        <h1 id="chapter-4-rails-theming-continuous-integration-and-deployment">Chapter 4: Rails Theming, Continuous Integration, and Deployment</h1>
+<h2 id="intro">Intro:</h2>
+<p>On day four, we cover two main things: making your site look good, and sharing (deploying) your site to the internet. A bonus is that since we have been doing BDD, we can deploy based on whether our tests pass.</p>
+<p>Review this whole outline, and find the user stories. Add them to your project management tool now.</p>
+<p>As an employer, I want to see impressive visual design so that I know this developer has good taste</p>
+<h2 id="research">RESEARCH</h2>
+<p>Let&#39;s learn a little about front-end frameworks.</p>
+<h1 id="read-this-short-article-on-what-front-end-frameworks-matter-httpsmediumcomwhat-i-learned-building99fdd6e46586">Read this short article on what front-end frameworks matter: <a href="https://medium.com/what-i-learned-building/99fdd6e46586" target="_blank">https://medium.com/what-i-learned-building/99fdd6e46586</a></h1>
+<p>Twitter Bootstrap and Zurb Foundation are the 2 most popular front-end frameworks
+Review the READMEs &amp; docs for each:</p>
+<p><a href="https://github.com/twbs/bootstrap/" target="_blank">https://github.com/twbs/bootstrap/</a></p>
+<p><a href="https://github.com/zurb/foundation" target="_blank">https://github.com/zurb/foundation</a></p>
+<h1 id="read-these-use-cases-for-a-front-end-framework-pretty-much-applies-to-both-httpwwwsitepointcom11-reasons-to-use-twitter-bootstrap">Read these use-cases for a front-end framework (pretty much applies to both): <a href="http://www.sitepoint.com/11-reasons-to-use-twitter-bootstrap/" target="_blank">http://www.sitepoint.com/11-reasons-to-use-twitter-bootstrap/</a></h1>
+<h1 id="read-this-to-understand-the-philosopical-differences-between-bootstrap-and-foundation-httpsmediumcomfrontend-and-beyond8b3812c7007c">Read this to understand the philosopical differences between Bootstrap and Foundation: <a href="https://medium.com/frontend-and-beyond/8b3812c7007c" target="_blank">https://medium.com/frontend-and-beyond/8b3812c7007c</a></h1>
+<p>We want you to use Zurb. Why do you think that is?
+Practice with Zurb:</p>
+<h1 id="assignment-watch-and-do-httprailscastscomepisodes417-foundationviewasciicast-push-your-resulting-app-to-github">Assignment: Watch and do: <a href="http://railscasts.com/episodes/417-foundation?view=asciicast" target="_blank">http://railscasts.com/episodes/417-foundation?view=asciicast</a>. Push your resulting app to Github.</h1>
+<p>Hints:
+This RailsCast is done with Rails 3.2. So you have some options:
+Use Rails 3.2.13</p>
+<blockquote>
+<p>gem install rails -v 3.2.13
+rails <em>3.2.13</em> new [appname]
+Ensure you match all the other gem versions.
+If you really get stuck, clone the finished app from GitHub, and just follow along closely with the code.
+Use Rails 4.1, and try to figure out what is different
+If you get stuck, use this as a reference: <a href="https://github.com/RailsApps/rails-foundation/" target="_blank">https://github.com/RailsApps/rails-foundation/</a>
+If you are using Rails 4 and Foundation 5, things may not work exactly as detailed in the RailsCast. Try this thread if you are having issues with the <code>@import</code> command: <a href="https://github.com/zurb/foundation/issues/2128" target="_blank">https://github.com/zurb/foundation/issues/2128</a> (Yikes!)
+Note in Rails 4, you don&#39;t need to put gems in the :asset group: <a href="http://stackoverflow.com/questions/16406204/why-did-rails4-drop-support-for-assets-group-in-the-gemfile" target="_blank">http://stackoverflow.com/questions/16406204/why-did-rails4-drop-support-for-assets-group-in-the-gemfile</a>
+To use the latest Foundation 5, the gem name is &quot;foundation-rails&quot;: <a href="http://foundation.zurb.com/docs/upgrading.html" target="_blank">http://foundation.zurb.com/docs/upgrading.html</a>
+When the RailsCast suggests changing css values, put in your own values to see the change and get something you like.
+RED
+As a developer, I want a front-end framework so that I can easily modify the look and feel of my site
+Write a spec to check for zurb foundation loading on root_path.
+Path:
+rails generate minitest:feature CheckForZurb
+What can you look for your on your page to indicate that Zurb is in effect?
+Hint:
+One option would be to check for &#39;columns&#39; in the page.body.
+Better would be to see if a stylesheet with &quot;zurb&quot; in the name was getting loaded.
+Please share if you come up with a better test!
+GREEN
+Add the zurb-foundation gem
+Follow instructions in the README for the gem
+Hints
+You&#39;ll need to load in the javascript and stylesheets into your asset pipeline.
+For more info on the asset pipeline, please #Read: <a href="http://guides.rubyonrails.org/asset_pipeline.html" target="_blank">http://guides.rubyonrails.org/asset_pipeline.html</a>
+REFACTOR
+As a developer, I want to integrate a theme, so that my site doesn&#39;t look like all the other bootstrap sites out there
+RED
+The RailsCast is essentially building up a custom theme. If you like that approach, and have the css chops already, keep going with it to make your site look the way you want it.
+Here&#39;s some nice Creative Commons images you can use as background: <a href="http://unsplash.com/" target="_blank">http://unsplash.com/</a>
+Otherwise, choose a theme:
+Here are some collections of Zurb themes... You may also be able to find your own. Paying $5-$40 for a professionally designed theme is a good deal and a great time saver.
+ONLY USE A THEME THAT MATCHES YOUR FOUNDATION VERSION. Look closely at what version of Foundation it is based on. Do not proceed if you do not have a match with your app.
+<a href="http://themeforest.net/collections/3083675-sweet-zurb-foundation-themes" target="_blank">http://themeforest.net/collections/3083675-sweet-zurb-foundation-themes</a> (Avoid the joomla/drupal/wordpress options, you want just HTML5 + CSS3)
+<a href="https://www.foundationmade.com/themes/all/sort/newest/page/1" target="_blank">https://www.foundationmade.com/themes/all/sort/newest/page/1</a> (look for Zurb 5 templates)
+<a href="http://www.themplio.com/categories/foundation-free" target="_blank">http://www.themplio.com/categories/foundation-free</a> (these aren&#39;t as nice, but they are free)
+...and whatever you find. Google away, and share your best finds with the class!
+Write a spec to verify the theme loads properly. What does your theme do that you can test for? You may need to look into the theme code to find out. Don&#39;t be afraid of coming back and re-writing this test once you have the theme loaded.
+GREEN
+Add the theme&#39;s files to the appropriate places in the Rails file hierarchy</p>
+<h1 id="read-again-if-needed-the-rails-asset-pipeline-guide-especially-section-21-httpguidesrubyonrailsorgasset_pipelinehtml">Read again if needed: The Rails Asset Pipeline Guide, especially section 2.1: <a href="http://guides.rubyonrails.org/asset_pipeline.html" target="_blank">http://guides.rubyonrails.org/asset_pipeline.html</a></h1>
+<p>Remember, &quot;assets&quot; are the css, js, image, etc files your site uses.
+The theme you selected should simply have html/css/js/images that you need to extract from the theme and add to your Rails app. Copy/paste is ok here!
+Some things belong in app/assets and others in vendor/assets - what is the difference?
+REFACTOR
+How can you customize your downloaded theme and make it stand out from the crowd?
+At least add some copy unique to who you are and what you want your site to be about (hint: you!)
+Option 1: If you have time, do it!
+Option 2: If you don&#39;t end up with time, enter in some user stories into the Project Management site to remind yourself in the future what you&#39;d like to customize.
+As a parent, I want to see the good work my kid does so that I can show it off to my friends
+Add additional spec that is modification of the day 1 welcome_page_spec, but checks instead against your public domain name.
+This will essentially be a ping-test to ensure your app is up and running in production.
+Deploy to Heroku</p>
+<h1 id="read-and-do-with-your-app--httpsdevcenterherokucomarticlesgetting-started-with-rails4">Read and do (with your app) : <a href="https://devcenter.heroku.com/articles/getting-started-with-rails4" target="_blank">https://devcenter.heroku.com/articles/getting-started-with-rails4</a></h1>
+<p>HINTS &amp; Troubleshooting:
+One REALLY important step is left out of that article:
+You need to tell Rails that it is ok to serve static assets, which Rails 4 will not do by default.
+Find this setting in the Production Environment config file, which is used on Heroku: config/environments/production.rb
+Change it to true.
+Some steps you have already done (generating your app, initializing the git repo, etc), so be sure not to blindly copy/paste.
+FOR THE LOVE OF CLARITY, please name your heroku app when you create it:
+heroku create my-rad-portfolio
+Did you include the &#39;rails_12factor&#39; gem in production?
+Heroku can&#39;t use SQLite for it&#39;s database. It needs PostreSQL.
+Did you include the &#39;pg&#39; gem?
+You have 2 options
+Switch to Postgres locally: This WILL BE time consuming to set up if you haven&#39;t already, but you&#39;ll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on.
+Use SQLite locally (in development), and Postgres on Heroku (production):
+Create a gem group called :production, and include:
+gem &quot;pg&quot;
+Did you move sqlite to development only?
+Do you have minitest-rails available in all environments?
+Did you run migrations after deploying?
+heroku heroku run rake db:migrate
+Hint:
+A working Rails 4.0 Gemfile:
+source &quot;<a href="https://rubygems.org" target="_blank">https://rubygems.org</a>&quot;</p>
+</blockquote>
+<p>ruby &quot;2.1.0&quot;</p>
+<p>gem &quot;coffee-rails&quot;, &quot;~&gt; 4.0.0&quot;
+gem &quot;jbuilder&quot;, &quot;~&gt; 1.2&quot;
+gem &quot;jquery-rails&quot;
+gem &quot;minitest-rails&quot;
+gem &quot;rails&quot;, &quot;4.0.2&quot;
+gem &quot;sass-rails&quot;, &quot;~&gt; 4.0.0&quot;
+gem &quot;turbolinks&quot;
+gem &quot;uglifier&quot;, &quot;&gt;= 1.3.0&quot;
+gem &quot;foundation-rails&quot;</p>
+<p>group :development do
+  gem &quot;sqlite3&quot;
+end</p>
+<p>group :doc do
+  gem &quot;sdoc&quot;, require: false
+end</p>
+<p>group :produciton do
+  gem &quot;rails_12factor&quot;
+  gem &quot;pg&quot;
+end</p>
+<p>group :test do
+  gem &quot;minitest-rails-capybara&quot;
+  gem &quot;launchy&quot;
+end
+Set up your custom domain name (register a new one, if you don&#39;t already have one).
+Personal Portfolio domain names should be:
+Memorable
+Appropriate for work
+Easy to say and spell over the phone. Say it out loud a few times and try to tell it to other people.</p>
+<h1 id="assignment-get-your-own-at-a-domain-name-registrar-httpscanvasinstructurecomcourses853911assignments2753651">Assignment: Get your own at a Domain Name Registrar: <a href="https://canvas.instructure.com/courses/853911/assignments/2753651" target="_blank">https://canvas.instructure.com/courses/853911/assignments/2753651</a></h1>
+<h1 id="assignment-sign-up-for-amazon-web-services-aws-httpscanvasinstructurecomcourses853911assignments2753692">Assignment: Sign up for Amazon Web Services (AWS): <a href="https://canvas.instructure.com/courses/853911/assignments/2753692" target="_blank">https://canvas.instructure.com/courses/853911/assignments/2753692</a></h1>
+<p> Setup Domain Name Service (DNS) on Route 53. Read #stepbystep: <a href="http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/R53Example.html" target="_blank">http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/R53Example.html</a>
+Configure heroku app: Read #stepbystep: <a href="https://devcenter.heroku.com/articles/custom-domains" target="_blank">https://devcenter.heroku.com/articles/custom-domains</a>
+As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don&#39;t deploy bugs.</p>
+<h1 id="assignment-set-up-a-continuous-integration-server-for-your-repo-get-your-tests-running-in-the-cloud-and-put-a-nice-green-badge-on-your-readme-on-github-can-it-auto-deploy-when-your-tests-pass">Assignment: Set up a Continuous Integration server for your repo. Get your tests running in the cloud, and put a nice green badge on your README on GitHub. Can it auto-deploy when your tests pass?</h1>
+<p>Read: <a href="http://jolicode.com/blog/online-ci-providers-are-the-new-black" target="_blank">http://jolicode.com/blog/online-ci-providers-are-the-new-black</a>
+Option 1: Travis-CI
+Read: <a href="http://about.travis-ci.org/docs/user/getting-started/" target="_blank">http://about.travis-ci.org/docs/user/getting-started/</a>
+Read: <a href="http://stackoverflow.com/questions/10591599/rake-dbmigration-not-working-on-travis-ci-build" target="_blank">http://stackoverflow.com/questions/10591599/rake-dbmigration-not-working-on-travis-ci-build</a> (top answer)
+README Hint:
+Check out the Markdown source of <a href="https://github.com/codefellows/portfolio/blob/chapter-4/readme.md" target="_blank">https://github.com/codefellows/portfolio/blob/chapter-4/readme.md</a></p>
+<h1 id="assignment-set-up-travisyml-to-deploy-to-heroku-whenever-your-build-passes">assignment: Set up .travis.yml to deploy to Heroku whenever your build passes</h1>
+<p><a href="http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/" target="_blank">http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/</a>
+gem install travis
+travis login
+Option 2: <a href="https://www.shippable.com/" target="_blank">https://www.shippable.com/</a>
+Option 3: <a href="http://wercker.com/" target="_blank">http://wercker.com/</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter_3_rails_resources/README.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Chapter 3: Rails Resources"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/ace.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/exercises.js"></script>
+    
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <script src="../gitbook/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,756 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Chapter 2: Rails Best Practices | Code Rails</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../chapter_3_rails_resources/README.html" />
+    
+    
+    <link rel="prev" href="../chapter_1_code_rails/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+    
+    <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-exercises/exercises.css">
+    
+
+
+        
+    <div class="book"  data-level="2" data-basepath=".." data-revision="1410593979028">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1" data-path="how_we_teach_this_course.html">
+            
+                
+                    <a href="../how_we_teach_this_course.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                         Course Objectives
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1.1" data-path="give_students_new_super_powers.html">
+            
+                
+                    <a href="../give_students_new_super_powers.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.1.</b>
+                        
+                         Give students new Super Powers
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
+            
+                
+                    <a href="../make_learning_faster_and_easier_with_science.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.</b>
+                        
+                         Make learning faster and easier with science
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1.2.1" data-path="kolbs_learning_cycles.html">
+            
+                
+                    <a href="../kolbs_learning_cycles.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.1.</b>
+                        
+                         Kolb&#39;s learning cycles
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.2" data-path="kathy_sierra_on_rapid_learning.html">
+            
+                
+                    <a href="../kathy_sierra_on_rapid_learning.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.2.</b>
+                        
+                         Kathy Sierra on Rapid learning
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.3" data-path="chunking.html">
+            
+                
+                    <a href="../chunking.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.3.</b>
+                        
+                         Chunking
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.2.4" data-path="tight_feedback_loops.html">
+            
+                
+                    <a href="../tight_feedback_loops.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.4.</b>
+                        
+                         Tight feedback loops
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.1.3" data-path="guide_you_in_building_a_real_app.html">
+            
+                
+                    <a href="../guide_you_in_building_a_real_app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.3.</b>
+                        
+                         Guide you in building a real app
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2" data-path="our_values.html">
+            
+                
+                    <a href="../our_values.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                         Primary values
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.2.1" data-path="best_practices.html">
+            
+                
+                    <a href="../best_practices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.1.</b>
+                        
+                         Best practices
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.2" data-path="behavior_driven_development.html">
+            
+                
+                    <a href="../behavior_driven_development.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.2.</b>
+                        
+                         Behavior Driven Development
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.3" data-path="engaging_communication.html">
+            
+                
+                    <a href="../engaging_communication.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.3.</b>
+                        
+                         Engaging communication
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.4" data-path="build_upon_fundamentals.html">
+            
+                
+                    <a href="../build_upon_fundamentals.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.4.</b>
+                        
+                         Build upon fundamentals
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.5" data-path="paths_and_sondboxes.html">
+            
+                
+                    <a href="../paths_and_sondboxes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.5.</b>
+                        
+                         Paths and Sondboxes
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.6" data-path="the_honor_code.html">
+            
+                
+                    <a href="../the_honor_code.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.6.</b>
+                        
+                         The honor code
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2.7" data-path="diversity_&amp;_equality.html">
+            
+                
+                    <a href="../diversity_&amp;_equality.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.7.</b>
+                        
+                         Diversity &amp; equality
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.3" data-path="installing_ruby_and_rails.html">
+            
+                
+                    <a href="../installing_ruby_and_rails.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                         Installing Ruby and Rails
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="chapter_1_code_rails/README.html">
+            
+                
+                    <a href="../chapter_1_code_rails/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Chapter 1: BDD &amp; TATFT
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="2" data-path="chapter_2_rails_best_practices/README.html">
+            
+                
+                    <a href="../chapter_2_rails_best_practices/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Chapter 2: Rails Best Practices
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="chapter_3_rails_resources/README.html">
+            
+                
+                    <a href="../chapter_3_rails_resources/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Chapter 3: Rails Resources
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="chapter_4_rails_theming,_continuous_integration,_and_deployment/README.html">
+            
+                
+                    <a href="../chapter_4_rails_theming,_continuous_integration,_and_deployment/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Chapter 4: Rails Theming, Continuous Integration, and Deployment
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Code Rails</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2820">
+                    
+                        <h1 id="chapter-2-rails-best-practices">Chapter 2: Rails Best Practices</h1>
+<p>Chapter 2: Rails Best Practices</p>
+<ul>
+<li><p>Intro:
+&quot;Rails is a &quot;best practices&quot; framework. This means there is a &quot;Rails Way&quot; of accomplishing most common web development tasks.</p>
+<p>This ends up being very powerful. Once you understand the Rails Way, you can sit down to any rails app that follows best practices and get to work. You don&#39;t need to reinvent the wheel, or submit to NIH (Not Invented Here) syndrome. Don&#39;t be clever, just go with the community-established style.</p>
+<p>This starts with an absolute requirement that everything you do happens under version control. Git has proven to be one of the most powerful and flexible tools for versioning your work, and the Rails community has standardized around it almost entirely. Take your git skills further with the linked resources.</p>
+<p>Then read a chapter of the book Clean Code (used with permission). There are a number of much more specific style guides linked as well. Take note of what is new to you, and what you learn.</p>
+<p>Then write some code! Use the best practice of BDD to create a new Rails app, and give it a static html welcome page. Commit that to a new repo, and submit the repo url for your assignment.&quot;</p>
+</li>
+<li>Add these user stories to your project management app, and then get to work on them:<ul>
+<li>As a developer, I want to use version control so that I can save history and collaborate with others<ul>
+<li>Git &amp; DVCS
+&quot;Everyone comes in to this course with different levels of experience with git. Choose from the assignments below to take your git skills to the next level:&quot;<ul>
+<li>Try Git: <a href="http://www.codeschool.com/courses/try-git" target="_blank">http://www.codeschool.com/courses/try-git</a></li>
+<li>Practice git with visual guide: <a href="http://pcottle.github.io/learnGitBranching/" target="_blank">http://pcottle.github.io/learnGitBranching/</a> — Try at least 3 levels!</li>
+<li>Take it further: <a href="http://www.codeschool.com/courses/git-real" target="_blank">http://www.codeschool.com/courses/git-real</a></li>
+<li>Advanced git: <a href="https://www.codeschool.com/courses/git-real-2" target="_blank">https://www.codeschool.com/courses/git-real-2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>As a developer, I want a PM Tool to track my repo so that I can complete stories from my commit message, save time, and inform management and the customer.</li>
+<li>As a Rails developer, I want my code to follow industry-standard best practices so that my projects are readable, scalable, and secure<ul>
+<li>Rails conventions:<ul>
+<li>README<ul>
+<li><h1 id="read-this-article-written-by-a-code-fellows-alumna-httpwwwstephaniehekkercomwhy-you-should-write-a-readme-for-your-application">Read this article, written by a Code Fellows alumna: <a href="http://www.stephaniehekker.com/why-you-should-write-a-readme-for-your-application/" target="_blank">http://www.stephaniehekker.com/why-you-should-write-a-readme-for-your-application/</a></h1>
+</li>
+<li>Decide on what you want to use as a standard README format for all your projects</li>
+</ul>
+</li>
+<li>Code for clarity<ul>
+<li><h1 id="read-chpater-1-of-the-book-clean-code-by-uncle-bob-martin-httpswwwdropboxcomsy9jxxvlgnbocvn7chapter20120-20clean20code20-20a20handbook20of20agile20software20craftsmanshippdf">Read Chpater 1 of the book Clean Code, by Uncle Bob Martin: <a href="https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf" target="_blank">https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf</a></h1>
+</li>
+<li><h1 id="read-httpagiledzonecomnewsclarity-code-clarity-thought">Read: <a href="http://agile.dzone.com/news/clarity-code-clarity-thought" target="_blank">http://agile.dzone.com/news/clarity-code-clarity-thought</a></h1>
+</li>
+<li>Review: <a href="http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.2.pdf" target="_blank">http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.2.pdf</a></li>
+<li>Extra Credit: <a href="https://medium.com/on-coding/a70ca8382884" target="_blank">https://medium.com/on-coding/a70ca8382884</a></li>
+</ul>
+</li>
+<li>Ruby style guide<ul>
+<li>Whitespace<ul>
+<li>2 spaces (not tabs)</li>
+<li>No whitespace at the end of the line</li>
+<li>A single newline at the end of every file</li>
+</ul>
+</li>
+<li>Comments<ul>
+<li><h1 id="read-httpsgithubcombbatsovruby-style-guidecomments-just-read-up-to-classes-and-methods">Read: <a href="https://github.com/bbatsov/ruby-style-guide#comments" target="_blank">https://github.com/bbatsov/ruby-style-guide#comments</a> (just read up to Classes and Methods)</h1>
+</li>
+</ul>
+</li>
+<li>Online resources:<ul>
+<li><h1 id="read-httpsgithubcombbatsovruby-style-guide">Read: <a href="https://github.com/bbatsov/ruby-style-guide" target="_blank">https://github.com/bbatsov/ruby-style-guide</a></h1>
+</li>
+<li><h1 id="read-and-compare-httpsgithubcomstyleguide">Read and compare: <a href="https://github.com/styleguide" target="_blank">https://github.com/styleguide</a></h1>
+</li>
+</ul>
+</li>
+<li>Gem tool:<ul>
+<li>gem install rubocop</li>
+<li>DO: run rubocop from within your project directory for your work from Chapter 1.</li>
+<li>Extra Credit: figure out how to ignore a warning (like for double-quoted strings, which Brook says is fine)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Rails Gemfile: #Read <a href="http://mcdowall.info/posts/gemfile-best-practices-and-discourse/" target="_blank">http://mcdowall.info/posts/gemfile-best-practices-and-discourse/</a></li>
+<li>Your IDE: A text editor #demo<ul>
+<li>Remap shift-space to underscore: <a href="http://gfxmonk.net/2009/01/29/remap-shiftspace-to-underscore.html" target="_blank">http://gfxmonk.net/2009/01/29/remap-shiftspace-to-underscore.html</a></li>
+<li>How to set up Sublime Text for our conventions. Choose Sublime Text / Preferences / Settings - User and enter these settings:
+&quot;{
+  &quot;ignored_packages&quot;:
+  [<pre><code>&quot;Vintage&quot;
+</code></pre>  ],
+  &quot;save_on_focus_lost&quot;: true,
+  &quot;tab_size&quot;: 2,
+  &quot;translate_tabs_to_spaces&quot;: true,
+  &quot;trim_trailing_white_space_on_save&quot;: true,
+  &quot;ensure_newline_at_eof_on_save&quot;: true
+}&quot;</li>
+<li>Install the package manager for your version of Sublime.</li>
+<li>Find &amp; install some great recommended packages.</li>
+<li>Get to know your editor:<ul>
+<li><h1 id="watch-a-few-of-these-hints-that-look-interesting-to-you-httpstutspluscomcourseimprove-workflow-in-sublime-text-2">Watch a few of these hints that look interesting to you: <a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/" target="_blank">https://tutsplus.com/course/improve-workflow-in-sublime-text-2/</a></h1>
+</li>
+<li>Recommended: Multi-cursor, Instant file switching.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>You should know this site exists: <a href="http://rails-bestpractices.com" target="_blank">http://rails-bestpractices.com</a> (A lot of what&#39;s there may not yet make sense. That&#39;s ok.)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>As an employer, I want your site to have a welcome page so that I can learn about what an awesome Rails developer you are<ul>
+<li>Apply best practices: BDD a static front page for your Rails portfolio app.</li>
+<li>RED<ul>
+<li>Write a feature spec for your user story above<ul>
+<li>You&#39;ll need a new Rails 4 app. Let&#39;s call this Portfolio.<ul>
+<li>Hint: We are not using the default Test::Unit framework, so you will want to use the handy <code>--skip-test-unit</code> flag:<ul>
+<li>rails new portfolio --skip-test-unit</li>
+</ul>
+</li>
+<li>Once you&#39;ve generated the app, clean up the Gemfile according to best practices above.</li>
+</ul>
+</li>
+<li>We want you to use minispec and capybara to BDD this. You&#39;ll have to set this up within your Rails project. Here are some documentation resources:<ul>
+<li><h1 id="read-httpsgithubcomblowmageminitest-rails">Read <a href="https://github.com/blowmage/minitest-rails" target="_blank">https://github.com/blowmage/minitest-rails</a></h1>
+</li>
+<li><h1 id="read-httpsgithubcomblowmageminitest-rails-capybara">Read <a href="https://github.com/blowmage/minitest-rails-capybara" target="_blank">https://github.com/blowmage/minitest-rails-capybara</a></h1>
+</li>
+<li>Don&#39;t blindly copy/paste every command from those docs. That will mess you up.<ul>
+<li>Rather: understand what the commands do.</li>
+<li>Decide which you need, which you don&#39;t, and which you may need to modify.</li>
+<li>RETYPE! Copy/paste is the enemy of learning.</li>
+</ul>
+</li>
+<li>Instead of configuring this in a file called <code>minitest_helper.rb</code>, use the standard test helper file: <code>test_helper.rb</code> in the test/ directory</li>
+<li>Really Stuck? Ask a classmate, ask a TA or Instructor, or watch a video of Ivan do it with an older version of Rails and MiniTest<ul>
+<li><a href="http://www.youtube.com/watch?v=0pl-h-CHWEA" target="_blank">http://www.youtube.com/watch?v=0pl-h-CHWEA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Now create a test (remember what the docs said about how to create a new feature test???) in the test/features/ directory (make the directory if you don&#39;t have it) that visits the root of your Rails app to ensure the Welcome index view is showing.</li>
+<li>Ensure your specs runs as the default task when you run <code>rake</code></li>
+<li>It should fail. That&#39;s ok! If you see an error, ensure everything is set up correctly.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>GREEN<ul>
+<li>There is an example of the WelcomeController in the official Ruby on Rails Getting Started Guide. #Read (but do not do-along) up through section 4: <a href="http://guides.rubyonrails.org/getting_started.html" target="_blank">http://guides.rubyonrails.org/getting_started.html</a></li>
+<li>Create a Welcome controller to handle static pages<ul>
+<li>type <code>rails</code> to #Read the list of available CLI commands that rails offers</li>
+<li>type <code>rails generate</code> to #Read all the generators that are available in your rails project</li>
+<li>type <code>rails generate controller</code> and #Read the docs on the Rails controller generator</li>
+<li>Use that info to create a Welcome controller with an index view</li>
+<li>Look carefully at each file that is generated. Delete any unwanted files before committing your changes.</li>
+</ul>
+</li>
+<li>Basic Rails Routing<ul>
+<li>A route is how your app maps URLs to a Rails controller. &quot;The Rails router recognizes URLs and dispatches them to a controller&#39;s action&quot; - <a href="http://guides.rubyonrails.org/routing.html" target="_blank">http://guides.rubyonrails.org/routing.html</a></li>
+<li>You need to set the &quot;root&quot; route. (Don&#39;t you just love saying that, no matter what your accent is?).<ul>
+<li>Check out and read the comments in config/routes.rb</li>
+<li>For example, if you wanted to create a default route to a controller called &quot;pigs&quot; and an action called &quot;fly&quot; you would type:
+&quot;root &#39;pigs#fly&#39;&quot;</li>
+<li>You need to create a root route to your home controller and the index action</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>REFACTOR<ul>
+<li>Customize the HTML template<ul>
+<li>If you want to change the <title> tag of the page, where would you go?<ul>
+<li>Hints: The title tag is something in the page layout, that is set application wide right now.</li>
+<li>Is it M,V, or C?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Add some basic information about you. Why would someone want to hire you? What you add doesn&#39;t have to be styled well, but try to structure it with basic HTML.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>As a Rails developer, I want a roadmap of what I need to know so that I can always move towards achieving mastery<ul>
+<li>Updated Map: <a href="http://hijk.it/1v0B0f441K1h" target="_blank">http://hijk.it/1v0B0f441K1h</a></li>
+<li><h1 id="read-the-overview-essay-httpswwwcodefellowsorgblogsthis-is-why-learning-rails-is-hard">Read the overview essay: <a href="https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard" target="_blank">https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard</a></h1>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter_1_code_rails/README.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 1: BDD &amp; TATFT"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapter_3_rails_resources/README.html" class="navigation navigation-next " aria-label="Next page: Chapter 3: Rails Resources"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/ace.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/exercises.js"></script>
+    
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <script src="../gitbook/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+    </body>
+    
+</html>

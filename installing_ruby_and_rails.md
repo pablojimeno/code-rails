@@ -1,7 +1,7 @@
 # 0.3 Installing Ruby and Rails
 
 ##Ensure your laptop setup meets the following requirements:
-  - Ruby 2.1.1 at the latest patch level.
+  - Ruby 2.1.2 at the latest patch level.
     - Ruby should be installed in userspace, not at the system level. If you are using `sudo` to install gems, then "you're doing it wrong".
     - If you're on a Mac, you should use the Homebrew package manager: http://brew.sh. On linux your system will already have a package manager.
   - Rails, latest version 4.1
@@ -32,11 +32,11 @@ brew install rbenv ruby-build rbenv-gem-rehash
 ```
 
 ```
-rbenv install 2.1.1 (or current patch level)
+rbenv install 2.1.2 (or current patch level)
 ```
 
 ```
-rbenv global 2.1.1
+rbenv global 2.1.2 # sets 2.1.2 to default
 ```
 
 - Follow our slide instructions (LINK?)
