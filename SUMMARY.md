@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * [Course Objectives](how_we_teach_this_course.md)
-       * [Give students new Super Powers](give_students_new_super_powers.md)
+       * [Give you new Super Powers](give_students_new_super_powers.md)
        * [Make learning faster and easier with science](make_learning_faster_and_easier_with_science.md)
            * [Kolb's learning cycles](kolbs_learning_cycles.md)
            * [Kathy Sierra on Rapid learning](kathy_sierra_on_rapid_learning.md)
