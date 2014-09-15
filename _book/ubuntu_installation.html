@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Make learning faster and easier with science | Code Rails</title>
+        <title>Ubuntu Installation | Code Rails</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,10 +18,10 @@
     
     
     
-    <link rel="next" href="./kolbs_learning_cycles.html" />
+    <link rel="next" href="./install_rails.html" />
     
     
-    <link rel="prev" href="./give_students_new_super_powers.html" />
+    <link rel="prev" href="./mac_osx_installation.html" />
     
 
         
@@ -37,7 +37,7 @@
 
 
         
-    <div class="book"  data-level="0.1.2" data-basepath="." data-revision="1410776116457">
+    <div class="book"  data-level="0.3.2" data-basepath="." data-revision="1410776116457">
     
 
 <div class="book-summary">
@@ -103,7 +103,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
+        <li class="chapter " data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
             
                 
                     <a href="./make_learning_faster_and_easier_with_science.html">
@@ -377,7 +377,7 @@
         </li>
     
         
-        <li class="chapter " data-level="0.3.2" data-path="ubuntu_installation.html">
+        <li class="chapter active" data-level="0.3.2" data-path="ubuntu_installation.html">
             
                 
                     <a href="./ubuntu_installation.html">
@@ -727,11 +727,37 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_1407">
+                    <section class="normal" id="section-gitbook_1412">
                     
-                        <h1 id="make-learning-faster-and-easier-with-science">Make learning faster and easier with science</h1>
-<p>By synthesizing the last few decades of educational research, we&#39;ve found some very effective ways to aid you in your new skill acquisition.</p>
+                        <h2 id="setup-for-ubuntu-1304-or-latest-ubuntu">Setup for Ubuntu 13.04 (or latest Ubuntu)</h2>
+<ul>
+<li>first install some dependencies for Ruby</li>
+</ul>
+<pre><code>sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
+</code></pre><h4 id="install-rbenv">Install Rbenv</h4>
+<ul>
+<li>rbenv:</li>
+</ul>
+<pre><code>cd
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo &#39;export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc
+echo &#39;eval &quot;$(rbenv init -)&quot;&#39; &gt;&gt; ~/.bashrc
+exec $SHELL
 
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo &#39;export PATH=&quot;$HOME/.rbenv/plugins/ruby-build/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc
+exec $SHELL
+
+rbenv install 2.1.2
+rbenv global 2.1.2
+ruby -v
+</code></pre><h4 id="configure-git">Configure Git</h4>
+<pre><code>git config --global color.ui true
+git config --global user.name &quot;YOUR NAME&quot;
+git config --global user.email &quot;YOUR@EMAIL.com&quot;
+ssh-keygen -t rsa -C &quot;YOUR@EMAIL.com&quot;
+</code></pre>
                     
                     </section>
                 
@@ -741,10 +767,10 @@
         </div>
 
         
-        <a href="./give_students_new_super_powers.html" class="navigation navigation-prev " aria-label="Previous page: Give students new Super Powers"><i class="fa fa-angle-left"></i></a>
+        <a href="./mac_osx_installation.html" class="navigation navigation-prev " aria-label="Previous page: Mac OS X Installation"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./kolbs_learning_cycles.html" class="navigation navigation-next " aria-label="Next page: Kolb&#39;s learning cycles"><i class="fa fa-angle-right"></i></a>
+        <a href="./install_rails.html" class="navigation navigation-next " aria-label="Next page: Install Rails"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

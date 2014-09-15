@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Make learning faster and easier with science | Code Rails</title>
+        <title>Mac OS X Installation | Code Rails</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,10 +18,10 @@
     
     
     
-    <link rel="next" href="./kolbs_learning_cycles.html" />
+    <link rel="next" href="./ubuntu_installation.html" />
     
     
-    <link rel="prev" href="./give_students_new_super_powers.html" />
+    <link rel="prev" href="./installing_ruby_and_rails.html" />
     
 
         
@@ -37,7 +37,7 @@
 
 
         
-    <div class="book"  data-level="0.1.2" data-basepath="." data-revision="1410776116457">
+    <div class="book"  data-level="0.3.1" data-basepath="." data-revision="1410776116457">
     
 
 <div class="book-summary">
@@ -103,7 +103,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
+        <li class="chapter " data-level="0.1.2" data-path="make_learning_faster_and_easier_with_science.html">
             
                 
                     <a href="./make_learning_faster_and_easier_with_science.html">
@@ -361,7 +361,7 @@
                 
     
         
-        <li class="chapter " data-level="0.3.1" data-path="mac_osx_installation.html">
+        <li class="chapter active" data-level="0.3.1" data-path="mac_osx_installation.html">
             
                 
                     <a href="./mac_osx_installation.html">
@@ -727,10 +727,39 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_1407">
+                    <section class="normal" id="section-gitbook_1406">
                     
-                        <h1 id="make-learning-faster-and-easier-with-science">Make learning faster and easier with science</h1>
-<p>By synthesizing the last few decades of educational research, we&#39;ve found some very effective ways to aid you in your new skill acquisition.</p>
+                        <h2 id="setup-for-mac-os-x-109-or-above">Setup for Mac OS X 10.9 or above</h2>
+<p>You should have ruby 2.0 installed by default. You can use this &quot;system ruby&quot; to install a number of helpful tools to let you customize your dev environment.</p>
+<h4 id="install-homebrew-including-latest-git-and-qt">Install Homebrew including latest git and qt</h4>
+<p>Homebrew is a package manager for Mac. It will now be the first place you look when you need to install or update something. To install the <code>brew</code> command, use your system ruby to run a script from the homebrew repo:</p>
+<pre><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre><p>Follow the prompt to install <strong>command line tools</strong>.</p>
+<p>Once the installation is successful and home brew is installed, run:</p>
+<pre><code>brew doctor
+</code></pre><p> If you get <code>Your system is ready to brew</code> then continue to install git. Otherwise fix the errors homebrew has provided.</p>
+<p> Once you fix all the errors and receive <code>Your system is ready to brew</code> continue on by installing git with brew.</p>
+<pre><code>brew update
+brew install git
+</code></pre><p>To verify git was installed:</p>
+<pre><code>which git
+</code></pre><p>…you should get: <code>/usr/local/bin/git</code></p>
+<h4 id="configure-git">Configure Git</h4>
+<p>Tell your git installation who you are, and how you like it:</p>
+<pre><code>git config --global color.ui true
+git config --global user.name &quot;YOUR NAME&quot;
+git config --global user.email &quot;YOUR@EMAIL.com&quot;
+ssh-keygen -t rsa -C &quot;YOUR@EMAIL.com&quot;
+</code></pre><p>Now install &quot;qt&quot;:</p>
+<pre><code>brew update
+brew install qt
+</code></pre><h4 id="install-rbenv">Install Rbenv</h4>
+<p>Managing multiple versions of ruby is useful. This lets you test new versions of ruby without blowing away your existing, functional, environment. Rbenv is a tool to manage your rubies. Here&#39;s how you get it going:</p>
+<pre><code>brew install rbenv ruby-build rbenv-gem-rehash
+</code></pre><pre><code>rbenv install 2.1.2 (or current patch level)
+</code></pre><pre><code>rbenv global 2.1.2 # sets 2.1.2 to default
+</code></pre><p>Now you have the latest ruby running on your system! Great!</p>
+<p>If you run into trouble with any of these steps, look around online for some help. Try searching for any error messages your system produces. There are also many great setup guides out there, like <a href="http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx//" target="_blank">this one</a>  (in this case, you don&#39;t need to instal mysql or redis).</p>
 
                     
                     </section>
@@ -741,10 +770,10 @@
         </div>
 
         
-        <a href="./give_students_new_super_powers.html" class="navigation navigation-prev " aria-label="Previous page: Give students new Super Powers"><i class="fa fa-angle-left"></i></a>
+        <a href="./installing_ruby_and_rails.html" class="navigation navigation-prev " aria-label="Previous page: Install Ruby and Rails"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./kolbs_learning_cycles.html" class="navigation navigation-next " aria-label="Next page: Kolb&#39;s learning cycles"><i class="fa fa-angle-right"></i></a>
+        <a href="./ubuntu_installation.html" class="navigation navigation-next " aria-label="Next page: Ubuntu Installation"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
