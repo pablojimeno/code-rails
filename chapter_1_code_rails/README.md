@@ -1,10 +1,10 @@
 
 #Chapter 1: BDD & TATFT
 
-Welcome aboard! Please read [this brief intro](https://gist.github.com/brookr/6863595) 
+Welcome aboard! Please read [this brief intro](https://gist.github.com/brookr/6863595)
 
 ##Lecture & Slides
-###What is a Web App? 
+###What is a Web App?
 [Download this](https://www.dropbox.com/s/apwd6dr737flkei/Day%201%20-%20Intro%20for%20Rails%20JS%20and%20UX.pdf) (THIS LINK IS BROKEN)
 
 ###Key Concepts
@@ -13,9 +13,9 @@ Welcome aboard! Please read [this brief intro](https://gist.github.com/brookr/68
 - Language vs Framework
 - Ruby Gem building blocks
 - Agile Development
-      - Watch: [Agile: An Introduction]( http://www.youtube.com/watch?v=OJflDE6OaSc )
-      - Watch: [Intro to Scrum](http://www.youtube.com/watch?v=XU0llRltyFM) You can stop watching at 7:15 where the ad for the tools start.
-      - Read: [Visions of a Post-Agile world](http://blog.sprint.ly/post/41801740808/visions-of-a-post-agile-world)
+ - Watch: [Agile: An Introduction]( http://www.youtube.com/watch?v=OJflDE6OaSc )
+ - Watch: [Intro to Scrum](http://www.youtube.com/watch?v=XU0llRltyFM) You can stop watching at 7:15 where the ad for the tools start.
+ - Read: [Visions of a Post-Agile world](http://blog.sprint.ly/post/41801740808/visions-of-a-post-agile-world)
 
 ###As a developer, I want to use a Project Management App so that I can track my tasks and progress
 
@@ -34,14 +34,14 @@ Learn how to write a good user story: [Read this](http://www.mountaingoatsoftwar
 - GitHub integration
 - Well designed, and is fun to use
 - Has a Free plan for up to 3 members
-  
+
 [**Pivotal Tracker**](http://www.pivotaltracker.com/)
 - Popular, Widely known and respected
 - Compatible with the User Story method
 - Free for open source
 - GitHub Integration
 - Email integration
-   
+
 [**Asana**](https://asana.com/)
 - No out-of-the-box github integration
 - General purpose tool, can be used for agile
@@ -53,20 +53,20 @@ Learn how to write a good user story: [Read this](http://www.mountaingoatsoftwar
 ###As a developer, I want to understand automated testing so that I can use BDD
 
 **How do we know our app works?**
-  
+
   You can test manually, with teams of real people, or you can automate it. Or both!
-  
+
 ####Types of Testing
 **Unit Tests**
 
 Unit testing tests "the smallest testable part of an application". This could be an object-oriented class, or even an individual function (or method). Unit tests are fast because they test only one thing at a time. Each test case should be independent of the others. They help find problems early, make it easy to change both the unit under test, and other parts of your program that depend on your unit. They can help simplify system-wide integration testing. Unit tests provide "documentation as code". Not as good as real documentation, but it has its advantages because unit tests that are out of date will fail. Unit tests drive design by specifying "the ends" and not "the means". Disadvantages of unit testing are that because it is so specific, it can't catch more complex errors that rely on multiple units. For example, complex states of multiple objects, or problems with multiple threads. In Rails, we typically use unit testing for Models, and you can find the unit tests in the spec/models directory.
 
-Please Read [this Wikipedia page](http://en.wikipedia.org/wiki/Unit_testing) about unit testing 
+Please Read [this Wikipedia page](http://en.wikipedia.org/wiki/Unit_testing) about unit testing
 
 **Functional Tests**
 
 Please read [this article](http://www.softwaretestingtricks.com/2007/01/unit-testing-versus-functional-tests.htm) about the difference between functional and unit testing (THIS LINK IS BROKEN)
-  
+
 **Integration Tests**
 
 > "integration tests show that the major parts of a system work well together"
@@ -97,11 +97,11 @@ Please read this thoughtful opinion piece from a Java developer: [What BDD Has T
 
 Please watch [this thoughtful lightning talk](http://www.youtube.com/watch?v=LfmAzLAKKoc&t=22s) from Bryan Liles
 
-####In this outline / workbook, when we say "BDD a ________" We mean:
+####In this workbook, when we say "BDD a ________" We mean:
 
-- Red: Write a spec and watch it fail. For the first few days, we'll provide the specs to get you going
-- Green: Research / Learn the part of Rails you need and write the code to make the spec pass
-- Refactor: Analyze the code quality and refactor it if time available.
+- **Red**: Write a spec and watch it fail. For the first few days, we'll provide the specs to get you going
+- **Green**: Research / Learn the part of Rails you need and write the code to make the spec pass
+- **Refactor**: Analyze the code quality and refactor it if time available.
 
 ###As a developer, I want to use and understand BDD so that my projects turn out great
 
@@ -109,7 +109,7 @@ Please watch [this thoughtful lightning talk](http://www.youtube.com/watch?v=Lfm
 
 Use BDD with MiniSpec to create a ruby class that has an instance variable containing a welcome message
 
-**Read and do** 
+**Read and do**
 
 [How to Set Up Your First Minispec Project, From Scratch](https://gist.github.com/ivanoats/6833823)
 
@@ -153,7 +153,7 @@ Read the [Poltergeist docs](https://github.com/jonleighton/poltergeist) and then
 # ~myapp/Gemfile
 
 gem "poltergeist"
-``` 
+```
 
 Then be sure to run `bundle install` from your project directory to install all gems.
 
@@ -173,7 +173,7 @@ describe "My search page" do
   end
 end
   ```
-      
+
 **Example spec_helper.rb:**
 ```ruby
 # ~/myapp/spec/spec_helper.rb
@@ -282,12 +282,12 @@ Read Section 3.2 only from the ["Getting Started" Rails Guide](http://guides.rub
 **What is Rails?**
 
 - a Ruby framework
-  
+
   >"Rails is actually a collection of 7 different ruby gems that are designed to function independently or together, to form a framework for web apps."
 - Utilizes Convention over Configuration
   - [More about convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)
   - [Optional bonus Reading](http://softwareengineering.vazexqi.com/files/pattern.html)
 - open source, built around community best practices
 - Remember our slides:
-      - Web app vs Web site
-      - Can persist user data in a database
+  - Web app vs Web site
+  - Can persist user data in a database
