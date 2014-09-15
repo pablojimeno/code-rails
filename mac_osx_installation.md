@@ -9,7 +9,7 @@ Homebrew is a package manager for Mac. It will now be the first place you look w
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-Follow the prompt to install command line tools
+Follow the prompt to install **command line tools**.
 
 Once the installation is successful and home brew is installed, run:
 
