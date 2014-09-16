@@ -19,7 +19,7 @@ Alternatively, get any directory's files online locally with a tiny ruby script:
 
 require "webrick"
 
-s = WEBrick::HTTPServer.new
+s = WEBrick::HTTPServer.new(
   :DocumentRoot => (ARGV[0] || Dir.pwd),
   :Port => (ARGV[1] || 4000)
   )
@@ -45,6 +45,6 @@ function serve {
 
 How ever you decide to access the html file you made, you can then test that it's accessible by writing a spec, even before the HTML file exists.
 
-The subsection has an example spec, but try writing your won first.
+The subsection has an example spec, but try writing your own first.
 
 Once you have the spec coded up and running, get it to pass by making the appropriate HMTL somewhere logical within your project.
