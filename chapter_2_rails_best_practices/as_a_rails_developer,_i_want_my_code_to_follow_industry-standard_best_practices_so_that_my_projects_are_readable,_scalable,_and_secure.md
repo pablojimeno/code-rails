@@ -30,6 +30,8 @@ Extra Credit: https://medium.com/on-coding/a70ca8382884
 
 - Remap shift-space to underscore: http://gfxmonk.net/2009/01/29/remap-shiftspace-to-underscore.html
 - How to set up Sublime Text for our conventions. Choose Sublime Text / Preferences / Settings - User and enter these settings:
+
+```
         "{
             "ignored_packages":
             [
@@ -41,7 +43,7 @@ Extra Credit: https://medium.com/on-coding/a70ca8382884
             "trim_trailing_white_space_on_save": true,
             "ensure_newline_at_eof_on_save": true
           }"
-
+```
 - Install the package manager for your version of Sublime.
     - Find & install some great recommended packages.
 - Get to know your editor:
