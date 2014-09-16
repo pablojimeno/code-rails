@@ -10,4 +10,4 @@ Then read a chapter of the book Clean Code (used with permission). There are a n
 
 Then write some code! Use the best practice of BDD to create a new Rails app, and give it a static html welcome page. Commit that to a new repo, and submit the repo url for your assignment."
 
-####Add each user story to your project management app, and then get to work on them
+#### Add each user story to your project management app, and then get to work on them.
