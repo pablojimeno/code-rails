@@ -14,7 +14,7 @@ Please Read [this Wikipedia page](http://en.wikipedia.org/wiki/Unit_testing) abo
 
 #### Functional Tests
 
-Please read [this article](http://www.softwaretestingtricks.com/2007/01/unit-testing-versus-functional-tests.htm) about the difference between functional and unit testing (THIS LINK IS BROKEN)
+Please read [this article](http://www.softwaretestingtricks.com/2007/01/unit-testing-versus-functional-tests.html) about the difference between functional and unit testing
 
 #### Integration Tests
 
