@@ -8,7 +8,7 @@ Decide on what **you** want to use as a standard README format for all your proj
 
 ### Code for clarity:
 
-- Read [Chpater 1 of Clean Code](https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf), by Uncle Bob Martin:
+- Read [Chpater 1 of Clean Code](https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf), by Uncle Bob Martin
 
 - Read [Clarity of code is clarity of thought](http://agile.dzone.com/news/clarity-code-clarity-thought)
 
