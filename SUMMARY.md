@@ -37,7 +37,7 @@
 * [Chapter 2: Rails Best Practices](chapter_2_rails_best_practices/README.md)
    * [As a developer, I want to use version control so that I can save history and collaborate with others](chapter_2_rails_best_practices/introduction.md)
    * [As a Rails developer, I want my code to follow industry-standard best practices so that my projects are readable, scalable, and secure](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_my_code_to_follow_industry-standard_best_practices_so_that_my_projects_are_readable,_scalable,_and_secure.md)
-   * [As a developer, I want a PM Tool to track my repo so that I can complete stories from my commit message, save time, and inform management and the customer](chapter_2_rails_best_practices/as_a_developer,_i_want_a_pm_tool_to_track_my_repo_so_that_i_can_complete_stories_from_my_commit_message,_save_time,_and_inform_management_and_the_customer.md)
+   * [As a developer, I want a PM Tool to track my repo so that I can complete stories from my commit message, save time, and inform management and the customer](chapter_2_rails_best_practices/as_a_developer,_i_want_a_pm_tool_to_track_my_repo_so_that_i_can_complete_stories_from_my_commit_message,_save_time,_and_inform_management.md)
    * [As an employer, I want your site to have a welcome page so that I can learn about what an awesome Rails developer you are](chapter_2_rails_best_practices/as_an_employer,_i_want_your_site_to_have_a_welcome_page_so_that_i_can_learn_about_what_an_awesome_rails_developer_you_are.md)
        * [RED](chapter_2_rails_best_practices/red.md)
        * [GREEN](chapter_2_rails_best_practices/green.md)
@@ -45,4 +45,3 @@
    * [As a Rails developer, I want a roadmap of what I need to know so that I can always move towards achieving mastery](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_a_roadmap_of_what_i_need_to_know_so_that_i_can_always_move_towards_achieving_mastery.md)
 * [Chapter 3: Rails Resources](chapter_3_rails_resources/README.md)
 * [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming,_continuous_integration,_and_deployment/README.md)
-
