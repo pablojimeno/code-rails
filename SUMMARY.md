@@ -14,7 +14,7 @@
        * [Behavior Driven Development](behavior_driven_development.md)
        * [Engaging communication](engaging_communication.md)
        * [Build upon fundamentals](build_upon_fundamentals.md)
-       * [Paths and Sondboxes](paths_and_sondboxes.md)
+       * [Paths and Sandboxes](paths_and_sondboxes.md)
        * [The honor code](the_honor_code.md)
        * [Diversity & equality](diversity_&_equality.md)
    * [Install Ruby and Rails](installing_ruby_and_rails.md)
