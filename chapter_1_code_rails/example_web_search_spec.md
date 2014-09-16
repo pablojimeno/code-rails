@@ -24,7 +24,7 @@ Note the `spec_helper` file required at the top of `search_spec.rb`. Based on wh
 ```ruby
 # ~/myapp/spec/spec_helper.rb
 
-require "minitest/autorun
+require "minitest/autorun"
 require "minitest/spec"
 
 class FeatureSpec < MiniTest::Spec
