@@ -8,7 +8,6 @@ Try it with the --no-test-framework option to see the difference (a lot less jus
 
 When you have to command to your liking, remove --pretend and run it for real
 
-View "Completed" for the full command
 [COMPLETE]
 
 rails generate scaffold post title body:text --no-test-framework
