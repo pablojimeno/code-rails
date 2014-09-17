@@ -1,17 +1,17 @@
-# Deleteing a post spec example
+# Deleteing an article spec example
 ```ruby
 require "test_helper"
 
-feature "Deleting a Post" do
-  scenario "post is deleted with a click" do
-    # Given an existing post
-    Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
-    visit posts_path
+feature "Deleting an Article" do
+  scenario "article is deleted with a click" do
+    # Given an existing article
+    Article.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
+    visit articles_path
 
     # When the delete link is clicked
     click_on "Destroy"
 
-    # Then the post is deleted
+    # Then the article is deleted
     page.wont_have_content "Becoming a Code Fellow"
   end
 end

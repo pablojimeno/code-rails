@@ -1,14 +1,14 @@
-# Deleteing a post context example
+# Deleteing an article context example
 ```ruby
 require "test_helper"
 
-feature "Deleting a Post" do
-  scenario "post is deleted with a click" do
-    # Given an existing post
+feature "Deleting an Article" do
+  scenario "article is deleted with a click" do
+    # Given an existing article
 
     # When the delete link is clicked
 
-    # Then the post is deleted
+    # Then the article is deleted
 
   end
 end

@@ -1,9 +1,9 @@
-# As the site owner, I want to write a post so that I can show my expertise
+# As the site owner, I want to write an article so that I can show my expertise
 
 Describe the behavior with a spec. Go write a spec file for this story now.
 
 - Hint:<span style="color: white"> Use a generator to create the test:
-rails generate minitest:feature CreatingAPost </span>
+rails generate minitest:feature CreatingAnArticle </span>
 
 - Hint: <span style="color: white">Give your feature a name matching the file
 feature "Creating an Article" do ...</span>
