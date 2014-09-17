@@ -1,4 +1,4 @@
-#As the site owner, I want to edit a post so that I can correct typos
+#As the site owner, I want to edit an article so that I can correct typos
 
 Describe the behavior with a spec
 - Hint: <span style="color: white">Use a generator to create the test:</sapn>

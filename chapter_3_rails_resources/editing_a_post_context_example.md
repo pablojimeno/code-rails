@@ -1,8 +1,8 @@
-# Editing a post context example
+# Editing an article context example
 ```ruby
 require "test_helper"
 
-feature "editing a post" do
+feature "editing an article" do
   scenario "submit updates to an existing post" do
     # Given an existing post
 

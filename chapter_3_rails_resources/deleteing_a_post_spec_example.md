@@ -1,4 +1,4 @@
-# Deleteing a post spec example
+# Deleteing an article spec example
 ```ruby
 require "test_helper"
 

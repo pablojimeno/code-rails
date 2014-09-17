@@ -1,4 +1,4 @@
-# As the site owner, I want to write a post so that I can show my expertise
+# As the site owner, I want to write an article so that I can show my expertise
 
 Describe the behavior with a spec. Go write a spec file for this story now.
 

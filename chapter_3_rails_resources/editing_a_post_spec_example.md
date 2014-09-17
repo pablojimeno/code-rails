@@ -1,4 +1,4 @@
-# Editing a post spec example
+# Editing an article spec example
 ```ruby
 require "test_helper"
 

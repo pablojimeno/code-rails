@@ -3,7 +3,7 @@ For example:
 ```ruby
 require "test_helper"
 
-feature "Creating a post" do
+feature "Creating an article" do
   scenario "submit form data to create a new post" do
     # Given a completed new post form
     visit new_post_path

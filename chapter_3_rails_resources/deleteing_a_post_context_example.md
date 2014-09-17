@@ -1,4 +1,4 @@
-# Deleteing a post context example
+# Deleteing an article context example
 ```ruby
 require "test_helper"
 

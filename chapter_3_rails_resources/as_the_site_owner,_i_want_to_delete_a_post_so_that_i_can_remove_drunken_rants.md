@@ -1,4 +1,4 @@
-#As the site owner, I want to delete a post so that I can remove drunken rants
+#As the site owner, I want to delete an article so that I can remove drunken rants
 
 Describe the behavior with a spec
 
