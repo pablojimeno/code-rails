@@ -3,7 +3,7 @@
 Describe the behavior with a spec. Go write a spec file for this story now.
 - Hints, after you've tried do create your own spec from scratch:
   - <span style="color: white"> Use a generator to create the test:</span>
-    - <span style="color: white">rails generate minitest:feature VisitingThePostIndex</span>
+    - <span style="color: white">rails generate minitest:feature VisitingTheArticleIndex</span>
   - <span style="color: white">Give your feature a name matching the file
 feature
     -feature "Visiting the Article Index" do ...</span>

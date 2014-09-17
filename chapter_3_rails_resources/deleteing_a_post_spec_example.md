@@ -2,11 +2,11 @@
 ```ruby
 require "test_helper"
 
-feature "Deleting a Post" do
+feature "Deleting an Article" do
   scenario "article is deleted with a click" do
     # Given an existing article
-    Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
-    visit posts_path
+    Article.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
+    visit articles_path
 
     # When the delete link is clicked
     click_on "Destroy"

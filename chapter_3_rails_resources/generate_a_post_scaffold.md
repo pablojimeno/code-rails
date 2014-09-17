@@ -1,4 +1,4 @@
-# Generate a Post scaffold
+# Generate an Article scaffold
 
 Run and read: `rails generate scaffold`
 

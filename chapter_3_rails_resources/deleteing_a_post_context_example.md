@@ -2,7 +2,7 @@
 ```ruby
 require "test_helper"
 
-feature "Deleting a Post" do
+feature "Deleting an Article" do
   scenario "article is deleted with a click" do
     # Given an existing article
 

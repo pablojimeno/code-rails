@@ -11,10 +11,10 @@ feature "Creating an article" do
     fill_in "Body", with: articles(:cr).body
 
     # When I submit the form
-    click_on "Create Post"
+    click_on "Create Article"
 
     # Then a new article should be created and displayed
-    page.text.must_include "Post was successfully created"
+    page.text.must_include "Article was successfully created"
     page.text.must_include articles(:cr).title
   end
 end
