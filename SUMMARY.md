@@ -51,7 +51,7 @@
        * [As an employer, I want to see a custom blog so that I know this developer has good communication skills, is an expert in their field, and demonstrates technical expertise](chapter_3_rails_resources/as_an_employer,_i_want_to_see_a_custom_blog_so_that_i_know_this_developer_has_good_communication_skills,_is_an_expert_in_their_field,_and_demonstrates_technical_expertise.md)
        * [As the site owner, I want to write an article so that I can show my expertise](chapter_3_rails_resources/as_the_site_owner,_i_want_to_write_a_post_so_that_i_can_show_my_expertise.md)
            * [Creating an article context example](chapter_3_rails_resources/scenario_example.md)
-           * [Creating an article spec example](chapter_3_rails_resources/creating_an_article_spec_example.md)
+           * [Creating an article spec example](chapter_3_rails_resources/creating_an_post_spec_example.md)
        * [As the site owner, I want to edit an article so that I can correct typos](chapter_3_rails_resources/as_the_site_owner,_i_want_to_edit_a_post_so_that_i_can_correct_typos.md)
            * [Editing an article context example](chapter_3_rails_resources/editing_a_post_context_example.md)
            * [Editing an article spec example](chapter_3_rails_resources/editing_a_post_spec_example.md)
