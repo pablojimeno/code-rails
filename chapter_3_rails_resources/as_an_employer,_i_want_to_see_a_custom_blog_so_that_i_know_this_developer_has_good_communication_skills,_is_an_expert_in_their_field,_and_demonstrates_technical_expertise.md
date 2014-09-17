@@ -12,7 +12,7 @@ feature
 
   - <span style="color: white">Think through what the flow is like for the users.</span>
     - <span style="color: white">An article will be written</span>
-    - <span style="color: white">Someone will visit the post listing (at /articles/)</span>
+    - <span style="color: white">Someone will visit the article listing (at /articles/)</span>
     - <span style="color: white">The article that was created should be visible there.</span>
   - <span style="color: white">Want to just follow the path?</span>
     - <span style="color: white">Before writing the spec, add comments for the Given-When-Then.</span>

@@ -12,7 +12,7 @@ feature "Creating an article" do
     # When I submit the form
     click_on "Create Article"
 
-    # Then a new post should be created and displayed
+    # Then a new article should be created and displayed
     page.text.must_include "Article was successfully created"
     page.text.must_include "how I learned to make web apps"
   end

@@ -5,7 +5,7 @@ require "test_helper"
 feature "Editing a Post" do
   scenario "submit updates to an existing post" do
     # Given an existing post
-    post = Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
+    article = Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
     visit post_path(post)
 
     # When I click edit and submit changed data
@@ -13,7 +13,7 @@ feature "Editing a Post" do
     fill_in "Title", with: "Becoming a Web Developer"
     click_on "Update Post"
 
-    # Then the post is updated
+    # Then the article is updated
     page.text.must_include "Post was successfully updated"
     page.text.must_include "Web Developer"
   end

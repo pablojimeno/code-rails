@@ -10,4 +10,4 @@ When you have to command to your liking, remove --pretend and run it for real
 
 [COMPLETE]
 
-rails generate scaffold post title body:text --no-test-framework
+rails generate scaffold article title body:text --no-test-framework

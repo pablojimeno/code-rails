@@ -8,7 +8,7 @@ feature "editing an article" do
 
     # When I click edit and submit changed data
 
-    # Then the post is updated
+    # Then the article is updated
 
   end
 end
