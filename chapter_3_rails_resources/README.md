@@ -1,26 +1,6 @@
 # Chapter 3: Rails Resources
-Chapter 3: Rails Resources
 
-- #Read: Intro to CRUD
-  "Rails apps are built around the concept of "resources". This is the representation in code of a real-world noun, like a User, or a Project. There is a standard set of actions you'll likely want to preform on all resources in your app: Create, Read, Update, and Delete… collectively called CRUD.
 
-  Being able to "CRUD a resource" ends up being a very common pattern, so Rails is heavily optimized to make this easy. In fact, you can get full CRUD behavior from rails with just one or two commands in your terminal, thanks to the power of the Rails scaffold generator. We'll play with that a little today, to see what it can do for us, and to start to get a sense of how Rails treats resources.
-
-  For your portfolio site, you really want to be able to show off your expertise. One of the best ways to do this is to have a place where you can write articles that share what you are learning as you pick up new dev skills. There are gobs of eager learners who can benefit from your guidance, so don't be shy about putting something out there!
-
-  So we want your rails app to have a resource called Article or Post that we can CRUD. This resource will have attributes of a Title and a Body, and each new one you create will be stored in a database, until it is deleted. You'll want to have individual web pages within your app for making a new post, editing an existing one, and seeing a list of everything that the database is holding.
-
-  So with a few good user stories, we can let the Behavior of the app Drive our Development.
-
-  Ready to go? Before you jump in, there is a little background reading and watching for you to do."
-- #Read (but don't follow along...yet) our modified copy of the rails getting started guide sections 5 through 6: http://assets.codefellows.org/getting_started_rails_modified.html (…not very BDD, is it?)
-- #Read: Code Fellows Alumnus' Blog Post on MVC and Scaffolding: http://strandcode.com/2013/07/28/reading-rails-mvc-and-scaffolding-for-rails-newbs/ (This is a greatly detailed article that lays bare exactly what Rails is doing for you when you use a generator. I love the intro to this post that captures the feeling of learning rails.)
-- #Watch:
-  - Ryan Davis, the creator of Minitest, gives an overview: http://vimeo.com/75833835
-  - Optional:
-    - RailsCast on MiniTest with Rails: http://railscasts.com/episodes/327-minitest-with-rails?view=asciicast (16m).
-    - Note: That video is pretty old, and uses outdated versions of Rails and Minitest. Don't pay too much attention to how Ryan sets up Minitest, but watch more generally how he creates a Rails app, and uses a few different kinds of testing. There are a few good hints towards the end.
-- Now get to work on your Portfolio site, expanding on what you built yesterday:
   - RED
     - As an employer, I want to see a custom blog so that I know this developer has good communication skills, is an expert in their field, and demonstrates technical expertise
       - Describe the behavior with a spec
