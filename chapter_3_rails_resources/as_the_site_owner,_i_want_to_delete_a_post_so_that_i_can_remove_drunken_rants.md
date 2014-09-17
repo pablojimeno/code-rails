@@ -15,14 +15,14 @@ scenario "article is deleted with a click" do ...</span>
 
 The article author goes to the Article index page
 
-That page should have a link to "Destroy" each post, that the author can click
+That page should have a link to "Destroy" each article, that the author can click
 
 The index page should no longer have that article
 
 Path:
 Before writing the spec, add comments for the GWT:
 
-- Hint: <span style="color: white">Create a new post, and store it in a local variable</span>
+- Hint: <span style="color: white">Create a new article, and store it in a local variable</span>
 
     - <span style="color: white">article = Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")</span>
 

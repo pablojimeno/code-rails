@@ -7,4 +7,4 @@ To get you in the right mindset, and provide a little bit of context, here's som
   - Try not to skip over the contents of the table showing files generated.
 1. [Read a Code Fellows Alumnus' Blog Post:](http://strandcode.com/2013/07/28/reading-rails-mvc-and-scaffolding-for-rails-newbs)
   - This is a greatly detailed article that lays bare exactly what Rails is doing for you when you use a generator.
-  - Don't ya love the intro to this post, that captures the feeling of learning rails?
+  - Don't ya love the intro to this article, that captures the feeling of learning rails?

@@ -2,7 +2,7 @@
 
 Create a directory: /test/fixtures/
 
-Add a file: posts.yml
+Add a file: articles.yml
 
 Add sample data!
 

@@ -3,10 +3,10 @@
 require "test_helper"
 
 feature "Editing a Post" do
-  scenario "submit updates to an existing post" do
-    # Given an existing post
+  scenario "submit updates to an existing article" do
+    # Given an existing article
     article = Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")
-    visit post_path(post)
+    visit article_path(article)
 
     # When I click edit and submit changed data
     click_on "Edit"

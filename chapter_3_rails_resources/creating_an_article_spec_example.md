@@ -3,7 +3,7 @@
 require "test_helper"
 
 feature "Creating an article" do
-  scenario "submit form data to create a new post" do
+  scenario "submit form data to create a new article" do
     # Given a completed new article form
     visit new_post_path
     fill_in "Title", with: "Code Rails"

@@ -8,7 +8,7 @@ rails generate minitest:feature EditingAPost</span>
     - <span style="color: white">feature "Editing a Post" do ...</span>
 
 - Hint: <span style="color: white">Write your scenario to describe the context
-scenario "submit updates to an existing post" do ...</span>
+scenario "submit updates to an existing article" do ...</span>
 
 - Hint: <span style="color: white">Think through what the flow is like for the users.
 
@@ -23,13 +23,13 @@ The newly updated article should be shown to the author with a confirmation mess
 Path:
 Before writing the spec, add comments for the GWT:
 
-- Hint: <span style="color: white"> Create a new post, and store it in a local variable</span>
+- Hint: <span style="color: white"> Create a new article, and store it in a local variable</span>
 
 <span style="color: white">article = Post.create(title: "Becoming a Code Fellow", body: "Means striving for excellence.")</span>
 
 - Hint: <span style="color: white"> Use the Rails path helper to get to the right URL</span>
 
-<span style="color: white">visit post_path(post)</span>
+<span style="color: white">visit article_path(article)</span>
 
 Fill in the GWT with capybara commands and assertions:
 
