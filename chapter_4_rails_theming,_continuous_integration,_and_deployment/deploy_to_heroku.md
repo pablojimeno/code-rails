@@ -50,7 +50,7 @@ source "https://rubygems.org"
           gem "sdoc", require: false
         end
 
-        group :produciton do
+        group :production do
           gem "rails_12factor"
           gem "pg"
         end
