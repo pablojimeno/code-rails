@@ -65,4 +65,7 @@
        * [Add Fixtures](chapter_3_rails_resources/do_add_fixtures.md)
            * [Example spec replaced with fixtures](chapter_3_rails_resources/example_spec_replaced_with_fixtures.md)
 * [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming,_continuous_integration,_and_deployment/README.md)
+   * [As an employer, I want to see impressive visual design so that I know this developer has good taste](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_an_employer,_i_want_to_see_impressive_visual_design_so_that_i_know_this_developer_has_good_taste.md)
+       * [Research](chapter_4_rails_theming,_continuous_integration,_and_deployment/research.md)
+           * [Read this!](chapter_4_rails_theming,_continuous_integration,_and_deployment/read_this.md)
 
