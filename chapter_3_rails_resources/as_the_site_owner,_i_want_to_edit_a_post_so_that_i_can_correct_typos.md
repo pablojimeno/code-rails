@@ -2,10 +2,10 @@
 
 Describe the behavior with a spec
 - Hint: <span style="color: white">Use a generator to create the test:</sapn>
-rails generate minitest:feature EditingAArticle</span>
+rails generate minitest:feature EditingAnArticle</span>
 
 - Hint: <span style="color: white">Give your feature a name matching the file:
-    - <span style="color: white">feature "Editing a Article" do ...</span>
+    - <span style="color: white">feature "Editing an article" do ...</span>
 
 - Hint: <span style="color: white">Write your scenario to describe the context
 scenario "submit updates to an existing article" do ...</span>
