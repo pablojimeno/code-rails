@@ -28,7 +28,7 @@ Before writing the spec, add comments for the GWT:
 
 - Hint: <span style="color: white">Use the Capybara selectors to find the right Destroy link: github.com/jnicklas/capybara#finding</span>
 
-    - <span style="color: white">page.find("tr:last").click_on "Destroy"</span>
+    - <span style="color: white">page.find("tbody tr:last").click_on "Destroy"</span>
 
 [COMPLETE] Fill in the GWT with capybara commands and assertions:
 
