@@ -143,65 +143,95 @@ Change it to true.<br>
     * You have 2 options
         * Switch to Postgres locally: This WILL BE time consuming to set up if you haven't already, but you'll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on. If you decide to the least painful way is to follow this post by Ivan:<br> https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql
         * Use SQLite locally (in development), and Postgres on Heroku (production):
-Create a gem group called :production, and include:
-gem "pg"
-Did you move sqlite to development only?
-Do you have minitest-rails available in all environments?
-Did you run migrations after deploying?
-heroku heroku run rake db:migrate
-Hint:
+            * Create a gem group called :production, and include:
+
+                    gem "pg"
+
+            * Did you move sqlite to development only?
+* Do you have minitest-rails available in all environments?
+* Did you run migrations after deploying?
+        heroku run rake db:migrate
+Hint:<br>
 A working Rails 4.0 Gemfile:
 source "https://rubygems.org"
 
-ruby "2.1.0"
+        ruby "2.1.0"
 
-gem "coffee-rails", "~> 4.0.0"
-gem "jbuilder", "~> 1.2"
-gem "jquery-rails"
-gem "minitest-rails"
-gem "rails", "4.0.2"
-gem "sass-rails", "~> 4.0.0"
-gem "turbolinks"
-gem "uglifier", ">= 1.3.0"
-gem "foundation-rails"
+        gem "coffee-rails", "~> 4.0.0"
+        gem "jbuilder", "~> 1.2"
+        gem "jquery-rails"
+        gem "minitest-rails"
+        gem "rails", "4.0.2"
+        gem "sass-rails", "~> 4.0.0"
+        gem "turbolinks"
+        gem "uglifier", ">= 1.3.0"
+        gem "foundation-rails"
 
-group :development do
-  gem "sqlite3"
-end
+        group :development do
+          gem "sqlite3"
+        end
 
-group :doc do
-  gem "sdoc", require: false
-end
+        group :doc do
+          gem "sdoc", require: false
+        end
 
-group :produciton do
-  gem "rails_12factor"
-  gem "pg"
-end
+        group :produciton do
+          gem "rails_12factor"
+          gem "pg"
+        end
 
-group :test do
-  gem "minitest-rails-capybara"
-  gem "launchy"
-end
-Set up your custom domain name (register a new one, if you don't already have one).
-Personal Portfolio domain names should be:
-Memorable
-Appropriate for work
-Easy to say and spell over the phone. Say it out loud a few times and try to tell it to other people.
-#Assignment: Get your own at a Domain Name Registrar: https://canvas.instructure.com/courses/853911/assignments/2753651
-#Assignment: Sign up for Amazon Web Services (AWS): https://canvas.instructure.com/courses/853911/assignments/2753692
- Setup Domain Name Service (DNS) on Route 53. Read #stepbystep: http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/R53Example.html
-Configure heroku app: Read #stepbystep: https://devcenter.heroku.com/articles/custom-domains
-As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.
-#Assignment: Set up a Continuous Integration server for your repo. Get your tests running in the cloud, and put a nice green badge on your README on GitHub. Can it auto-deploy when your tests pass?
-Read: http://jolicode.com/blog/online-ci-providers-are-the-new-black
-Option 1: Travis-CI
-Read: http://about.travis-ci.org/docs/user/getting-started/
-Read: http://stackoverflow.com/questions/10591599/rake-dbmigration-not-working-on-travis-ci-build (top answer)
-README Hint:
-Check out the Markdown source of https://github.com/codefellows/portfolio/blob/chapter-4/readme.md
-#assignment: Set up .travis.yml to deploy to Heroku whenever your build passes
-http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/
-gem install travis
-travis login
-Option 2: https://www.shippable.com/
-Option 3: http://wercker.com/
+        group :test do
+          gem "minitest-rails-capybara"
+          gem "launchy"
+        end
+_________________________________________________________________
+##Set up your custom domain name (register a new one, if you don't already have one).
+###Personal Portfolio domain names should be:
+* Memorable<br>
+* Appropriate for work<br>
+* Easy to say and spell over the phone. Say it out loud a few times and try to tell it to other people.
+________________________________________________________________
+###Get your own at a Domain Name Registrar
+
+Complete this assingment:
+https://canvas.instructure.com/courses/853911/assignments/2753651
+________________________________________________________________
+###Sign up for Amazon Web Services (AWS):
+Complete this assingment:
+https://canvas.instructure.com/courses/853911/assignments/2753692
+
+ Setup Domain Name Service (DNS) on Route 53. Read and follow along: http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/R53Example.html
+
+Configure heroku app: Read and follow along: https://devcenter.heroku.com/articles/custom-domains
+
+____________________________________________________________________
+#As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.
+###Set up a Continuous Integration server for your repo.
+Get your tests running in the cloud, and put a nice green badge on your README on GitHub. Can it auto-deploy when your tests pass?
+
+Read: <br>
+http://jolicode.com/blog/online-ci-providers-are-the-new-black
+
+Option 1:
+* https://travis-ci.org
+    * Read: http://about.travis-ci.org/docs/user/getting-started/
+    * Read: http://stackoverflow.com/questions/10591599/rake-dbmigraion-not-working-on-travis-ci-build (top answer)
+    * Hint:
+        * Check out the Markdown source of https://github.com/codefellows/portfolio/blob/chapter-4/readme.md
+        * Set up .travis.yml to deploy to Heroku whenever your build passes
+            * http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/
+
+                    gem install travis
+                * travis login
+
+Option 2:
+* https://www.shippable.com/
+
+Option 3:
+* http://wercker.com/
+
+Option 4:
+* https://codeship.io
+
+Whichever option your choose set up your repo to automatically deploy to Heroku whenever your build passes.
+
