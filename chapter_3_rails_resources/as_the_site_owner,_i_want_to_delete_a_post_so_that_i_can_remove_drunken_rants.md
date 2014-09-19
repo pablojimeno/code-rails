@@ -3,7 +3,7 @@
 Describe the behavior with a spec
 
 - Hint: <span style="color: white">Use a generator to create the test:
-rails generate minitest:feature DeletingAnArticle</span>
+rails generate minitest:feature DeletingAnArticle --spec</span>
 
 - Hint: <span style="color: white">Give your feature a name matching the file
 feature "Deleting an Article" do ...</span>

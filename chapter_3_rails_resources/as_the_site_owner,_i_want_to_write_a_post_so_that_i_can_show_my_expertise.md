@@ -3,7 +3,7 @@
 Describe the behavior with a spec. Go write a spec file for this story now.
 
 - Hint:<span style="color: white"> Use a generator to create the test:
-rails generate minitest:feature CreatingAnArticle </span>
+rails generate minitest:feature CreatingAnArticle --spec</span>
 
 - Hint: <span style="color: white">Give your feature a name matching the file
 feature "Creating an Article" do ...</span>
