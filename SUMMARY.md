@@ -114,7 +114,6 @@
                * [Unhappy Create Project GREEN](chapter_5_rails_mvc_breakdown/unhappy_path_green.md)
                    * [Failure 1](chapter_5_rails_mvc_breakdown/failure_1.md)
                    * [Validations](chapter_5_rails_mvc_breakdown/validations.md)
-                   * [ERROR 15](chapter_5_rails_mvc_breakdown/error_15.md)
                    * [Failure 2](chapter_5_rails_mvc_breakdown/failure_2.md)
                    * [Failure 3](chapter_5_rails_mvc_breakdown/failure_3.md)
                    * [Extra Credit: Error Msg](chapter_5_rails_mvc_breakdown/extra_credit_error_msg.md)
