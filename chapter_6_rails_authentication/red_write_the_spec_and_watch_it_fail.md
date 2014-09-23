@@ -1,17 +1,20 @@
 # RED: write the spec and watch it fail
-Write the spec:</br>
-Hint:
-<span style="color: white">rails g minitest:feature auth/sign_up </span>
+Generate a spec feature (highlight if you don't know how):
 
-A good strategy: You'll probably need to write your spec to conform to the Devise defaults. Don't focus on customizing Devise just yet. Adjust your specs as you go to match the flow Devise is expecting. Test along in your browser as needed.
-Hint:
-[COMPLETE] Example Spec:
+<pre style="color: #f7f7f7">
+$ rails g minitest:feature auth/sign_up
+</pre>
 
-```
-"require "test_helper"
+##### A good strategy:
+You'll probably need to write your spec to conform to the Devise defaults. Don't focus on customizing Devise just yet. Adjust your specs as you go to match the flow Devise is expecting. Test along in your browser as needed.
+
+[COMPLETE] Example Spec (highlight to view):
+<pre style="color: #f7f7f7">
+<code>
+require "test_helper"
 
 feature("
-  As a site visitor I want to be able to sign up for an account
+  As a site visitor, I want to be able to sign up for an account,
   so that I can perform actions that require me to be logged in.
 ") do
   scenario "sign up" do
@@ -30,5 +33,6 @@ feature("
     page.wont_have_content "There was a problem with your sign up"
   end
 end
-```
+</code>
+</pre>
 
