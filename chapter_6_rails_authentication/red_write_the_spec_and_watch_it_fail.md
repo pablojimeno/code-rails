@@ -1,4 +1,4 @@
-# RED: write the spec and watch it fail
+## RED: write the spec and watch it fail
 Generate a spec feature (highlight if you don't know how):
 
 <pre style="color: #f7f7f7">
