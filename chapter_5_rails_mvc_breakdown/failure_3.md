@@ -1,7 +1,9 @@
 
-### Failure: Expected ...page text... to include "Name is too short"
+### Failure:
+
+    Expected ...page text... to include "Name is too short"
   - Well, of course! We should show error messages if there are any!
-  - Luckily, Rails will store that for us, right on the @project object. Let's check there, and show any error messages we find.
+  - Luckily, Rails will store that for us, right on the `@project` object. Let's check there, and show any error messages we find.
   - Let's add some HTML to show the messages, and some ERB to loop over however many messages there are.
   - Modify your "new" template so it looks like this (type, don't copy/paste):
 

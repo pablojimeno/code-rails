@@ -17,4 +17,6 @@ A validation is a check that ensures that information is present, in a specifc f
 - Validate that the name attribute must be more than 4 characters long.
   - [COMPLETE]   Add to your project.rb model file (highlight):
 
+    <pre style="color: #f7f7f7">
         validates :name, length: { in: 4..255 }
+    </pre>
