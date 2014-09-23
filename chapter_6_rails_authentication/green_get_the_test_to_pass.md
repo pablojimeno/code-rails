@@ -1,4 +1,4 @@
-# GREEN: Get the test to pass
+## GREEN: Get the test to pass
 
  Now work to get the test passing. Time to play in the sandbox and tackle this one without the *Path*. Try hard!
 

@@ -145,8 +145,12 @@
    * [As the site owner, I want to restrict who can access the site so that my friends don't prank me with "poopin'" posts](chapter_6_rails_authentication/as_the_site_owner,_i_want_to_restrict_who_can_access_the_site_so_that_my_friends_dont_prank_me_with_poopin_posts.md)
        * [RED: write the spec and watch it fail](chapter_6_rails_authentication/red_write_the_spec_and_watch_it_fail.md)
        * [GREEN: Work through the errors](chapter_6_rails_authentication/green_work_through_the_errors.md)
+           * [ERROR: Missing Link](chapter_6_rails_authentication/error_missing_link.md)
+           * [ERROR: Undefined Variable](chapter_6_rails_authentication/error_undefined_variable.md)
+           * [ERROR: ConstraintException](chapter_6_rails_authentication/error_constraintexception.md)
    * [As the site owner, I want to sign out a user to prevent fraud](chapter_6_rails_authentication/as_the_site_owner,_i_want_to_sign_out_a_user_to_prevent_fraud.md)
        * [RED: Write the spec](chapter_6_rails_authentication/red_write_the_spec.md)
        * [GREEN: Get the test to pass](chapter_6_rails_authentication/green_get_the_test_to_pass.md)
 * [Chapter 7: Rails relationships](chapter_7_rails_relationships/README.md)
 * [Chapter 8: Rails Authorization](chapter_8_rails_authorization/README.md)
+
