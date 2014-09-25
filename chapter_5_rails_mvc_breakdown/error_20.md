@@ -9,7 +9,7 @@ Find the line number from your code where the error was hit:
 
 Q: What is holds a value of nil on that line?
 
-A: <span style="color: white">@project</span>, of course!
+A: <span style="color: white">@project, of course!</span>
 
 Q: Where's the right place to define it?
 
