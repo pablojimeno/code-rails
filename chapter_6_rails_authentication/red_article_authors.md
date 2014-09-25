@@ -9,6 +9,6 @@ page.text.must_include users(:one).email # Use your fixture name here.
 
 We can run just this one spec from our app root with:
 
-    $ ruby -Itest test/features/posts/creating_a_post_test.rb
+    $ ruby -Itest test/features/articles/creating_a_article_test.rb
 
 Let's see what we need to do, to get this going in the next section!

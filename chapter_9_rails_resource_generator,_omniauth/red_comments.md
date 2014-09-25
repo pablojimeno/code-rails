@@ -1,7 +1,7 @@
 ### RED: Comments
 
 Write some tests for these stories...
-  - As a site visitor I want to write a comment from a blog post page so that I can troll the author.
+  - As a site visitor I want to write a comment from a blog article page so that I can troll the author.
 
   - As an author or editor I want to approve comments so that my blog does not have spam comments.
 

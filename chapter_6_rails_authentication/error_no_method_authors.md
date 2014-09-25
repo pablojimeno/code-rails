@@ -5,7 +5,7 @@
 
 What is `nil`? Where exactly is that error occurring? Read the error output.
 
-`app/controllers/posts_controller.rb`... what line number? What method?
+`app/controllers/articles_controller.rb`... what line number? What method?
 
 The `articles` method is called on `current_user`
 
@@ -27,4 +27,4 @@ With the `:except` option, we can prevent the filter from running when the user 
 
 Run the spec again:
 
-    $ ruby -Itest test/features/posts/creating_a_post_test.rb
+    $ ruby -Itest test/features/articles/creating_a_article_test.rb

@@ -8,7 +8,7 @@ What line is that from?! Huh? An earlier part of our test is now failing?
 Since we need to be signed in before creating an article, Capybara isn't even seeing the form. Modify the test to sign in our fixture user before creating the test. Add something like (remember, type it, don't copy/paste):
 
 ```ruby
-  # Given an authorized user complets a new post form
+  # Given an authorized user complets a new article form
   visit new_user_session_path
   fill_in "Email", with: users(:one).email
   fill_in "Password", with: "password"

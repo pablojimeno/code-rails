@@ -1,6 +1,6 @@
 
 ### About Rails Model Validations
-A validation is a check that ensures that information is present, in a specifc format, or within a value range that is acceptable. If a model object does not pass validation, it is not saved to the database. For example, a blog post should always have a title, or a user account should always have an email address. If there are problems saving a record - that is, failures in validation - then the model's .errors array will have details on the validation failures.
+A validation is a check that ensures that information is present, in a specifc format, or within a value range that is acceptable. If a model object does not pass validation, it is not saved to the database. For example, a blog article should always have a title, or a user account should always have an email address. If there are problems saving a record - that is, failures in validation - then the model's .errors array will have details on the validation failures.
 
 #### Read up on validations:
 - Read all of section 1 in [Active Record Validations in *Rails Guides*](http://guides.rubyonrails.org/active_record_validations.html)
