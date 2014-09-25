@@ -26,4 +26,4 @@ feature
     - <span style="color: white">Run this command to see all available routes: rake routes
     - <span style="color: white">You'll want something like: visit articles_path</span>
 
-  - <span style="color: white">Now you can fill in the GWT with ruby code, capybara commands and spec assertions: https://gist.github.com/brookr/d284e740392cdb1dbae9/7380e522032b8f8b813fa5855d63c3df64f77bfc</span>
+  - <span style="color: white">Now you can fill in the GWT with ruby code, [capybara commands and spec assertions](https://gist.github.com/brookr/d284e740392cdb1dbae9/7380e522032b8f8b813fa5855d63c3df64f77bfc)</span>

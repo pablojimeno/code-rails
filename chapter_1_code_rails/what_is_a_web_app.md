@@ -11,7 +11,7 @@
 - Language vs Framework
 - Ruby Gem building blocks
 - Agile Development
- - Watch: [Agile: An Introduction]( http://www.youtube.com/watch?v=OJflDE6OaSc )
+ - Watch: [Agile: An Introduction](http://www.youtube.com/watch?v=OJflDE6OaSc)
  - Watch: [Intro to Scrum](http://www.youtube.com/watch?v=XU0llRltyFM) You can stop watching at 7:15 where the ad for the tools start.
  - Read: [Visions of a Post-Agile world](http://blog.sprint.ly/post/41801740808/visions-of-a-post-agile-world)
  -

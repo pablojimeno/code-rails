@@ -36,7 +36,7 @@ Enter the Pundit gem!
 ## Pundit Gem
 
 - Read the Pundit Gem README: https://github.com/elabs/pundit
-- Another possibly useful resource: Pundit Gem sections of The Rails 4 way: http://hijk.it/0U0v37360312
+- Another possibly useful resource: [Pundit Gem in The Rails 4 way](http://hijk.it/0U0v37360312)
 - Install the gem, and refactor your permission checks according to Pundit conventions.
 
         $ rails generate pundit:policy article

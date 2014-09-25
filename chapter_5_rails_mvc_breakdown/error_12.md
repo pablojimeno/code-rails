@@ -6,9 +6,9 @@ AbstractController::ActionNotFound: The action 'show' could not be found for Pro
 
 Once a new Project instance is created and saved to the database, we want to show it to the user for verification. That's why the create action redirects to the show action... which we haven't defined yet.
 
-Read more about the redirct_to method:
-- http://api.rubyonrails.org/classes/ActionController/Redirecting.html
-- http://www.omniref.com/?q=redirect_to
+Read more about the `redirct_to` method:
+- [`redirect_to` method in the Rails API docs](http://api.rubyonrails.org/classes/ActionController/Redirecting.html)
+- [Search for the redirect_to method on Omniref](http://www.omniref.com/?q=redirect_to)
 
 Now is the time for you to create the show method in your `ProjectsController`.
 - Can you do it without a hint?

@@ -1,5 +1,7 @@
 # Read: A Guide to Testing Rails Applications, section 2: Fixtures:
-Read: A Guide to Testing Rails Applications, section 2:
-Fixtures: http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures (JUST read section 2)
 
-Optional reading: For a lot more on fixtures: http://edgeapi.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+A Guide to Testing Rails Applications:
+
+Fixtures: Read Section 2 of [the low down on fixtures](http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures)
+
+Optional reading: For a lot more on fixtures: [Active Record Fixture Set](http://edgeapi.rubyonrails.org/classes/ActiveRecord/FixtureSet.html)

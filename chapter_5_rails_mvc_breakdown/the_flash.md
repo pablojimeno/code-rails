@@ -1,6 +1,6 @@
 ## The Flash
 
-The flash is used primarily for displaying status messages to users. It can be used to display confirmations, errors, and other information. The flash can be used to pass objects, too. For more info, read the API docs: http://api.rubyonrails.org/classes/ActionDispatch/Flash.html
+The flash is used primarily for displaying status messages to users. It can be used to display confirmations, errors, and other information. The flash can be used to pass objects, too. For more info, read [the Rails API docs about the Flash Object hash](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html)
 
 Based on [this coderwall article](https://coderwall.com/p/jzofog), add this code to `app/helpers/application_helper.rb`
 
