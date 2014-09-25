@@ -2,7 +2,7 @@
 
 ### Code Coverage
 
-What is code coverage? Find out here: http://en.wikipedia.org/wiki/Code_coverage .
+What is code coverage? Read about [code coverage on Wikipedia](http://en.wikipedia.org/wiki/Code_coverage).
 
 How much of your app is tested?
 

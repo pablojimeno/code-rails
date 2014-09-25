@@ -5,7 +5,7 @@ ActiveModel::ForbiddenAttributesError
 ```
 - Sounds like a security thing, eh? Like, only certain attributes should be allowed when users submit form data?
 - Let's check the docs
-    - Read the code sample here: http://www.omniref.com/?q=strong%20parameters
+    - Read the code sample on [this Omniref page](http://www.omniref.com/?q=strong%20parameters)
 - Let's follow that pattern. We need a private method that flags our project attributes as safe to be saved. We can use that method wherever we need the form data.
 - In the end, your controller should look like this:
 ```ruby

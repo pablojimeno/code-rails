@@ -2,6 +2,6 @@
 
 Take a moment to reflect on all the pieces of the web development puzzle that you've learned so far.
 
-Read a blog post written about why learning web development is hard: https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard
+Read a blog post written about [why learning web development is hard](https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard)
 
 
