@@ -1,0 +1,24 @@
+# Week 7: AngularJS with Rails API
+
+- Resources:
+  - done with CodeSchool before
+  - NG-book?
+- Day 30:
+  - Rails as API best practices @ryan
+    - Assignment: Create basic scaffolded Rails API with basic AM::S
+  - Intro to Angular controller/view/router @tyler
+    - Assignment: TweetQueue Index (view/controller binding), pull data from Rails API
+- Day 31:
+  - Rails API: Tests, status codes/messages, content type, and JSON structuring
+    - Assignment: Write tests for the API
+  - Testing Angular: unit tests and CRUD interface
+    - Assignment: CRUD on Tweets with tests
+- Day 32:
+  - Rails API: Versioning approaches
+  - Refactor the controller: Angular filters, validations, and services
+    - Assignment: Refactor with best practices
+- Day 33:
+  - Rails API: User auth tokens
+    - Assignment: Add auth
+  - Refactor the view: Angular directives & user auth tokens
+    - Assignment: Refactor and add auth

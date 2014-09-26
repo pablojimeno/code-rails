@@ -189,4 +189,8 @@
    * [GREEN Polymorphic](chapter_10_polymorphic_comments/green_polymorphic.md)
    * [REFACTOR Polymorphic](chapter_10_polymorphic_comments/refactor_polymorphic.md)
 * [Chapter 11: Rails Mailers](chapter_11_rails_mailers/README.md)
+* [Week 5](week_5/README.md)
+* [Week 6: JavaScript](week_6_javascript/README.md)
+* [Week 7: AngularJS with Rails API](week_7_angularjs_with_rails_api/README.md)
+* [Week 8: Project Week](week_8_project_week/README.md)
 
