@@ -188,4 +188,5 @@
    * [RED Polymorphic](chapter_10_polymorphic_comments/red_polymorphic.md)
    * [GREEN Polymorphic](chapter_10_polymorphic_comments/green_polymorphic.md)
    * [REFACTOR Polymorphic](chapter_10_polymorphic_comments/refactor_polymorphic.md)
+* [Chapter 11: Rails Mailers](chapter_11_rails_mailers/README.md)
 
