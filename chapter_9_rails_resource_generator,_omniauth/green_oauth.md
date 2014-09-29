@@ -1,6 +1,6 @@
-### GREEN: OAuth
+# GREEN: OAuth
 
-###Here is the *Path*:
+### Here is the *Path*:
 
 
 Add the `omniauth-twitter` gem to your Gemfile:
@@ -9,18 +9,11 @@ Add the `omniauth-twitter` gem to your Gemfile:
 
 We're going to need to use environment variables to store our Twitter credentials on Heroku, so we might as well start using them in development. This is a Rails best practice - **do not check sensitive info into a git repository**.
 
-The Figaro gem makes this easy. (Alternatives are dotenv and Foreman). Add the figaro gem:
+The Foreman gem helps with this, and does lots of other useful stuff (Alternatives are dotenv and Figaro). Add the Foreman gem to your system, not to your Gemfile:
 
-    gem 'figaro'
+    gem install foreman
 
-Install the figaro (generate some files in your app):
-
-    $ bundle
-    $ rails generate figaro:install
-
-Check out the files that it generated.
-
-<br />
+Now read up on [what it does](http://mauricio.github.io/2014/02/09/foreman-and-environment-variables.html), and how it works. Do not miss the "Isolating the configuration" section of that article, as that is what's most relevant here.
 
 
 #### Create a Twitter App
@@ -47,7 +40,7 @@ config.omniauth :twitter, ENV["TWITTER_CONSUMER_KEY"], ENV["TWITTER_CONSUMER_SEC
 
 Add `:omniauthable` to the `devise` line in `app/models/user.rb`.
 
-You'll now see a <u>sign in with twitter link</u> on http://localhost:3000/users/sign_in. We may put the link in the main nav, but let's get it working first.
+You'll now see a <u>sign in with twitter link</u> on http://localhost:3000/users/sign_in. We may want to put the link in the main nav, but let's get it working first.
 
 If you try to sign in now, you'll see:
 
