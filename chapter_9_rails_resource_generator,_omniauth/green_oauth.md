@@ -49,7 +49,7 @@ If you try to sign in now, you'll see:
 We'll fix that by running:
 
     $ rails g controller omniauth_callbacks --skip-test-framework
-    $ rails g migration add_omniauth_to_users provider uid
+    $ rails g migration add_omniauth_to_users provider uid name
 
 
 ... and adding this code to `config/routes.rb` in the `devise_for` line:
