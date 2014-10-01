@@ -35,8 +35,10 @@ Now read up on [what it does](http://mauricio.github.io/2014/02/09/foreman-and-e
 In `config/initializers/devise.rb`, add:
 
 ```ruby
-config.omniauth :twitter, ENV["TWITTER_CONSUMER_KEY"], ENV["TWITTER_CONSUMER_SECRET"]
+config.omniauth :twitter, Rails.application.secrets.twitter_key, Rails.application.secrets.twitter_secret
 ```
+
+Go to config/secrets.yml and under development add `twitter_key` and `twitter_secret`
 
 Add `:omniauthable` to the `devise` line in `app/models/user.rb`.
 
@@ -74,7 +76,8 @@ def self.from_omniauth(auth)
   where(provider: auth.provider, uid: auth.id)).first_or_create do |user|
     user.provider = auth.provider
     user.uid = auth.uid
-    user.email = "#{auth.info.nickname}-CHANGEME@twitter.example.com"
+    user.name = auth.info.nickname
+    user.email = "#{user.name}-CHANGEME@twitter.example.com"
   end
 end
 
