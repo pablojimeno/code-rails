@@ -70,10 +70,9 @@ user.email = "#{user.name}-CHANGEME@twitter.example.com"
 ```
 Since devise requires an email, we have to assign a fake one that the user can change later.
 
-https://gist.github.com/ivanoats/7076128
 ```ruby
 def self.from_omniauth(auth)
-  where(provider: auth.provider, uid: auth.id)).first_or_create do |user|
+  where(provider: auth.provider, uid: auth.id).first_or_create do |user|
     user.provider = auth.provider
     user.uid = auth.uid
     user.name = auth.info.nickname
