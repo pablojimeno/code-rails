@@ -5,7 +5,7 @@ Learn about user stories: [Read this](http://www.mountaingoatsoftware.com/topics
 Learn how to write a good user story: [Read this](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
 
 ####Project Management Apps:
-[**Huboard**](https://huboard.com/)
+[**Waffle.io**](https://waffle.io/)
   - Super-easy github integration (just uses GH issues)
   - Nice kanban board layout
   - Free
@@ -24,8 +24,8 @@ Learn how to write a good user story: [Read this](http://www.mountaingoatsoftwar
 - Email integration
 
 [**Asana**](https://asana.com/)
+- General purpose task manager, can be used for agile
 - No out-of-the-box github integration
-- General purpose tool, can be used for agile
 
 [**Trello**](https://trello.com/)
 - No out-of-the-box github integration
