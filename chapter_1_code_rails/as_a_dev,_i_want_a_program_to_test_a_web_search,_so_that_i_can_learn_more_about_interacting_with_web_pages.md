@@ -12,7 +12,7 @@ source "https://rubygems.org"
 gem "rake"
 ```
 
-Read the [Capybara Readme](https://github.com/jnicklas/capybara). Don't worry if it doesn't all make sense yet.
+Read the [Capybara Readme](https://github.com/jnicklas/capybara). Don't worry if it doesn't **all** make sense yet.
 
 Add Capybara as a gem dependency for your project. Modify your Gemfile to include:
 ```ruby
