@@ -3,7 +3,7 @@
 
 Kathy Sierra summarizes much of the recent science of learning in a talk she gave at a conference. You can (optionally) read a [Summary of her presentation](http://justingoeres.tumblr.com/post/32669772969/live-from-bos2012-building-a-minimum-badass-user).
 
-She is talking about building great products (web apps), to most effectively help users. For you, as a learner, many of the same lessons apply when working on rapid skill acquisition. 
+She is talking about building great products (web apps), to most effectively help users. For you, as a learner, many of the same lessons apply when working on rapid skill acquisition. We tried to incorporate many of these ideas into the design of this course.
 
 Highlights:
 - Practice makes <s>perfect</s> **permanent**. Ensure you practice the correct thing.
