@@ -1,4 +1,4 @@
-# As a dev, I want a spec to test a web search, so that I can learn more about interacting with web pages
+# As a dev, I want a spec to test a web search, so that I can learn more about automating interaction with web pages
 
 To complete this user story, you will create a spec file that uses a headless browser to interact with a web page.
 
@@ -12,7 +12,7 @@ source "https://rubygems.org"
 gem "rake"
 ```
 
-Read the [Capybara Readme](https://github.com/jnicklas/capybara). Don't worry if it doesn't all make sense yet.
+Read the [Capybara Readme](https://github.com/jnicklas/capybara). Don't worry if it doesn't **all** make sense yet.
 
 Add Capybara as a gem dependency for your project. Modify your Gemfile to include:
 ```ruby
