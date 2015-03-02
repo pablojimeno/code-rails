@@ -56,7 +56,7 @@
            * [Editing an article context example](chapter_3_rails_resources/editing_a_post_context_example.md)
            * [Editing an article spec example](chapter_3_rails_resources/editing_a_post_spec_example.md)
        * [As the site owner, I want to delete an article so that I can remove drunken rants](chapter_3_rails_resources/as_the_site_owner,_i_want_to_delete_a_post_so_that_i_can_remove_drunken_rants.md)
-           * [Deleting an article context example ](chapter_3_rails_resources/deleteing_a_post_context_example.md)
+           * [Deleting an article context example](chapter_3_rails_resources/deleteing_a_post_context_example.md)
            * [Deleting an article spec example](chapter_3_rails_resources/deleteing_a_post_spec_example.md)
    * [GREEN](chapter_3_rails_resources/green.md)
        * [Generate an article scaffold](chapter_3_rails_resources/generate_a_post_scaffold.md)
