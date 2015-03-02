@@ -21,6 +21,7 @@
        * [Mac OS X Installation](mac_osx_installation.md)
        * [Ubuntu Installation](ubuntu_installation.md)
        * [Install Rails](install_rails.md)
+       * Need a Ruby Verison Manager?
 * [Chapter 1: BDD & TATFT](chapter_1_code_rails/README.md)
    * [What is a web app?](chapter_1_code_rails/what_is_a_web_app.md)
    * [As a developer, I want to use a Project Management App so that I can track my tasks and progress](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
