@@ -4,7 +4,6 @@
 BDD a static front page for your Rails portfolio app.
 - RED
 
-
 - GREEN
 
 - REFACTOR

@@ -2,19 +2,19 @@
 
 ## Rails conventions:
 ### Read about READMEs
-Take action after reading [this article, written by a Code Fellows alumnus](http://www.stephaniehekker.com/why-you-should-write-a-readme-for-your-application/)
+Take action after reading [this article, written by a Code Fellows alumnus](http://www.stephaniehekker.com/why-you-should-write-a-readme-for-your-application/).
 
 Decide on what **you** want to use as a standard README format for all your projects. Fork Stephanie's template, and modify to own desires, so you have a ready-to-go README to use for your assignments.
 
 ### Code for clarity:
 
-- Read [Chpater 1 of Clean Code](https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf), by Uncle Bob Martin
+- Read [Chapter 1 of Clean Code](https://www.dropbox.com/s/y9jxxvlgnbocvn7/Chapter%201%20-%20Clean%20Code%20-%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship.pdf), by Uncle Bob Martin
 
 - Read [Clarity of code is clarity of thought](http://agile.dzone.com/news/clarity-code-clarity-thought)
 
 - Review this crazy [Clean Code Cheatsheet](http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.2.pdf)
 
-- Optional reading: [My Takeaways from <u>Clean Code</u>](https://medium.com/on-coding/a70ca8382884)
+- Optional reading: [My Takeaways from *Clean Code*](https://medium.com/on-coding/a70ca8382884)
 
 ### Ruby style guides
 - Whitespace
@@ -28,8 +28,8 @@ Decide on what **you** want to use as a standard README format for all your proj
     - Read and compare: [GitHub's Sylte Guide](https://github.com/styleguide)
 - Gem tool:
     - gem install rubocop
-    - **DO**: run rubocop from within your project directory for your work from Chapter 1.
-    - Bonus challenge: figure out how to ignore a warning (like for double-quoted strings, which Brook says is fine)
+    - Run rubocop from within your project directory for your work from Chapter 1.
+    - *Bonus challenge*: figure out how to ignore a warning (like for double-quoted strings, which Brook says is fine)
 - Cloud tool:
     - Connect [Hound CI](https://houndci.com) to your repo from yesterday
     - Commit a change, and open a new PR to trigger a code audit
@@ -42,8 +42,15 @@ Decide on what **you** want to use as a standard README format for all your proj
 
 ### Your IDE: A text editor
 
-- Read how to [remap shift-space to underscore](http://gfxmonk.net/2009/01/29/remap-shiftspace-to-underscore.html)
-- How to set up Sublime Text for our conventions. Choose Sublime Text > Preferences > Settings - User and enter these settings:
+Read how to [remap shift-space to underscore](http://gfxmonk.net/2009/01/29/remap-shiftspace-to-underscore.html).
+
+Then, set up Sublime Text user preferences for our conventions.
+
+Navigate to
+
+    Sublime Text > Preferences > Settings - User
+
+and enter the following preferences:
 
 ```javascript
 {
@@ -58,9 +65,14 @@ Decide on what **you** want to use as a standard README format for all your proj
     "ensure_newline_at_eof_on_save": true
 }
 ```
-- Install the package manager for your version of Sublime.
-    - Find & install some great recommended packages.
-- Get to know your editor:
-    - Watch a few of these hints that look interesting to you: [Workflow in Sublime Text 2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
-    - Recommended: Multi-cursor, Instant file switching.
-    - You should know this site exists: [Rails Best Practices](http://rails-bestpractices.com) (A lot of what's there may not yet make sense. That's ok.)
+
+#### Install the package manager for your version of Sublime.
+
+Install the Sublime package manger. Visit the package manager's webstie, then find and install some of the featured packages.
+
+#### Get to know your editor
+
+#### Watch a few of these hints that look interesting to you from this [Workflow in Sublime Text 2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2) course.
+
+If you need help choosing, check out Multi-Cursor and Instant file switching.
+
