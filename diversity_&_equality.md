@@ -1,6 +1,6 @@
 # Diversity & equality
 
-Don't be a hater, we are all here in this together, and want to create a welcoming environment for everyone here. A Code Fellow works to widen access to computer science education and ensure it is open to all.
+Don't be a hater, we are all here in this together, and want to create a welcoming environment for **everyone** here. A Code Fellow works to widen access to computer science education and ensure it is open to all.
 
 ####Non-discrimination policy:
 As a part of our honor code, in order to maintain personal and communal integrity, Code Fellows is committed to the principle that all persons shall have equal access to programs, facilities, services, and employment without regard to personal characteristics not related to ability, performance, or qualifications as determined by Code Fellows policy and/or applicable laws.

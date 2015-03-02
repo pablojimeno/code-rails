@@ -4,3 +4,5 @@
 - Spending more time practicing the *right* things will most effectively improve your skills
 
 Your TAs and instructures will strive to keep you on course, and focused on the right areas of development.
+
+Best thing you can do to help yourself in this area: **Read** your error messages!

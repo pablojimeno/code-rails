@@ -1,8 +1,8 @@
-##Setup for Mac OS X 10.9 or above
+# Setup for Mac OS X 10.9 or above
 
 You should have ruby 2.0 installed by default. You can use this "system ruby" to install a number of helpful tools to let you customize your dev environment.
 
-####Install Homebrew including latest git and qt
+## Install Homebrew, latest git, and qt
 
 Homebrew is a package manager for Mac. It will now be the first place you look when you need to install or update something. To install the `brew` command, use your system ruby to run a script from the homebrew repo:
 
@@ -31,7 +31,7 @@ which git
 ```
 …you should get: `/usr/local/bin/git`
 
-####Configure Git
+## Configure Git
 Depending on your shell, add this line to your `~/.bash_profile` or `~/.zshrc`: `export PATH="/usr/local/bin:$PATH"`
 
 Run and you should see:
@@ -56,23 +56,16 @@ brew update
 brew install qt
 ```
 
-####Install Rbenv
-
-Managing multiple versions of ruby is useful. This lets you test new versions of ruby without blowing away your existing, functional, environment. Rbenv is a tool to manage your rubies. Here's how you get it going:
+...and a few gems
 
 ```
-brew install rbenv ruby-build rbenv-gem-rehash
+gem install bundler
+gem install capybara-webkit
 ```
 
-```
-rbenv install 2.1.2 (or current patch level)
-```
 
-```
-rbenv global 2.1.2 # sets 2.1.2 to default
-```
 
-Now you have the latest ruby running on your system! Great!
 
-If you run into trouble with any of these steps, look around online for some help. Try searching for any error messages your system produces. There are also many great setup guides out there, like [this one](http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx//)  (in this case, you don't need to instal mysql or redis).
+
+
 
