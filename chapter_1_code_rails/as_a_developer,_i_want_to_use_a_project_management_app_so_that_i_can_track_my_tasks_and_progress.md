@@ -28,5 +28,6 @@ Learn how to write a good user story: [Read this](http://www.mountaingoatsoftwar
 - No out-of-the-box github integration
 
 [**Trello**](https://trello.com/)
+- More free-form, card-based task manager
 - No out-of-the-box github integration
-- More free-form, make your own way
+
