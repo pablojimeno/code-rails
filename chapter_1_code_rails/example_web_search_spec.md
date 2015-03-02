@@ -34,4 +34,4 @@ class FeatureSpec < MiniTest::Spec
   register_spec_type(/page$/, self)
 end
 ```
-**Important reminder:** This spec_helper.rb file sets up Capybara to work for any feature specs you create that have a description ending in "...page".
+**Important reminder:** This `spec_helper.rb` file sets up Capybara to work for any feature specs you create that have a description ending in "...page".

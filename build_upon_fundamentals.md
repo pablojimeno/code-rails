@@ -1,3 +1,3 @@
 # Build upon fundamentals
 
-Break it in to pieces, build the pieces back together.
+Break it into pieces, build the pieces back together.

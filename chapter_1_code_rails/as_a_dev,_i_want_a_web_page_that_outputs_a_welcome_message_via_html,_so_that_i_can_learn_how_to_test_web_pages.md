@@ -47,4 +47,4 @@ How ever you decide to access the html file you made, you can then test that it'
 
 The subsection has an example spec, but try writing your own first.
 
-Once you have the spec coded up and running, get it to pass by making the appropriate HMTL somewhere logical within your project.
+Once you have the spec coded up and running, get it to pass by making the appropriate HTML somewhere logical within your project.
