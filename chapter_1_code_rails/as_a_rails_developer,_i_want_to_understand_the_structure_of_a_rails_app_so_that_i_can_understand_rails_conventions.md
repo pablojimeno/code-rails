@@ -4,7 +4,7 @@ WTF just happened when I typed "rails new …" ???
 
 You have a fresh new Rails app, which by default says "Welcome Aboard"
 
-Read Section 3.2 only from the ["Getting Started" Rails Guide](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
+**Read** Section 3.2 only from the ["Getting Started" Rails Guide](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
 
 **What is Rails?**
 
