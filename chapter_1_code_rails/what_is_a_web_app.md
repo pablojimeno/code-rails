@@ -2,8 +2,7 @@
 
 ## Slides from class today
 
-<script async class="speakerdeck-embed" data-id="8f7f70301eec013270c51ef643d490c5" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
-
+<script async class="speakerdeck-embed" data-id="04084d9cebed44bdaef51d72909c1ae7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Key Concepts
 - Dynamic vs Static generation of HTML/CSS/JS
