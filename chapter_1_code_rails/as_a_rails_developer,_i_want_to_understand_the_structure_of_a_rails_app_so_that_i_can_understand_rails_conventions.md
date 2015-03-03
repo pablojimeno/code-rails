@@ -1,10 +1,10 @@
 # As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions
 
-WTF just happened when I typed "rails new …" ???
+WTF just happened when I ran `$ rails new` ???
 
 You have a fresh new Rails app, which by default says "Welcome Aboard"
 
-**Read** Section 3.2 only from the ["Getting Started" Rails Guide](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
+**Read** only Section 3.2 of the ["Getting Started" Rails Guide](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
 
 **What is Rails?**
 

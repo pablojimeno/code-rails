@@ -1,6 +1,6 @@
 ## Setup for Ubuntu 13.04 (or latest Ubuntu)
 
-- first install some dependencies for Ruby
+#### First install some dependencies for Ruby
 
 ```
 sudo apt-get update
@@ -8,8 +8,6 @@ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libread
 ```
 
 #### Install Rbenv
-
-- rbenv:
 
 ```
 cd
@@ -27,14 +25,14 @@ rbenv rehash
 rbenv global 2.1.2
 ruby -v
 ```
-- install bundler and capybara-webkit:
+#### Install Bundler and capybara-webkit:
 
 ```
 gem install bundler
 rbenv rehash
 gem install capybara-webkit
 ```
-####Install and Configure Git
+####Install and configure Git
 ```
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
@@ -48,7 +46,7 @@ ssh-keygen -t rsa -C "YOUR@EMAIL.com"
 - To minimize how many times you have to enter your github credentials, use this when needed:
 `git config --global credential.helper cache`
 
-####Install Node.JS for Coffeescript and the Asset Pipeline
+####Install Node.JS for CoffeeScript and the Asset Pipeline
 ```
 sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
