@@ -1,7 +1,7 @@
 # GREEN
 There is an example of the WelcomeController in the official [Ruby on Rails Getting Started Guide](http://guides.rubyonrails.org/getting_started.html). Read (but do not work along) up through Section 4.
 
-### Create a WelcomeController to handle static pages
+## Create a WelcomeController to handle static pages
 
 1. Run `rails`, then read the output. This is a list of available CLI commands that rails offers
 
@@ -15,12 +15,13 @@ There is an example of the WelcomeController in the official [Ruby on Rails Gett
 
 - Delete any unwanted files before committing your changes.
 
-### Basic Rails Routing
+## Basic Rails Routing
 
 A route is how your Rails app maps URLs to a Rails controller.
 
  >The Rails router recognizes URLs and dispatches them to a controller's action
- http://guides.rubyonrails.org/routing.html
+ 
+— http://guides.rubyonrails.org/routing.html
 
 You need to set the "root" route. (Don't you just love saying that, no matter what accent you have?)
 

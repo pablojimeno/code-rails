@@ -9,4 +9,4 @@ Everyone comes in to this course with different levels of experience with Git. C
 - [Git Real](http://mbsy.co/CodeSchool/12141376?url=http://www.codeschool.com/courses/git-real)
 - [Advanced Git](http://mbsy.co/CodeSchool/12141376?url=https://www.codeschool.com/courses/git-real-2)
 
-Submit your assignment in Canvas, stating which course.
+Submit evidence of your work for the assignment in Canvas, stating which course.

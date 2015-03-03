@@ -68,11 +68,11 @@ and enter the following preferences:
 
 #### Install the package manager for your version of Sublime.
 
-Install the Sublime package manger. Visit the package manager's webstie, then find and install some of the featured packages.
+Install the Sublime package manger. Visit the package manager's website, then find and install some of the featured packages.
 
 #### Get to know your editor
 
-#### Watch a few of these hints that look interesting to you from this [Workflow in Sublime Text 2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2) course.
+Watch a few of these hints that look interesting to you from this [Workflow in Sublime Text 2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2) course.
 
-If you need help choosing, check out Multi-Cursor and Instant file switching.
+Don't miss the hints on Multi-Cursor and Instant file switching.
 

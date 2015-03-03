@@ -1,9 +1,11 @@
 # RED
 
-### Write a feature spec for your user story above
+First, write a feature spec for your user story above.
+
+## Now get a failing test
 You'll need a new Rails 4 app. Let's call this **Portfolio**.
 
-**Hints** (highlight the bullets to see the hidden text):
+**Hints** (highlight the bullets one at a time to see the hidden text):
 
   - <span style="color: white;">
     We are not using the default Test::Unit framework, so you will want to use the handy --skip-test-unit flag.
@@ -13,7 +15,7 @@ You'll need a new Rails 4 app. Let's call this **Portfolio**.
   rails new portfolio --skip-test-unit
     </span>
 
-#### Set up your new app with some tools
+### Set up your new app with some tools
 
 Once you've generated the app, clean up the Gemfile according to best practices described in the earlier section.
 
@@ -21,9 +23,9 @@ We want you to use MiniTest and Capybara to BDD this. You'll have to set this up
 
 - Read about [minitest-rails](https://github.com/blowmage/minitest-rails)
 - Read about [minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara)
--
 
-#### A few guidelines
+
+### A few guidelines
 - Don't blindly copy/paste every command from those docs. That will mess you up.
 - You should take a moment to understand what the commands do when you run them!
 - Decide which you need, which you don't, and which you may need to modify.
@@ -32,7 +34,7 @@ We want you to use MiniTest and Capybara to BDD this. You'll have to set this up
 - Really stuck on something? Ask a classmate, ask a TA or Instructor, or watch a [silent video of Ivan](http://www.youtube.com/watch?v=0pl-h-CHWEA) set this up (imperfectly) with an older version of Rails and MiniTest.
 
 
-#### Now create a test
+### Now create a test
 
 Remember what the docs said about how to create a new feature test?
 
