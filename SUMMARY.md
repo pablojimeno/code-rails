@@ -62,7 +62,7 @@
    * [GREEN](chapter_3_rails_resources/green.md)
        * [Generate an article scaffold](chapter_3_rails_resources/generate_a_post_scaffold.md)
    * [REFACTOR](chapter_3_rails_resources/refactor.md)
-       * [Read: A Guide to Testing Rails Applications, section 2: Fixtures:](chapter_3_rails_resources/read_a_guide_to_testing_rails_applications,_section_2_fixtures.md)
+       * [A Guide to Testing Rails Applications](chapter_3_rails_resources/read_a_guide_to_testing_rails_applications,_section_2_fixtures.md)
        * [Add Fixtures](chapter_3_rails_resources/do_add_fixtures.md)
            * [Example spec replaced with fixtures](chapter_3_rails_resources/example_spec_replaced_with_fixtures.md)
 * [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming,_continuous_integration,_and_deployment/README.md)
