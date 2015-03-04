@@ -1,13 +1,22 @@
 # Generate an Article scaffold
 
-Run and read: `rails generate scaffold`
+Run and *read*:
 
-Try it with the --pretend option to see what it will do
+    $ rails generate scaffold
 
-Try it with the --no-test-framework option to see the difference (a lot less just put in your /test/ folder!)
+Try it with the `--pretend` option to see what it will do.
 
-When you have to command to your liking, remove --pretend and run it for real
+Try it with the `--no-test-framework` option to see the difference. Much less *stuff* is created in your `/test` folder!
 
-[COMPLETE]
+When you have the command to your liking, remove `--pretend` and run it for real.
 
-rails generate scaffold article title body:text --no-test-framework
+You should have something like this hidden command:
+
+<span style="color: white;">
+    $ rails generate scaffold article title body:text --no-test-framework
+</span>
+
+
+Now, run your tests again!  They're *passing*, right?! You're in the GREEN!
+
+No? Fix your specs so they pass with the scaffold's behavior!
