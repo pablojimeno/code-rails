@@ -1,4 +1,4 @@
-# As a developer, I want to integrate a theme, so that my site doesn't look like all the other bootstrap sites out there
+# As a developer, I want to integrate a theme, so that my site doesn't look like all the other "bootstrap-y" sites out there
 
 ## Design Your Own
 
@@ -19,5 +19,7 @@ Foundation 5 is the latest version of Foundation, and you should be using that v
 - https://www.foundationmade.com/themes/all/sort/newest/page/1
 
 Try to find other options for themes. Google away, and share your best finds with the class!
+
+The simpler the theme is that you select, the easier time you will have integrating it into your site. 
 
 
