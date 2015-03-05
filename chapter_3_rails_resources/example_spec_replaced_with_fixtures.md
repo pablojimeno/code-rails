@@ -1,5 +1,5 @@
 # Example spec replaced with fixtures
-For example:
+
 ```ruby
 require "test_helper"
 
