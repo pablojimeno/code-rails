@@ -4,6 +4,9 @@ Keep running the spec and resolving errors until it works! Remember, you can run
 
     $ ruby -Itest test/features/projects/editing_a_project_test.rb
 
-note: That is a "dash with capital i" (a bash option) to the ruby command
+The `-Itest` is a bash option for the ruby command, as seen when you run:
 
-What's the output?
+    $ ruby --help
+
+
+What's the output of your test?
