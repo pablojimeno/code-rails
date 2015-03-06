@@ -1,26 +1,30 @@
+
 ### Error:
-    ActionView::Template::Error: First argument in form cannot contain nil or be empty
 
-We've seen this one before! Remember what to do?
+    AbstractController::ActionNotFound: The action 'update' could not be found for ProjectsController
 
-Find the line number from your code where the error was hit:
+We did not need to do anything to get the same form partial to have a different button text. How did Rails know to change it?
 
-    app/views/projects/_form.html.erb:1:in `_app_views_projects__form_html_erb__3579151376221201616_70184742725320'
 
-Q: What is holds a value of nil on that line?
+####This is how the form works
 
-A: <span style="color: white">@project, of course!</span>
+In the new form, the `@project` object is a new object, and so:
 
-Q: Where's the right place to define it?
+    @project.new_record? == true
 
-In the controller:
+When the form is rendered in the edit action, we are using an object we got from the DB, so:
+
+    @project.new_record? == false
+
+Rails handles the button text for us, thanks to the [`form_for` method](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for). Thanks, Rails!
+
+####Now, to get passed the error:
+
+Submitting the same form, when in edit mode, now goes to the `ProjectsController#update` action, instead of `#create`. Let's add that action.
+
 ```ruby
-def edit
-  @project = Project.find(params[:id])
-end
+  def update
+  end
 ```
 
-We can get the id of the Project we want to edit from the url (e.g., `.../projects/6/edit`). This is available under the `:id` key of the `params` object.
-
-Re-run specs... do we get the next error?
-
+Run the specs again.

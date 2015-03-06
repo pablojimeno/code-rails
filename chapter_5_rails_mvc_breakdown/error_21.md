@@ -1,30 +1,19 @@
-
 ### Error:
 
-    AbstractController::ActionNotFound: The action 'update' could not be found for ProjectsController
+    ActionView::MissingTemplate: Missing template projects/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}.
 
-We did not need to do anything to get the same form partial to have a different button text. How did Rails know to change it?
+With no render or redirect in the action, Rails will look, by convention, for a template with the same name as the action.
 
-
-####This is how the form works
-
-In the new form, the `@project` object is a new object, and so:
-
-    @project.new_record? == true
-
-When the form is rendered in the edit action, we are using an object we got from the DB, so:
-
-    @project.new_record? == false
-
-Rails handles the button text for us, thanks to the [`form_for` method](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for). Thanks, Rails!
-
-####Now, to get passed the error:
-
-Submitting the same form, when in edit mode, now goes to the `ProjectsController#update` action, instead of `#create`. Let's add that action.
+But, we don't want it to drop down to an `update` template... we want to show the Project detail page (the `show` view) if it saved successfully. Let's try to update the model attributes based on what was in the form, and redirect if it works.
 
 ```ruby
-  def update
+def update
+  @project = Project.find(params[:id])
+
+  if @project.update_attributes(project_params)
+   redirect_to @project, notice: 'Project was successfully updated.'
   end
+end
 ```
 
-Run the specs again.
+**It works! Wowza!**

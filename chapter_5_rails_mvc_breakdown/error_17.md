@@ -1,16 +1,27 @@
 ### Error:
 
-    AbstractController::ActionNotFound: The action 'edit' could not be found for ProjectsController
+    ActionView::MissingTemplate: Missing template projects/edit, application/edit with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}.
+
+This looks familiar. We need to create a file. Where does it go?
+
+<pre style="color: #f7f7f7; font-size: 1.1em;">
+  <code>app/views/portfolio/</code>
+</pre>
 
 
+What should we call it?
 
-We know what to do here, right? You need to add a another action in your controller.
+<pre style="color: #f7f7f7; font-size: 1.1em;">
+  <code>edit.html.erb</code>
+</pre>
 
-Add an `edit` action to the `ProjectsController` - very similar to what you did before.
 
-```ruby
-def edit
-end
-```
+How do we create that from the command line?
 
-Run the test again to see if that gets us to the next error...
+<pre style="color: #f7f7f7; font-size: 1.1em;">
+  <code>$ touch app/views/projects/edit.html.erb</code>
+</pre>
+
+Does creating that blank file allow us to get a new error message now? Yes! Progress!
+
+
