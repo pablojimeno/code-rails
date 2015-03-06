@@ -1,4 +1,8 @@
-## RED: Add a scenario for this...
+## RED: Add a scenario
+
+
+Outline your scenario for *the unhappy path* using GWT.
+
 ```ruby
 scenario "incorrectly editing an existing project" do
   # Given an existing project
@@ -6,4 +10,5 @@ scenario "incorrectly editing an existing project" do
   # Then the changes should not be saved, and I should get to try again
 end
 ```
-Fill in the GWT with some capybara commands and the appropriate matchers
+
+Fill in the GWT with some Capybara commands and the appropriate matchers.

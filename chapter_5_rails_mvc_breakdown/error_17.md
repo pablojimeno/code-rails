@@ -22,6 +22,7 @@ How do we create that from the command line?
   <code>$ touch app/views/projects/edit.html.erb</code>
 </pre>
 
+
 Does creating that blank file allow us to get a new error message now? Yes! Progress!
 
 
