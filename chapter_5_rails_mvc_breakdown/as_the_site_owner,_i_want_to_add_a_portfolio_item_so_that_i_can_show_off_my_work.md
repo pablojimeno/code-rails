@@ -2,6 +2,6 @@
 
 In this section we will allow projects to be created. We'll write two specs:
 
-1. Successful result of POSTing a project (the happy path).
-2. Unsuccessful result of POSTing of a project (the unhappy path).
+1. Successful result of creating a project (we call this "the happy path").
 
+2. Unsuccessful result of creating a project (we call this "the unhappy path").

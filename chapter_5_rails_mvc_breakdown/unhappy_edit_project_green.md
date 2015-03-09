@@ -3,8 +3,9 @@
 
 ### If you need a hint:
 
-#### Here's a complete scenario:
-<pre style="color: #f7f7f7"><code>
+Here's a complete scenario:
+<pre style="color: #f7f7f7; font-size: 1.1em;">
+<code>
 scenario "incorrectly editing an existing project" do
   # Given an existing project
   visit edit_project_path(projects(:portfolio))
@@ -17,10 +18,12 @@ scenario "incorrectly editing an existing project" do
   page.text.must_include "prohibited"
   page.text.must_include "Name is too short"
 end
-</code></pre>
+</code>
+</pre>
 
-#### Here's a complete update action:
-<pre style="color: #f7f7f7"><code>
+**Here's a complete update action:**
+<pre style="color: #f7f7f7; font-size: 1.1em;">
+<code>
   def update
     @project = Project.find(params[:id])
 
@@ -29,7 +32,10 @@ end
     else
       render :edit
     end
-  end</code>
+  end
+ </code>
 </pre>
+
+<br />
 
 **Was that so bad? ;]**

@@ -1,21 +1,16 @@
 ### Error:
 
-Are you using Fixtures yet? Perhaps you see an error like:
+    AbstractController::ActionNotFound: The action 'edit' could not be found for ProjectsController
 
-    NoMethodError: undefined method `projects' for #<#<Class:0x007ffbccbb4c28>:0x007ffbcc960558>
 
-Here's what we need to do:
 
-1. Create a fixture file called `projects.yml` in `test/fixtures/`
+We know what to do here, right? You need to add a another action in your controller.
 
-- Add some data to it. Remember, YAML is white space sensitive (and how!):
-    ```YAML
-    portfolio:
-      name: How meta
-      technologies_used: Ruby, Rails, Zurb
+Add an `edit` action to the `ProjectsController` - very similar to what you did before.
 
-    freelance:
-      name: Barnyard Cereal
-      technologies_used: Ruby, Rails, Farmville API, Automilker
-    ```
-- Ensure you are using the fixtures by their correct names when accessing them in your test.
+```ruby
+def edit
+end
+```
+
+Run the test again to see if that gets us to the next error...

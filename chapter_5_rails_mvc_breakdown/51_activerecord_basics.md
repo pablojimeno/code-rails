@@ -1,10 +1,10 @@
 # 5.1 Pre-requisite Reading
 
-Rails uses Object-Relational Mapping (ORM) through Active Record to cacces data in the database (e.g. SQLite, PostgreSQL, MySQL).
+Rails uses Object-Relational Mapping (ORM) through Active Record to acces data in the database (e.g. SQLite, PostgreSQL, MySQL).
 
 Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) guide to get familiar with how it works.
 
-If you haven't already, please really read [**Chapter 3**, *REST, Resources, and Rails*](http://assets.codefellows.org/tr4w_chapter_3.pdf), in <u>The Rails 4 Way</u> by Obie Fernandez.
+If you haven't already, please really read [**Chapter 3:** *REST, Resources, and Rails*](http://assets.codefellows.org/tr4w_chapter_3.pdf), from *The Rails 4 Way*, by Obie Fernandez.
 
 We recommend that you purchase this book because it's a great reference book that you will use after the course also.
 

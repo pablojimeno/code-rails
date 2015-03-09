@@ -3,7 +3,8 @@
 Did you try to write this spec on your own first? Highlight the blocks below to see a solution. Yours doesn't have to match exactly.
 
 Start by writing the GWT:
-<pre style="color: #f7f7f7">
+
+<pre style="color: #f7f7f7; font-size: 1.1em;">
   <code>
 require "test_helper"
 
@@ -20,13 +21,14 @@ feature "As the site owner, I want to edit a project so that I can correct typos
   </code>
 </pre>
 
-Now fill in the blanks with some Capybara directives. View the solution below after you think you've got it.
+Now, fill in the blanks with some Capybara directives. View the solution below after you think you've got it.
 
-[COMPLETE] solution for `edit_project_test.rb`
+An example solution for `edit_project_test.rb`
 
-<pre style="color: #f7f7f7">
+<pre style="color: #f7f7f7; font-size: 1.1em;">
   <code>
-require "test_helper
+
+require "test_helper"
 
 feature "As the site owner, I want to edit a project so that I can correct typos" do
   scenario "editing an existing project" do
@@ -43,6 +45,7 @@ feature "As the site owner, I want to edit a project so that I can correct typos
     page.text.wont_include "Code Fellows Portfolio"
   end
 end
+
   </code>
 </pre>
 
