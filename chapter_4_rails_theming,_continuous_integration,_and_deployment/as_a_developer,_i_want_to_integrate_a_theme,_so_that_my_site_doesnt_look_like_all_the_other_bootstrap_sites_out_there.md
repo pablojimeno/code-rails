@@ -6,7 +6,7 @@ The RailsCast is essentially building up a custom theme. If you like that approa
 
 Check out [Unsplash](http://unsplash.com) for some Creative Commons images that you could use as a background image.
 
-## Downlaod A Theme
+## Download A Theme
 
 If you don't feel comfortable spending your time on a custom design for your website, below are some collections of Zurb themes.
 
