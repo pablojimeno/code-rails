@@ -10,17 +10,13 @@ The `flash` is used primarily for displaying status messages to users. It can be
 
 For more info, read [the Rails API docs about the Flash Object hash](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html).
 
-Based on [this coderwall article](https://coderwall.com/p/jzofog), add the following code to `app/helpers/application_helper.rb`:
+To get that to display correctly with your front-end framework, we'll need to translate that flash `:key` into a css class. If you are using Bootstrap, check out [this coderwall article](https://coderwall.com/p/jzofog). For Zurb Foundation, add something like the following code to `app/helpers/application_helper.rb`:
 
 ```ruby
 module ApplicationHelper
-
-  # translate the rails flash levels to appropriate Zurb Foundation css classes    def flash_class(level)
-  case level
-    when :notice then "info"
-    when :success then "success"
-    when :error then "error"
-    when :alert then "warning"
+  # translate Rails flash levels to appropriate Zurb Foundation css classes    
+  def flash_class(level)
+    level == :notice ? "info" : level.to_s
   end
 end
 ```

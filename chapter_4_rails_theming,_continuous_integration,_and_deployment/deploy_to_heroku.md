@@ -25,11 +25,11 @@ https://devcenter.heroku.com/articles/getting-started-with-rails4
 
 * You have 2 options
 
-* Switch to Postgres, locally. This WILL BE time consuming to set up if you haven't already, but you'll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on. If you decide to the least painful way is to follow this post by Ivan.
+* Switch to Postgres, locally. This WILL BE time consuming to set up if you haven't already, but you'll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on. The least painful way to install PostgreSQL is to follow this guide by Ivan:
 
  https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql
 
-* Use SQLite locally (in development), and Postgres on Heroku (in production).
+* Otherwise, use SQLite locally (in development), and Postgres on Heroku (in production).
 
 * Create a gem group called :production, and include:
 

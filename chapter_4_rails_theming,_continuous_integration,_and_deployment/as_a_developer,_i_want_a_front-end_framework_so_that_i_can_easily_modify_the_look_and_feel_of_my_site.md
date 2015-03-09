@@ -17,8 +17,9 @@ What can you look for your on your page to indicate that Zurb is in effect?
 **Hint**:
 
 <span style="color: white">
-  One option would be to check for "columns" in the page.body. Better would be to see if a stylesheet with "zurb" in the name was getting loaded.
-  Please share if you come up with a better test!
+  One option would be to check for "columns" in the page.body. Better would be to see if a stylesheet with "zurb" in the name was getting loaded within the HTML.
+
+Have other ideas? Please share if you come up with a better test!
 </span>
 
 <br>

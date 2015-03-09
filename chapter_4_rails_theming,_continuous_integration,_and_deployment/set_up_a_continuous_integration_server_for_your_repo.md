@@ -5,9 +5,11 @@ Get your tests running in the cloud, and put a nice green badge on your README o
 Read this piece that says [Online CI Providers are the New Black](http://jolicode.com/blog/online-ci-providers-are-the-new-black
 ).
 
-Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user/getting-started/).
+There are lots of options to choose from! 
 
-**Hints**:
+Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user/getting-started/) or explore the [Shippable](http://www.shippable.com/) option.
+
+**Hints** for Travis:
 
 * [rake db:migrate not working on Travis CI (via StackOverflow)](http://stackoverflow.com/questions/10591599/rake-dbmigraion-not-working-on-travis-ci-build) (the top answer)
 
