@@ -18,6 +18,8 @@ Foundation 5 is the latest version of Foundation, and you should be using that v
 
 - https://www.foundationmade.com/themes/all/sort/newest/page/1
 
+- http://foundation.zurb.com/templates.html
+
 Try to find other options for themes. Google away, and share your best finds with the class!
 
 
