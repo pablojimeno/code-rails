@@ -17,8 +17,9 @@ Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user
 
 * [Introducing Continuous Deployment to Heroku](http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/)
 
-      gem install travis
+* `gem install travis`
 
 * `travis login`
-* `travis setup heroku` - this will find your Heroku API key, and encrypt it in your `.travis.yml` file.
+
+* `travis setup heroku` - this will automatically find your Heroku API key, and encrypt it in your `.travis.yml` file.
 
