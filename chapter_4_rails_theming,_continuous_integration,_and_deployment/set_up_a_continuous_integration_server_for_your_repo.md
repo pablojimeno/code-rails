@@ -13,11 +13,12 @@ Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user
 
 * Check out the Markdown source of [the codefellows/portfolio repo's README](https://github.com/codefellows/portfolio/tree/chapter-4)
 
-* Set up `.travis.yml` to deploy to Heroku whenever your build passes
+* Set up `.travis.yml` to deploy to Heroku whenever your build passes - follow the instructions here:
 
 * [Introducing Continuous Deployment to Heroku](http://about.travis-ci.org/blog/2013-07-09-introducing-continuous-deployment-to-heroku/)
 
       gem install travis
 
-* travis login
+* `travis login`
+* `travis setup heroku` - this will find your Heroku API key, and encrypt it in your `.travis.yml` file.
 
