@@ -22,6 +22,6 @@ Foundation 5 is the latest version of Foundation, and you should be using that v
 
 Try to find other options for themes. Google away, and share your best finds with the class!
 
-The simpler the theme is that you select, the easier time you will have integrating it into your site. 
+The simpler the theme is that you select, the easier time you will have integrating it into your site.
 
 
