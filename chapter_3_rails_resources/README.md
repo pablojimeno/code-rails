@@ -6,7 +6,7 @@ Being able to "CRUD a resource" ends up being a very common pattern, so Rails is
 
 For your portfolio site, you really want to be able to show off your expertise as a developer. One of the best ways to do this is to have a place where you can write articles that share what you are learning as you pick up new dev skills. There are gobs of eager learners who can benefit from your guidance, so don't be shy about writing up what you've learned and getting something out there!
 
-You'll want your rails app to have a resource called Article that you can CRUD. The Article resource will have attributes of a "title" and a "body," and each new one you create will be stored in a database, until it is deleted. You can then build individual web pages within your app for making a new article, editing an existing one, and viewing a list of everything that the database is holding.
+You'll want your Rails app to have a resource called Article that you can CRUD. The Article resource will have attributes of a "title" and a "body," and each new one you create will be stored in a database, until it is deleted. You can then build individual web pages within your app for making a new article, editing an existing one, and viewing a list of everything that the database is holding.
 
 So, with a few good user stories, we can let the **B**ehavior of the app **D**rive our **D**evelopment process.
 
