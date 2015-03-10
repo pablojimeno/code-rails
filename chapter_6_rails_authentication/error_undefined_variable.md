@@ -11,11 +11,9 @@ Carefully follow all the steps, but take note:
   - When you generate your Devise model, call it User. Delete the test/model directory this creates. Note that a fixture was created for you.
   - As always, visually inspect the migration before you run it.
 
-Re-run your test.
+Re-run your test. Remember, your TEST environment will get schema updates from your DEV environment if you run just:
 
-If needed, get schema changes reflected in test environment:
-
-    $ rake db:test:prepare
+    $ rake
 
 Check out the changes in routes.rb:
 
