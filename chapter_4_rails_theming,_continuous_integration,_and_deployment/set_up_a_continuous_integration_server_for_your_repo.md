@@ -23,6 +23,3 @@ Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user
 * `gem install travis`
 
 * `travis login`
-
-* `travis setup heroku`
-
