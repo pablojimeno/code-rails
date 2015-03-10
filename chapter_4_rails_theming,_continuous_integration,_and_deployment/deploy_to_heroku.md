@@ -9,7 +9,7 @@ https://devcenter.heroku.com/articles/getting-started-with-rails4
 
 * One really important step that is left out of that article is that you need to tell Rails that it is ok to serve static assets, which Rails 4 will not do by default. If you don't do that, your website images will seem to vanish over time.
 
-* Find this setting in the Production Environment config file, which is used on Heroku: `config/environments/production.rb`. Change that value to `true`.
+* Find these settings in the Production Environment config file (`config/environments/production.rb`), which is used on Heroku, and set them to true - `config.serve_static_files` and `config.assets.digest`
 
 * Some steps you have already done (generating your app, initializing the git repo, etc), so be sure not to blindly copy/paste.
 
@@ -23,13 +23,14 @@ https://devcenter.heroku.com/articles/getting-started-with-rails4
 
 * Did you include the 'pg' gem?
 
-* You have 2 options
+* You have 2 options:
 
-* Switch to Postgres, locally. This WILL BE time consuming to set up if you haven't already, but you'll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on. The least painful way to install PostgreSQL is to follow this guide by Ivan:
+  1. Switch to Postgres, locally. This WILL BE time consuming to set up if you haven't already, but you'll want to do it eventually. Go for it now ONLY IF you have the time. Skip it for now if you are feeling pressed, we can help you later on. If you decide to the least painful way is to follow this post by Ivan.
+https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql
 
- https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql
+  2. Use SQLite locally (in development), and Postgres on Heroku (in production).
 
-* Otherwise, use SQLite locally (in development), and Postgres on Heroku (in production).
+> 00c4488dec1fb8a9bf5a1144b21d1145d513c752
 
 * Create a gem group called :production, and include:
 
@@ -42,6 +43,8 @@ https://devcenter.heroku.com/articles/getting-started-with-rails4
 * Did you run migrations after deploying?
 
       $ heroku run rake db:migrate
+
+* If you're using Google Fonts and run into issues with it loading, either change the protocol from `http://fonts...` to `https://fonts...`, or leave the protocol out and just do `//fonts...`
 
 **Hint**:
 

@@ -29,7 +29,7 @@ trap('INT') { s.shutdown }
 s.start
 ```
 
-Just save that to an executable file named `serve` in a bin directory that's in your path. Now when are in a directory with html files, you can run:`serve` to make those files accessible on port 4000.
+Just save that to an executable file named `serve` in a bin directory that's in your path. Now when are in a directory with html files, you can run:`serve` to make those files accessible on port 4000. (If you're running the fish shell, you may have to run `./serve`.
 
 
 **OR** you can create a serve function in your ~/.bashrc or ~/.bash_profile (in your home directory:
@@ -41,9 +41,9 @@ function serve {
           }
   ```
 
-  *important:* the commands inside the string (inside the double quotes) must all be on *one* line
+  *Important:* the commands inside the string (inside the double quotes) must all be on *one* line
 
-How ever you decide to access the html file you made, you can then test that it's accessible by writing a spec, even before the HTML file exists.
+However you decide to access the html file you made, you can then test that it's accessible by writing a spec, even before the HTML file exists.
 
 The subsection has an example spec, but try writing your own first.
 
