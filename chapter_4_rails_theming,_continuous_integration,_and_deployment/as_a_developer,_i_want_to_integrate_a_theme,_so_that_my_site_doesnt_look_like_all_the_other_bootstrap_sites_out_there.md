@@ -6,7 +6,7 @@ The RailsCast is essentially building up a custom theme. If you like that approa
 
 Check out [Unsplash](http://unsplash.com) for some Creative Commons images that you could use as a background image.
 
-## Downlaod A Theme
+## Download A Theme
 
 If you don't feel comfortable spending your time on a custom design for your website, below are some collections of Zurb themes.
 
@@ -18,8 +18,10 @@ Foundation 5 is the latest version of Foundation, and you should be using that v
 
 - https://www.foundationmade.com/themes/all/sort/newest/page/1
 
+- http://foundation.zurb.com/templates.html
+
 Try to find other options for themes. Google away, and share your best finds with the class!
 
-The simpler the theme is that you select, the easier time you will have integrating it into your site. 
+The simpler the theme is that you select, the easier time you will have integrating it into your site.
 
 

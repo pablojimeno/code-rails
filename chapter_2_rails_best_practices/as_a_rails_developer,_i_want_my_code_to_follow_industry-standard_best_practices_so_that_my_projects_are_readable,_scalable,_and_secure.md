@@ -27,7 +27,7 @@ Decide on what **you** want to use as a standard README format for all your proj
     - Read: [Batsov's Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
     - Read and compare: [GitHub's Sylte Guide](https://github.com/styleguide)
 - Gem tool:
-    - gem install rubocop
+    - `gem install rubocop`
     - Run rubocop from within your project directory for your work from Chapter 1.
     - *Bonus challenge*: figure out how to ignore a warning (like for double-quoted strings, which Brook says is fine)
 - Cloud tool:

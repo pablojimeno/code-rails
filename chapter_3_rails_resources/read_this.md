@@ -14,4 +14,4 @@ Read this [Code Fellows Alumnus' Blog Post](http://strandcode.com/2013/07/28/rea
 
 This is a greatly detailed article that lays out exactly what Rails is doing for you when you use a generator.
 
-Don't ya love the intro to this article, that captures the feeling of learning rails?
+Don't ya love the intro to this article, that captures the feeling of learning Rails?
