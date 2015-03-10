@@ -1,14 +1,15 @@
 ## RED: write the spec and watch it fail
-Generate a spec feature (highlight if you don't know how):
+Generate a spec feature:
 
+**Hint**:
 <pre style="color: #f7f7f7">
-$ rails g minitest:feature auth/sign_up
+  $ rails g minitest:feature auth/sign_up
 </pre>
 
-##### A good strategy:
+##### A Good Strategy:
 You'll probably need to write your spec to conform to the Devise defaults. Don't focus on customizing Devise just yet. Adjust your specs as you go to match the flow Devise is expecting. Test along in your browser as needed.
 
-[COMPLETE] Example Spec (highlight to view):
+Example Spec:
 <pre style="color: #f7f7f7">
 <code>
 require "test_helper"

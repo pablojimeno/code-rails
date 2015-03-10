@@ -1,6 +1,6 @@
 ## RED: Article Authors
 
-One way is that we can specify this by adding two lines to the bottom of our Creating Article spec:
+One way is that we can specify this by adding two lines to the bottom of our "Creating an Article" spec:
 
 ```ruby
 page.has_css? "#author"
