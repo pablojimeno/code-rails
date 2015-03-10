@@ -7,22 +7,20 @@ Right, we need an `author_id` column in our database to hold the association inf
 
 Let's add it with a migration.
 
-    $ rails generate migration AddAuthorIdToArticles author_id:integer
+    $ rails g migration AddAuthorIdToArticles author_id:integer
 
-Open and read the new migration file. Does it look good? It should add a new column, `author_id`, to the `articles` table, that will be a reference to a `User` record.
+Open and read the new migration file. Does it look reasonable? It should add a new column, `author_id`, to the `articles` table, that will be a reference to a `User` record.
 
-Run:
+Run the migration:
 
     $ rake db:migrate
 
-then go look at the change in `schema.rb`.
+Now, go look at the change in `schema.rb`.
 
-Since we changed our schema, we also need to update our test environment with:
+Since we changed our schema, we also need to update our test environment:
 
     $ rake db:test:prepare
 
-Run the spec again:
-
-    $ ruby -Itest test/features/articles/creating_a_article_test.rb
+Run the spec again.
 
 Green, beautiful green!
