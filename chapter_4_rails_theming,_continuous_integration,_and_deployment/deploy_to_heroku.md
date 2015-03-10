@@ -42,6 +42,8 @@ https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql
 
       $ heroku run rake db:migrate
 
+* If you're using Google Fonts and have issues with it loading, either change the protocol from `http://fonts...` to `https://fonts...`, or leave the protocol out and just use `//fonts...`.
+
 **Final Hint**:
 
 A working Rails 4.0 Gemfile:
