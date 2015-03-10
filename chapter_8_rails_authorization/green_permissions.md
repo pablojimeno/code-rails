@@ -1,15 +1,17 @@
 
 ## GREEN: Pundit it up.
 
-Use Pundit to get all these permitted behaviors sorted out. You may want to add a publish method to the article model like this:
+Use Pundit to get all these permitted behaviors sorted out. You may want to add a method to be used for publishing on the `Article` model:
+
 ```ruby
-  def publish!
-    published = true
-    save!
-  end
+def publish!
+  published = true
+  save!
+end
 ```
 
-add in code to your index view to only show links if the policy allows it:
+Add in code to your index view to only show links if the policy allows it:
+
 ```html
 <% @articles.each do |article| %>
   <tr id="<%= dom_id(article) %>">

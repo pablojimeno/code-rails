@@ -6,6 +6,9 @@ What is code coverage? Read about [code coverage on Wikipedia](http://en.wikiped
 
 How much of your app is tested?
 
-Check test code coverage with SimpleCov locally and, optionally, with [Coveralls.io.](http://coveralls.io/) DRY up your tests with helper methods.
+Check your test code coverage with SimpleCov, locally.
 
-**Extra credit / Discussion:** What are some ways to improve test coverage?
+Optionally, with [Coveralls.io](http://coveralls.io/), DRY up your tests with helper methods.
+
+**Extra Credit / Discussion:**
+What are some ways to improve test coverage?
