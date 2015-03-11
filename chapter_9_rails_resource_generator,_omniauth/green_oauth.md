@@ -5,26 +5,34 @@
 
 Add the `omniauth-twitter` gem to your Gemfile:
 
-    gem 'omniauth-twitter'
+```ruby
+gem 'omniauth-twitter'
+```
 
-We're going to need to use environment variables to store our Twitter credentials on Heroku, so we might as well start using them in development. This is a Rails best practice - **do not check sensitive info into a git repository**.
+We're going to need to use environment variables to store our Twitter credentials on Heroku, so we might as well start using them in development. This is a Rails best practice - **do not check sensitive info into a Git repository**.
 
-The Foreman gem helps with this, and does lots of other useful stuff (Alternatives are dotenv and Figaro). Add the Foreman gem to your system, not to your Gemfile:
+The Foreman gem helps with this, and does lots of other useful stuff. Alternatives to Foreman are dotenv and Figaro.
 
-    gem install foreman
+Add the Foreman gem to your system, not to your Gemfile:
 
-Now read up on [what it does](http://mauricio.github.io/2014/02/09/foreman-and-environment-variables.html), and how it works. Do not miss the "Isolating the configuration" section of that article, as that is what's most relevant here.
+    $ gem install foreman
+
+Now read up on [what it does and how it works](http://mauricio.github.io/2014/02/09/foreman-and-environment-variables.html).
+
+Do not miss the "Isolating the configuration" section of that article, as that is most relevant for us.
 
 
 #### Create a Twitter App
 
-- Visit this page on Twitter to get started: https://dev.twitter.com/apps/new
+1. Visit this page on Twitter to get started:
+
+    https://dev.twitter.com/apps/new
 
 - Use http://127.0.0.1:3000/users/auth/twitter/callback as the callback URL. Using "localhost" instead of the special IP will not validate.
 
-- After the app is created, you'll have to edit the app's settings and check off "Allow this application to be used to sign in with twitter".
+- After your Twitter app is created, you'll have to edit the app's settings and check off "Allow this application to be used to sign in with twitter."
 
-- For some reason you may have to save the setting twice. Double check that the check-box is ***really*** checked.
+- For some reason you may have to save the setting twice. Go back and double check that the check-box is ***really*** checked. This seems to be a bug with Twitter.
 
 - Copy the consumer key and consumer secret into your `config/application.yml` (or `.env` file, depending on which gem you're using).
 
@@ -38,11 +46,13 @@ In `config/initializers/devise.rb`, add:
 config.omniauth :twitter, Rails.application.secrets.twitter_key, Rails.application.secrets.twitter_secret
 ```
 
-Go to config/secrets.yml and under development add `twitter_key` and `twitter_secret`
+Go to `config/secrets.yml` and under development add `twitter_key` and `twitter_secret`.
 
-Add `:omniauthable` to the `devise` line in `app/models/user.rb`.
+Add Devise's `:omniauthable` module to the `devise` line in `app/models/user.rb`.
 
-You'll now see a <u>sign in with twitter link</u> on http://localhost:3000/users/sign_in. We may want to put the link in the main nav, but let's get it working first.
+You'll now see a <u>sign in with twitter link</u> on `http://localhost:3000/users/sign_in`. (Thanks, Devise!)
+
+We may want to put the link in the main nav, but let's get our functionality working first, before we worry about presentation.
 
 If you try to sign in now, you'll see:
 
@@ -62,13 +72,14 @@ controllers: {omniauth_callbacks: "omniauth_callbacks"}
 
 You may already have a hash there if you're using `strong_parameters` in Rails 3.
 
-Follow rest of steps from Railscast #235 (revised), except you will also need to add in `app/models/user.rb`:
+Follow rest of steps from RailsCast Episode #235 (revised), except you will also need to add in `app/models/user.rb`:
 
 ```ruby
 user.name = auth.info.nickname #(instead of user.username; depends on your app)
 user.email = "#{user.name}-CHANGEME@twitter.example.com"
 ```
-Since devise requires an email, we have to assign a fake one that the user can change later.
+
+Since devise *requires* an email for an new user (through model validations), we have to assign a fake one that the user can change later.
 
 ```ruby
 def self.from_omniauth(auth)
@@ -104,9 +115,8 @@ def update_with_password(params, *options)
 end
 ```
 
-Your `app/controllers/omniauth_callbacks_controller` should look like this:
+Your `app/controllers/omniauth_callbacks_controller.rb` should look like this:
 
-https://gist.github.com/ivanoats/7076144
 ```ruby
 class OmniauthCallbacksController < ApplicationController
   def all
@@ -123,13 +133,42 @@ class OmniauthCallbacksController < ApplicationController
 end
 ```
 
+Modify `app/views/devise/registrations/new.html.erb` to include an `if` statement around the password fields; the user doesn't need to enter a password and confirmation *if* the user is signing in with Twitter.
 
-Modify `app/views/devise/registrations/new.html.erb` to include an `if` statement around the password fields.
+Also, modify the `registrations/edit.html.erb` to include an `if` statement around the password fields.
 
-https://gist.github.com/ivanoats/7076164
+Now, your registration views should look something like this:
 
-Modify `registrations/edit.html.erb` to include an `if` statement around the password fields.
+```html
+<h2>Edit <%= resource_name.to_s.humanize %></h2>
 
-https://gist.github.com/ivanoats/7076257
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+  <%= devise_error_messages! %>
 
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email, :autofocus => true %></div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div><%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+  <%= f.password_field :password, :autocomplete => "off" %></div>
+
+  <div><%= f.label :password_confirmation %><br />
+  <%= f.password_field :password_confirmation %></div>
+  <% if f.object.encrypted_password.present? %>
+    <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password %></div>
+  <% end %>
+
+  <div><%= f.submit "Update" %></div>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %></p>
+
+<%= link_to "Back", :back %>
+```
 
