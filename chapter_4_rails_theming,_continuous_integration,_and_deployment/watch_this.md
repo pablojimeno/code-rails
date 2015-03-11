@@ -1,6 +1,6 @@
 # Watch This!
 
-Watch Ryan Bates demonstrate the use of Fundation in this RailsCast: [Episiode #417 - Foundation](ttp://railscasts.com/episodes/417-foundation?view=asciicast).
+Watch Ryan Bates demonstrate the use of Foundation in this RailsCast: [Episiode #417 - Foundation](http://railscasts.com/episodes/417-foundation?view=asciicast).
 
 Work along with the video to make a new Rails app.
 
