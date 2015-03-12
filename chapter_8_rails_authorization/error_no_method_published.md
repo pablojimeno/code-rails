@@ -1,46 +1,49 @@
 ### ERROR:
 
-        undefined method `published' for #<Article:0x007ffef4275ad8>
+    undefined method `published' for #<Article:0x007ffef4275ad8>
 
-Add a migration to have 'published' attribute for articles.
+Generate a migration that adds a 'published' attribute to the articles table.
 
-        $ rails generate migration add_published_to_articles published:boolean
+    $ rails generate migration add_published_to_articles published:boolean
 
-How's the generated migration look?
+How's the generated migration look? Good?
 
     $ rake db:migrate test:prepare
 
-
 Run the test again. Why is it still failing? The attribute is in the form, in the view, and in the database. Shouldn't Rails just put the pieces together?
-
 
 Let's troubleshoot. What does `save_and_open_page` show you about the article's "status"?
 
-
 Are you properly checking the checkbox in the form? `save_and_open_page` can show this as well.
 
-If all looks well, let's take a look at the last 200 lines or so of the test log file, immediately after running this one test (eg: NOT `rake`):
+If all looks well, let's take a look at the last 200 lines or so of the test log file, immediately after running this one test (note: that's NOT `rake`):
 
     $ tail -n200 log/test.log
 
-Scroll back through the logs until you find the details about the article creation. Look for something like:
+Scroll back through the logs until you find the details about the article creation.
 
-  `Processing by ArticlesController#create`
+Look for something like the following in the output:
 
-Does the params hash include the published attribute?
+    Processing by ArticlesController#create
 
-    published"=>"1"
+Does the `params` hash include the `published` attribute?
 
-Why isn't it getting saved? What does the log report happens next?
+    "published" => "1"
+
+Why isn't it getting saved? What does the log report next?
 
 Did you notice the line:
 
     Unpermitted parameters: published
 
-How do we fix that? We need to permit the published parameter!
+How do we fix that? We need to `permit` the `published` parameter!
 
 Where do we do that? How do we allow it only for editors, and not authors?
-The controller is the only part of MVC that is session-aware. We need one additional param permitted, if the user is an editor. Ruby allows lists to end with a comma. So we can conditionally add a final item to our article_params method:
+
+The controller is the only part of MVC that is session-aware. We need one additional `param` permitted, if the user is an editor.
+
+Ruby allows lists to end with a comma - that means we can conditionally add a final item to our `article_params` method:
+
 ```ruby
-  params.require(:article).permit(:title, :body, (:published if current_user.role == "editor"))
+params.require(:article).permit(:title, :body, (:published if current_user.role == "editor"))
 ```
