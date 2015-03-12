@@ -1,11 +1,11 @@
 
 ## REFACTOR Creating Articles
 
-This concept is key.
+This concept is key:
 
 In *two* different places, we did a literal check of the value of `current_user.role` to permit a behavior.
 
-*This is a code smell.*
+This is not DRY. *This is a code smell.*
 
 We really just want to know if the user has publishing permission. In the future, that may not be only editors.
 
@@ -23,7 +23,7 @@ if ArticlePolicy.new(current_user, @article).publish?
 
 Then we can keep the implementation in a single place for better maintainability. The new code is not shorter, but it is *Better* with a capital **B**! :] What does the implementation look like?
 
-We can create a PORO (plain old ruby object) in a new directory, `app/policies`. We should have one policy file for each *Resource* in our app.
+We can create a PORO (plain old ruby object) in a new directory, `app/policies`. Perhaps we should have one policy file for each *Resource* in our app?
 
 The `article_policy.rb` file should define a `publish?` method to encapsulate our business logic:
 
@@ -42,13 +42,27 @@ class ArticlePolicy
 end
 ```
 
-Try that out! Is your test still passing when you use the `ArticlePolicy` object to check publish permission?
+Try that out: go through your previous code changes, and replace the role-checks with this new object-oriented goodness.
+
+Is your test still passing when you use the `ArticlePolicy` object to check publish permission?
 
 No? That's one reason we have tests. Go fix your policy implementation and come back.
 
 Yes? Great! Keep going.
 
 So, we will still have our code littered with instantiations of `ArticlePolicy`, and passing in `current_user`. Wouldn't it be nice if we had a short-hand way to access the policy method, operating under the convention of `current_user`?
+
+How about a wrapper function along the lines of:
+```ruby
+def policy(model)
+  (controller_name.classify + "Policy").constantize.new(current_user, model)
+end
+```
+
+If we take the current controller, add "Policy", and turn it into a class, we can instantiate the correct policy file, and return that to the view for whatever check we need. 
+
+Wouldn't it be nice if there was a whole collection of helper methods like that, to assist us in all the places we need to check user permissions?
+
 Enter the Pundit gem!
 
 ## Pundit Gem
@@ -63,7 +77,7 @@ Enter the Pundit gem!
     $ rails generate pundit:policy article
 
 
-**IMPORTANT**: Edit this policy class. Include a `create?` policy and `publish?` policy (and others eventually). Check the README for hints on implementation. This is the ***meat*** of this chapter's exercise; without a policy, all of the other behaviors will be much more tedious!
+**IMPORTANT**: Edit this policy class. Include a `create?` policy and `publish?` policy (and others eventually). Check the Pundit README for hints on implementation. This is the ***meat*** of this chapter's exercise; without a policy, all of the other behaviors will be much more tedious!
 
 ## Further Refactors
 

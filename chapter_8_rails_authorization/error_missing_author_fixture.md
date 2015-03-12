@@ -21,3 +21,5 @@ editor:
   encrypted_password: <%= User.new.send(:password_digest, 'password') %>
   role: editor
 ```
+
+Can you decipher how that password is getting registered?

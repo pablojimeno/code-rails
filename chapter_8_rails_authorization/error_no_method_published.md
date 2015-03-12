@@ -16,11 +16,11 @@ Let's troubleshoot. What does `save_and_open_page` show you about the article's 
 
 Are you properly checking the checkbox in the form? `save_and_open_page` can show this as well.
 
-If all looks well, let's take a look at the last 200 lines or so of the test log file, immediately after running this one test (note: that's NOT `rake`):
+If all looks well, let's take a look at the last 200 lines or so of the test log file, immediately after running this one test (NB: that's NOT `rake`):
 
     $ tail -n200 log/test.log
 
-Scroll back through the logs until you find the details about the article creation.
+Scroll back through the logs until you find the details about the article creation. For real, do this now. Learning to read the server logs is a clutch troubleshooting skill. It can look like a lot of intimidating gobbletygook, but if you read it carefully, you'll see Rails is reporting exactly what is going on. That's often very useful!
 
 Look for something like the following in the output:
 

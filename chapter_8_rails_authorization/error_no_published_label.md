@@ -9,7 +9,7 @@ This seems like a bad message in the test output. We asserted that the HTML will
 
 Actually, the test ***is*** properly failing. The error message's English is not correctly negated due to the way `minitest-capybara` generated this particular refutation's message (remember, we're using the `wont_have_field` refutation).
 
-That is, ideally, this error message would have read:
+That is to say: Ideally, this error message would have read:
 
     in "authors can't publish" expected to *not* find published
 

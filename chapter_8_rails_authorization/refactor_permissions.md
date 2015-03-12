@@ -8,7 +8,8 @@ How much of your app is tested?
 
 Check your test code coverage with SimpleCov, locally.
 
-Optionally, with [Coveralls.io](http://coveralls.io/), DRY up your tests with helper methods.
+Optionally, use a CI coverage option, like [Coveralls.io](http://coveralls.io/). Yes! Another repo badge!
 
-**Extra Credit / Discussion:**
-What are some ways to improve test coverage?
+Take a few moments to DRY up your tests with helper methods.
+
+What are some ways to improve your test coverage?

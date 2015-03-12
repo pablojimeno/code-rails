@@ -51,6 +51,7 @@ scenario "authors can't publish" do
   page.wont_have_field('published')
 end
 ```
+and:
 
 ```ruby
 scenario "editors can publish" do
@@ -73,3 +74,5 @@ scenario "editors can publish" do
   page.text.must_include "Status: Published"
 end
 ```
+
+Let's see what it takes to get these to green!
