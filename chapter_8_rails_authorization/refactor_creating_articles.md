@@ -1,11 +1,11 @@
 
 ## REFACTOR Creating Articles
 
-This concept is key.
+This concept is key:
 
 In *two* different places, we did a literal check of the value of `current_user.role` to permit a behavior.
 
-*This is a code smell.*
+This is not DRY. *This is a code smell.*
 
 We really just want to know if the user has publishing permission. In the future, that may not be only editors.
 
@@ -23,7 +23,7 @@ if ArticlePolicy.new(current_user, @article).publish?
 
 Then we can keep the implementation in a single place for better maintainability. The new code is not shorter, but it is *Better* with a capital **B**! :] What does the implementation look like?
 
-We can create a PORO (plain old ruby object) in a new directory, `app/policies`. We should have one policy file for each *Resource* in our app.
+We can create a PORO (plain old ruby object) in a new directory, `app/policies`. Perhaps we should have one policy file for each *Resource* in our app?
 
 The `article_policy.rb` file should define a `publish?` method to encapsulate our business logic:
 
