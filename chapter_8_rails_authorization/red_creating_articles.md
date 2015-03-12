@@ -49,6 +49,7 @@ Let's consider an article `published` if a simple boolean database value is flip
     page.wont_have_field('published')
   end
 ```
+and:
 
 ```ruby
   scenario "editors can publish" do
@@ -71,3 +72,5 @@ Let's consider an article `published` if a simple boolean database value is flip
     page.text.must_include "Status: Published"
   end
 ```
+
+Let's see what it takes to get these to green!
