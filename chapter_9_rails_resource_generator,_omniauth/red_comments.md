@@ -17,10 +17,8 @@ Comments should store this info:
 - commenter_name
 - commenter_url
 - commenter_email
-- user_ip
-- user_agent
-- referrer
 - content:text
+- article:belongs_to
 - approved:boolean
 
 You now have all the info you need to write your specs. Go to it! 
