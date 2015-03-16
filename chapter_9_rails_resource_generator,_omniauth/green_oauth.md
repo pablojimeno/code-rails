@@ -1,7 +1,10 @@
 # GREEN: OAuth
 
-### Here is the *Path*:
+You have the feature spec'd out, so you are now ready to write code. 
 
+Use your test to guide you, and hints from the path here help you when you are stuck.
+
+### Here is the *Path*:
 
 Add the `omniauth-twitter` gem to your Gemfile:
 
@@ -11,7 +14,7 @@ gem 'omniauth-twitter'
 
 We're going to need to use environment variables to store our Twitter credentials on Heroku, so we might as well start using them in development. This is a Rails best practice - **do not check sensitive info into a Git repository**.
 
-The Foreman gem helps with this, and does lots of other useful stuff. Alternatives to Foreman are dotenv and Figaro.
+The `dotenv` and Figaro gems help with this. Actually, this is a good time to start using Foreman, a way to start up your Rails server and any other processes it might depend on. It uses `dotenv` for configuration management.
 
 Add the Foreman gem to your system, not to your Gemfile:
 
@@ -20,7 +23,6 @@ Add the Foreman gem to your system, not to your Gemfile:
 Now read up on [what it does and how it works](http://mauricio.github.io/2014/02/09/foreman-and-environment-variables.html).
 
 Do not miss the "Isolating the configuration" section of that article, as that is most relevant for us.
-
 
 #### Create a Twitter App
 
@@ -32,9 +34,9 @@ Do not miss the "Isolating the configuration" section of that article, as that i
 
 - After your Twitter app is created, you'll have to edit the app's settings and check off "Allow this application to be used to sign in with twitter."
 
-- For some reason you may have to save the setting twice. Go back and double check that the check-box is ***really*** checked. This seems to be a bug with Twitter.
+- For some reason you may have to save the setting twice. Go back and double check that the check-box is ***really*** checked. This seems to be a long-standing bug with Twitter.
 
-- Copy the consumer key and consumer secret into your `config/application.yml` (or `.env` file, depending on which gem you're using).
+- Copy the consumer key and consumer secret into your `.env` file (or `config/application.yml` if you are using Figaro).
 
 <br />
 
@@ -46,7 +48,7 @@ In `config/initializers/devise.rb`, add:
 config.omniauth :twitter, Rails.application.secrets.twitter_key, Rails.application.secrets.twitter_secret
 ```
 
-Go to `config/secrets.yml` and under development add `twitter_key` and `twitter_secret`.
+Go to `config/secrets.yml` and under development, set `twitter_key` and `twitter_secret` to load from system ENV vars.
 
 Add Devise's `:omniauthable` module to the `devise` line in `app/models/user.rb`.
 
@@ -70,16 +72,20 @@ We'll fix that by running:
 controllers: {omniauth_callbacks: "omniauth_callbacks"}
 ```
 
-You may already have a hash there if you're using `strong_parameters` in Rails 3.
-
-Follow rest of steps from RailsCast Episode #235 (revised), except you will also need to add in `app/models/user.rb`:
+Follow the rest of the steps from RailsCast Episode #235 (revised), except you will also need to add in `app/models/user.rb`:
 
 ```ruby
-user.name = auth.info.nickname #(instead of user.username; depends on your app)
+user.name = auth.info.nickname
+```
+instead of user.username (depends on your app). Also:
+
+```ruby
 user.email = "#{user.name}-CHANGEME@twitter.example.com"
 ```
 
 Since devise *requires* an email for an new user (through model validations), we have to assign a fake one that the user can change later.
+
+A handful of methods will be useful in the User model:
 
 ```ruby
 def self.from_omniauth(auth)
