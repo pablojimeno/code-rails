@@ -10,6 +10,8 @@ The 7 year old slide deck, below, has some good info. Review the first 35 slides
 
 http://jamesmead.org/talks/2007-07-09-introduction-to-mock-objects-in-ruby-at-lrug/
 
+Can you tell why it is we want to mock out the Twitter component?
+
 We're going to have to set some environment settings for Capybara, Devise, and Omniauth (included in the code sample below).
 
 Background article on OmniAuth's wiki:

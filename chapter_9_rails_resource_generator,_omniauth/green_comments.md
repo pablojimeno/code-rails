@@ -6,9 +6,9 @@ Use the resource generator:
 
 <pre style="color: #f7f7f7">
 <code>
-$ rails g resource comment author \
-author_url \
-author_email \
+$ rails g resource comment commenter_name \
+commenter_url \
+commenter_email \
 user_ip \
 user_agent \
 referrer \
@@ -21,7 +21,7 @@ article:references \
 
 Take a look at each generated file. See what it is doing?
 
-Now follow the failing/erroring tests. You'll likely need to do these things:
+Now run your specs, and work through the failing/erroring tests. You'll likely need to do these things:
 
 - Code up a comment form, embedded in the article `show` view.
 
@@ -33,4 +33,4 @@ Now follow the failing/erroring tests. You'll likely need to do these things:
 
 - Just send the user back to the article, no need to create a comment show action.
 
-Implement whatever you may need to get comment approval going. Let Pundit help you!
+Finally, implement whatever you may need to get comment approval going. Let Pundit help you!

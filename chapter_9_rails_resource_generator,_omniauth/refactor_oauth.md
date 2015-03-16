@@ -1,7 +1,5 @@
 ### REFACTOR: OAuth
 
-If you are done with everything else, here's an optional extra challenge for you. You're going to get comment spam, *eventually*.
+Trace through your OAuth flow, and ensure you are following along with what's happening. Are you actually using all those new methods in your User model? 
 
-Implement Rakismet to reduce spam in your comments:
-
-https://github.com/joshfrench/rakismet
+Where can you make the code easier to read?
