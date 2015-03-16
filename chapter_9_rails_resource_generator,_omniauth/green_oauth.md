@@ -30,11 +30,11 @@ Do not miss the "Isolating the configuration" section of that article, as that i
 
     https://dev.twitter.com/apps/new
 
-- Use http://127.0.0.1:3000/users/auth/twitter/callback as the callback URL. Using "localhost" instead of the special IP will not validate.
+- Use `http://127.0.0.1:3000/users/auth/twitter/callback` as the callback URL. That special IP address is an alias for "localhost" that you should use, as a literal "localhost" string will not validate.
 
 - After your Twitter app is created, you'll have to edit the app's settings and check off "Allow this application to be used to sign in with twitter."
 
-- For some reason you may have to save the setting twice. Go back and double check that the check-box is ***really*** checked. This seems to be a long-standing bug with Twitter.
+- For some reason you may have to save that particular setting twice. Go back and double check that the check-box is ***really*** checked. This seems to be a long-standing bug with Twitter.
 
 - Copy the consumer key and consumer secret into your `.env` file (or `config/application.yml` if you are using Figaro).
 
@@ -52,7 +52,7 @@ Go to `config/secrets.yml` and under development, set `twitter_key` and `twitter
 
 Add Devise's `:omniauthable` module to the `devise` line in `app/models/user.rb`.
 
-You'll now see a <u>sign in with twitter link</u> on `http://localhost:3000/users/sign_in`. (Thanks, Devise!)
+You'll now see a <u>sign in with twitter</u> link on `http://localhost:3000/users/sign_in`. (Thanks, Devise!)
 
 We may want to put the link in the main nav, but let's get our functionality working first, before we worry about presentation.
 
