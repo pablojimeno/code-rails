@@ -14,7 +14,7 @@ user_agent \
 referrer \
 content:text \
 approved:boolean \
-article:references \
+article:belongs_to \
 --skip-test-framework
 </code>
 </pre>
