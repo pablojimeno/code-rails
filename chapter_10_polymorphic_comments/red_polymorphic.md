@@ -1,6 +1,6 @@
 ## RED Polymorphic
 
-Surprise Enhancement Request! The "client" wants portfolio items to be commentable too!
+Wouldn't it be great if you could showcase some testimonials from those you worked with on your previous projects? Let's make it so comments can be written on projects (and you'll just approve the positive ones).
 
 Write out the user stories for comments on projects. Authorization can match existing comment policies.
 
