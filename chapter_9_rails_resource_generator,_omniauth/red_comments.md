@@ -4,7 +4,7 @@ Write some specs for these stories:
 
 - As a site visitor I want to write a comment on a blog article page so that I can troll the author.
 
-- As an author or editor I want to approve comments so that my blog does not have spam comments.
+- As an editor I want to approve comments so that my blog does not have spam comments.
 
 Where is the best place to put these additional specs? How many scenarios do you need to cover the above user stories sufficiently?
 
@@ -17,10 +17,8 @@ Comments should store this info:
 - commenter_name
 - commenter_url
 - commenter_email
-- user_ip
-- user_agent
-- referrer
 - content:text
+- article:belongs_to
 - approved:boolean
 
 You now have all the info you need to write your specs. Go to it! 

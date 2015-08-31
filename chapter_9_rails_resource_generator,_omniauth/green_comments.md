@@ -14,7 +14,7 @@ user_agent \
 referrer \
 content:text \
 approved:boolean \
-article:references \
+article:belongs_to \
 --skip-test-framework
 </code>
 </pre>
@@ -22,6 +22,8 @@ article:references \
 Take a look at each generated file. See what it is doing?
 
 Now run your specs, and work through the failing/erroring tests. You'll likely need to do these things:
+
+- Establish the proper relationship between a Comment and an Article (be sure to get it right in both directions).
 
 - Code up a comment form, embedded in the article `show` view.
 
