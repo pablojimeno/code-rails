@@ -7,7 +7,7 @@ She is talking about building great products (web apps), to most effectively hel
 
 Highlights:
 - Practice makes <s>perfect</s> **permanent**. Ensure you practice the correct thing.
-- If you want to be a badass, maximize repeated exposure to the performance, process, and results of badass examples (models).
+- If you want to be a badass, maximize frequent exposure to the performance, process, and results of badass examples (models).
 - Edge Practice: practicing the same thing over and over doesn't make you great. Practice at the edge of your abilities to stretch them to new heights.
 - Edge / deliberate practice is NOT the same as tutorials. Find a way to get high-quality, low-latency feedback. Example: make it easy to keep re-running a failed test of your code, until you know when it passes.
 
