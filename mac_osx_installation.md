@@ -34,11 +34,12 @@ $ which git
 ## Configure Git
 Depending on your shell, add this line to your `~/.bash_profile` or `~/.zshrc`: `export PATH="/usr/local/bin:$PATH"`
 
-Run and you should see:
+Check the version to ensure you have the latest:
 ```
 $ git --version
-git version 2.1.0
 ```
+(It should be something higher than `2.2`)
+
 
 Tell your git installation who you are, and how you like it:
 
