@@ -1,4 +1,6 @@
-# As a dev, I want a web page that outputs a welcome message via HTML, so that I can learn how to test web pages
+# Simple Server on port 4000
+
+## As a dev, I want a web page that outputs a welcome message via HTML, so that I can learn how to test web pages
 
 Use BDD to develop your own simple HTML page. You can create an html page with your text editor.
 
@@ -29,7 +31,9 @@ trap('INT') { s.shutdown }
 s.start
 ```
 
-Just save that to an executable file named `serve` in a bin directory that's in your path. Now when are in a directory with html files, you can run:`serve` to make those files accessible on port 4000. (If you're running the fish shell, you may have to run `./serve`.
+Save this to an executable file named `serve` in a bin directory that's in your path. Now when are in a directory with html files, you can run:`serve` to make those files accessible on port 4000. (If you're running the fish shell, you may have to run `./serve`.
+
+So, generally save 'serve' in /usr/local/bin set the permissions with the chmod command.  In the terminal, navigate to the /user/local/bin directory, if you type ls -la, you will see your serve file and it's permission settings.  you can then use the chmod command to set the serve file to an executable.
 
 
 **OR** you can create a serve function in your ~/.bashrc or ~/.bash_profile (in your home directory:
