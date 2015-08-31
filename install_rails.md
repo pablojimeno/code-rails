@@ -16,16 +16,20 @@ Do you really need a ruby version manager? If you can get away with just using t
 ## If you need a package manager...
 Otherwise, how about using [chruby](https://github.com/postmodern/chruby)? Review it's docs for the latest setup instructions.
 
-For easier installation of multiple ruby versions, use `ruby-install`. Get it going by reading the docs.
+For easier installation of multiple ruby versions, use `ruby-install`. Get it going by reading the docs, or using your favorite package manager.
 
+Then you can finally: 
+```sh
+$ ruby-install ruby
+```
 
 ## Install Bundler and capybara-webkit:
 
 These will come in handy very soon:
 
 ```
-gem install bundler
-gem install capybara-webkit
+$ gem install bundler
+$ gem install capybara-webkit
 ```
 
 ## Install Rails
