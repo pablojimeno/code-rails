@@ -1,12 +1,23 @@
-# As a developer, I want to understand automated testing so that I can BDD all the things
+# Automated Testing!!!
 
+### As a developer, I want to understand automated testing so that I can assert that I'm not breaking things when I add/change parts of my app.
+
+### As a developer, I want to understand automated testing so that I can BDD my app together
 
 ## How do we know our app works?
 
-  You can test manually, with teams of real people and a lot of clicking, or you can automate it.
+Many times, throughout the development of any app, you will want to make changes which may or may not effect other parts of it. So, whenever you add, modify or refactor your app, you need to test it. There are a couple of ways to test your app.
+
+  - You can test manually, with teams of real people and a lot of clicking. (click, click, click, click, etc...) Have fun on your big app.
+
+  OR
+
+  - You can automate it. (NEAT!)
+
+
 
 ### Types of Testing
-####Unit Tests
+#### Unit Tests
 
 Unit testing tests "the smallest testable part of an application". This could be an object-oriented class, or even an individual function (or method). Unit tests are fast because they test only one thing at a time. Each test case should be independent of the others. They help find problems early, make it easy to change both the unit under test, and other parts of your program that depend on your unit. They can help simplify system-wide integration testing. Unit tests provide "documentation as code". Not as good as real documentation, but it has its advantages because unit tests that are out of date will fail. Unit tests drive design by specifying "the ends" and not "the means". Disadvantages of unit testing are that because it is so specific, it can't catch more complex errors that rely on multiple units. For example, complex states of multiple objects, or problems with multiple threads. In Rails, we typically use unit testing for Models, and you can find the unit tests in the spec/models directory.
 

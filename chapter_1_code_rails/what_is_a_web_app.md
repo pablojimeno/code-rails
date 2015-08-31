@@ -15,16 +15,18 @@
  - Read: [Visions of a Post-Agile world](http://blog.sprint.ly/post/41801740808/visions-of-a-post-agile-world)
  -
 
-## Let's put that into practice
+## Let's put these into practice
 
-To explore these concepts further, let's lay out our objectives for today as user stories:
+To explore these concepts further, let's lay out our objectives for today as
 
-- As a developer, I want to use a Project Management App so that I can track my tasks and progress
+### User Stories:
 
-- As a developer, I want to understand automated testing so that I can use BDD
+  - As a developer, I want to use a Project Management App so that I can track my tasks and progress
 
-- As a developer, I want to use and understand BDD so that my projects turn out great
+  - As a developer, I want to understand automated testing so I don't break parts of my app
 
-- As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions
+  - As a developer, I want to use and understand BDD so that my projects turn out great
 
-This is our guide for the day. Each of the following sections will lead you where you need to go.
+  - As a Rails developer, I want to understand the structure of a Rails app so that I can use Rails conventions to build my app quickly and easily
+
+This is our guide for the day. Each of the following sections take you through building some basic tests.
