@@ -1,7 +1,8 @@
 # Install Ruby and Rails
 
+With the setup work done, let's get to the good stuff!
 
-## Install a Ruby Version Manager
+## Install a Ruby Version Manager?
 
 Don't use RVM. 
 
