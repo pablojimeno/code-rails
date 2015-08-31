@@ -7,22 +7,6 @@ sudo apt-get update
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
 ```
 
-#### Install a Ruby Version Manager
-
-Don't use RVM. How about using [chruby](https://github.com/postmodern/chruby)? Review it's docs for the latest setup instructions.
-
-If you are already using RVM, go ahead and remove it. You can delete all things RVM from your system with a single command:
-
-```
-  rvm implode
-```
-
-#### Install Bundler and capybara-webkit:
-
-```
-gem install bundler
-gem install capybara-webkit
-```
 ####Install and configure Git
 ```
 sudo add-apt-repository ppa:git-core/ppa
