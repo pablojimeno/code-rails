@@ -10,7 +10,7 @@ You have a fresh new Rails app, which by default says "Welcome Aboard"
 
 - a Ruby framework
 
-  >"Rails is actually a collection of 7 different ruby gems that are designed to function independently or together, to form a framework for web apps."
+  >Rails is actually a collection of 7 different ruby gems that are designed to function independently or together, to form a framework for web apps.
 - Utilizes Convention over Configuration
   - [Read more about convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)
   - Optional bonus reading: [Why universal remotes suck](http://softwareengineering.vazexqi.com/files/pattern.html)
