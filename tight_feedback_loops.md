@@ -1,6 +1,6 @@
 # Tight feedback loops
 
-Leverage the power of iteration.
+Leverage the power of iteration. 
 
 > You can't steer a ship that's dead in the water.
 
@@ -21,3 +21,5 @@ You will get feedback from:
 Make the most of all these opportunities to keep learning and focused on the right areas of development.
 
 (One quick and easy thing you can do to help yourself in this area: **Read** your error messages!)
+
+Read more on the power of iteration: http://frankchimero.com/writing/on-iteration/.
