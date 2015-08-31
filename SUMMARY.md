@@ -20,7 +20,7 @@
    * [Install Ruby and Rails](installing_ruby_and_rails.md)
        * [Mac OS X Installation](mac_osx_installation.md)
        * [Ubuntu Installation](ubuntu_installation.md)
-       * [Install Rails](install_rails.md)
+       * [Install Ruby and Rails](install_rails.md)
        * [Need a Ruby Version Manager?](need_a_ruby_version_manager.md)
 * [Chapter 1: BDD & TATFT](chapter_1_code_rails/README.md)
    * [What is a web app?](chapter_1_code_rails/what_is_a_web_app.md)
