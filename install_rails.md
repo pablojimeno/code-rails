@@ -6,10 +6,8 @@ Now that you are humming along on the latest ruby, let's get the latest (stable)
 $ gem install rails
 ```
 
-- rehash rbenv and see if rails installed correctly:
-
+Verify:
 ```
-$ rbenv rehash
 $ rails -v
 Rails [version number]
 ```
