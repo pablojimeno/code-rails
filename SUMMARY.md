@@ -21,7 +21,6 @@
        * [Mac OS X Installation](mac_osx_installation.md)
        * [Ubuntu Installation](ubuntu_installation.md)
        * [Install Ruby and Rails](install_rails.md)
-   * Chapter 5: Deployment
 * [Chapter 1: BDD & TATFT](chapter_1_code_rails/README.md)
    * [What is a web app?](chapter_1_code_rails/what_is_a_web_app.md)
    * [Project Management](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
@@ -136,6 +135,7 @@
        * [Spec the show & index views](chapter_5_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
+* Chapter 5: Deployment
 * [Chapter 6: Rails Authentication](chapter_6_rails_authentication/README.md)
    * [Authentication From Scratch](chapter_6_rails_authentication/authentication_from_scratch.md)
    * [Authentication with Devise](chapter_6_rails_authentication/authentication_with_devise.md)
