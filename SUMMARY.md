@@ -26,7 +26,7 @@
    * [Project Management](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
    * [Automated Testing!!!](chapter_1_code_rails/as_a_developer,_i_want_to_understand_automated_testing_so_that_i_can_bdd_all_the_things.md)
    * [BDD](chapter_1_code_rails/as_a_developer,_i_want_to_use_and_understand_bdd_so_that_my_projects_turn_out_great.md)
-       * [As a dev, I want a simple program that has a welcome message, so that I learn how to write and test a simple ruby project](chapter_1_code_rails/as_a_dev,_i_want_a_simple_program_that_has_a_welcome_message,_so_that_i_learn_how_to_write_and_test_a_simple_ruby_project.md)
+       * [Simple Welcome](chapter_1_code_rails/as_a_dev,_i_want_a_simple_program_that_has_a_welcome_message,_so_that_i_learn_how_to_write_and_test_a_simple_ruby_project.md)
            * [Example ruby class spec](chapter_1_code_rails/example_ruby_class_spec.md)
        * [As a dev, I want a program to test a web search, so that I can learn more about interacting with web pages](chapter_1_code_rails/as_a_dev,_i_want_a_program_to_test_a_web_search,_so_that_i_can_learn_more_about_interacting_with_web_pages.md)
            * [Example web search spec](chapter_1_code_rails/example_web_search_spec.md)
