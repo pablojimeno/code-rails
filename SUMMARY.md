@@ -32,7 +32,7 @@
            * [Example web search spec](chapter_1_code_rails/example_web_search_spec.md)
        * [Simple Server on port 4000](chapter_1_code_rails/as_a_dev,_i_want_a_web_page_that_outputs_a_welcome_message_via_html,_so_that_i_can_learn_how_to_test_web_pages.md)
            * [Example local html spec](chapter_1_code_rails/example_spec.md)
-       * [As a dev, I want a basic Rails app up and running on port 3000 of my computer](chapter_1_code_rails/as_a_dev,_i_want_a_basic_rails_app_up_and_running_on_port_3000_of_my_computer.md)
+       * [Rails app on port 3000](chapter_1_code_rails/as_a_dev,_i_want_a_basic_rails_app_up_and_running_on_port_3000_of_my_computer.md)
    * [As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions](chapter_1_code_rails/as_a_rails_developer,_i_want_to_understand_the_structure_of_a_rails_app_so_that_i_can_understand_rails_conventions.md)
 * [Chapter 2: Rails Best Practices](chapter_2_rails_best_practices/README.md)
    * [As a developer, I want to use version control so that I can save history and collaborate with others](chapter_2_rails_best_practices/introduction.md)
