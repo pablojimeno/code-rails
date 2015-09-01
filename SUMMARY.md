@@ -132,7 +132,7 @@
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 5: Deployment](chapter_5_deployment/README.md)
-   * [As a parent, I want to see the good work my kid does so that I can show it off to my friends](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_parent,_i_want_to_see_the_good_work_my_kid_does_so_that_i_can_show_it_off_to_my_friends.md)
+   * [Deploy to Heroku](chapter_5_deployment/deploy_to_heroku.md)
        * [Deploy to Heroku](chapter_4_rails_theming,_continuous_integration,_and_deployment/deploy_to_heroku.md)
        * [Get a domain name](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_your_custom_domain_name_and_aws.md)
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
