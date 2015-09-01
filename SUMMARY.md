@@ -134,7 +134,7 @@
        * [Deploy to Heroku](chapter_4_rails_theming,_continuous_integration,_and_deployment/deploy_to_heroku.md)
        * [Get a domain name](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_your_custom_domain_name_and_aws.md)
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
-   * [As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_my_app_to_only_go_to_production_when_all_tests_pass,_so_that_i_know_my_live_code_is_working_and_i_dont_deploy_bugs.md)
+   * [Continous Integration](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_my_app_to_only_go_to_production_when_all_tests_pass,_so_that_i_know_my_live_code_is_working_and_i_dont_deploy_bugs.md)
        * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
 * [Chapter 6: Rails Authentication](chapter_6_rails_authentication/README.md)
    * [Authentication From Scratch](chapter_6_rails_authentication/authentication_from_scratch.md)
