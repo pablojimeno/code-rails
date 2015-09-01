@@ -23,7 +23,7 @@
        * [Install Ruby and Rails](install_rails.md)
 * [Chapter 1: BDD & TATFT](chapter_1_code_rails/README.md)
    * [What is a web app?](chapter_1_code_rails/what_is_a_web_app.md)
-   * [As a developer, I want to use a Project Management App so that I can track my tasks and progress](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
+   * [Project Management](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
    * [As a developer, I want to understand automated testing so that I can BDD all the things](chapter_1_code_rails/as_a_developer,_i_want_to_understand_automated_testing_so_that_i_can_bdd_all_the_things.md)
    * [As a developer, I want to use and understand BDD so that my projects turn out great](chapter_1_code_rails/as_a_developer,_i_want_to_use_and_understand_bdd_so_that_my_projects_turn_out_great.md)
        * [As a dev, I want a simple program that has a welcome message, so that I learn how to write and test a simple ruby project](chapter_1_code_rails/as_a_dev,_i_want_a_simple_program_that_has_a_welcome_message,_so_that_i_learn_how_to_write_and_test_a_simple_ruby_project.md)
