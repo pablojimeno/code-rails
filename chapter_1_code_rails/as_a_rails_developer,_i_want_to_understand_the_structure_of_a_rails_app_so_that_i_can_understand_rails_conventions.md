@@ -1,4 +1,4 @@
-# Rails Convention
+# Rails Conventions
 
 ### As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions
 
