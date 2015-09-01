@@ -173,7 +173,7 @@
    * [RED Permissions](chapter_8_rails_authorization/red_permissions.md)
    * [GREEN Permissions](chapter_8_rails_authorization/green_permissions.md)
    * [REFACTOR Permissions](chapter_8_rails_authorization/refactor_permissions.md)
-* [Chapter 9: Rails Resource Generator, OmniAuth](chapter_9_rails_resource_generator,_omniauth/README.md)
+* [Chapter 10: Rails Resource Generator, OmniAuth](chapter_9_rails_resource_generator,_omniauth/README.md)
    * [RED Comments](chapter_9_rails_resource_generator,_omniauth/red_comments.md)
    * [GREEN Comments](chapter_9_rails_resource_generator,_omniauth/green_comments.md)
    * [REFACTOR Comments](chapter_9_rails_resource_generator,_omniauth/refactor_comments.md)
