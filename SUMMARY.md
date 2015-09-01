@@ -38,7 +38,7 @@
    * [Version Control](chapter_2_rails_best_practices/introduction.md)
    * [Best Practices](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_my_code_to_follow_industry-standard_best_practices_so_that_my_projects_are_readable,_scalable,_and_secure.md)
    * [Start Project Management](chapter_2_rails_best_practices/as_a_developer,_i_want_a_pm_tool_to_track_my_repo_so_that_i_can_complete_stories_from_my_commit_message,_save_time,_and_inform_management.md)
-   * [As an employer, I want your site to have a welcome page so that I can learn about what an awesome Rails developer you are](chapter_2_rails_best_practices/as_an_employer,_i_want_your_site_to_have_a_welcome_page_so_that_i_can_learn_about_what_an_awesome_rails_developer_you_are.md)
+   * [Start Portfolio](chapter_2_rails_best_practices/as_an_employer,_i_want_your_site_to_have_a_welcome_page_so_that_i_can_learn_about_what_an_awesome_rails_developer_you_are.md)
        * [RED](chapter_2_rails_best_practices/red.md)
        * [GREEN](chapter_2_rails_best_practices/green.md)
        * [Refactor](chapter_2_rails_best_practices/refactor.md)
