@@ -78,6 +78,7 @@
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
    * [As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_my_app_to_only_go_to_production_when_all_tests_pass,_so_that_i_know_my_live_code_is_working_and_i_dont_deploy_bugs.md)
        * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
+   * Chapter 5: Deployment
 * [Chapter 5: Rails MVC Breakdown](chapter_5_rails_mvc_breakdown/README.md)
    * [Pre-requisite Reading](chapter_5_rails_mvc_breakdown/51_activerecord_basics.md)
    * [Clean Up Test and Features Directory](chapter_5_rails_mvc_breakdown/section_2.md)
