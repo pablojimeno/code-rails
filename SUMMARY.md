@@ -21,6 +21,7 @@
        * [Mac OS X Installation](mac_osx_installation.md)
        * [Ubuntu Installation](ubuntu_installation.md)
        * [Install Ruby and Rails](install_rails.md)
+   * Chapter 5: Deployment
 * [Chapter 1: BDD & TATFT](chapter_1_code_rails/README.md)
    * [What is a web app?](chapter_1_code_rails/what_is_a_web_app.md)
    * [Project Management](chapter_1_code_rails/as_a_developer,_i_want_to_use_a_project_management_app_so_that_i_can_track_my_tasks_and_progress.md)
