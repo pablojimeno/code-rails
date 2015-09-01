@@ -42,7 +42,7 @@
        * [RED](chapter_2_rails_best_practices/red.md)
        * [GREEN](chapter_2_rails_best_practices/green.md)
        * [Refactor](chapter_2_rails_best_practices/refactor.md)
-   * [As a Rails developer, I want a roadmap of what I need to know so that I can always move towards achieving mastery](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_a_roadmap_of_what_i_need_to_know_so_that_i_can_always_move_towards_achieving_mastery.md)
+   * [Pieces of Web Development](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_a_roadmap_of_what_i_need_to_know_so_that_i_can_always_move_towards_achieving_mastery.md)
 * [Chapter 3: Rails Resources](chapter_3_rails_resources/README.md)
    * [Read this!](chapter_3_rails_resources/read_this.md)
    * [Watch this!](chapter_3_rails_resources/watch_this.md)
