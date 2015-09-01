@@ -33,7 +33,7 @@
        * [Simple Server on port 4000](chapter_1_code_rails/as_a_dev,_i_want_a_web_page_that_outputs_a_welcome_message_via_html,_so_that_i_can_learn_how_to_test_web_pages.md)
            * [Example local html spec](chapter_1_code_rails/example_spec.md)
        * [Rails app on port 3000](chapter_1_code_rails/as_a_dev,_i_want_a_basic_rails_app_up_and_running_on_port_3000_of_my_computer.md)
-   * [Rails Conventions](chapter_1_code_rails/as_a_rails_developer,_i_want_to_understand_the_structure_of_a_rails_app_so_that_i_can_understand_rails_conventions.md)
+   * [Rails](chapter_1_code_rails/as_a_rails_developer,_i_want_to_understand_the_structure_of_a_rails_app_so_that_i_can_understand_rails_conventions.md)
 * [Chapter 2: Rails Best Practices](chapter_2_rails_best_practices/README.md)
    * [As a developer, I want to use version control so that I can save history and collaborate with others](chapter_2_rails_best_practices/introduction.md)
    * [As a Rails developer, I want my code to follow industry-standard best practices so that my projects are readable, scalable, and secure](chapter_2_rails_best_practices/as_a_rails_developer,_i_want_my_code_to_follow_industry-standard_best_practices_so_that_my_projects_are_readable,_scalable,_and_secure.md)
