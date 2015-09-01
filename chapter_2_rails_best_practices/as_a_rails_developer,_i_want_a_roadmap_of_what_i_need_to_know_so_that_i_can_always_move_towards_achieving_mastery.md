@@ -1,4 +1,4 @@
-# Pieces of Web Development
+# Parts of Web Development
 
 ### As a web developer, I want a roadmap of what I need to know so that I can always move towards achieving mastery
 
