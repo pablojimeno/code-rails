@@ -28,7 +28,7 @@
    * [BDD](chapter_1_code_rails/as_a_developer,_i_want_to_use_and_understand_bdd_so_that_my_projects_turn_out_great.md)
        * [Simple Welcome](chapter_1_code_rails/as_a_dev,_i_want_a_simple_program_that_has_a_welcome_message,_so_that_i_learn_how_to_write_and_test_a_simple_ruby_project.md)
            * [Example ruby class spec](chapter_1_code_rails/example_ruby_class_spec.md)
-       * [As a dev, I want a program to test a web search, so that I can learn more about interacting with web pages](chapter_1_code_rails/as_a_dev,_i_want_a_program_to_test_a_web_search,_so_that_i_can_learn_more_about_interacting_with_web_pages.md)
+       * [Simple Web Search](chapter_1_code_rails/as_a_dev,_i_want_a_program_to_test_a_web_search,_so_that_i_can_learn_more_about_interacting_with_web_pages.md)
            * [Example web search spec](chapter_1_code_rails/example_web_search_spec.md)
        * [As a dev, I want a web page that outputs a welcome message via HTML, so that I can learn how to test web pages](chapter_1_code_rails/as_a_dev,_i_want_a_web_page_that_outputs_a_welcome_message_via_html,_so_that_i_can_learn_how_to_test_web_pages.md)
            * [Example local html spec](chapter_1_code_rails/example_spec.md)
