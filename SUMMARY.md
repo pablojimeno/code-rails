@@ -30,7 +30,7 @@
            * [Example ruby class spec](chapter_1_code_rails/example_ruby_class_spec.md)
        * [Simple Web Search](chapter_1_code_rails/as_a_dev,_i_want_a_program_to_test_a_web_search,_so_that_i_can_learn_more_about_interacting_with_web_pages.md)
            * [Example web search spec](chapter_1_code_rails/example_web_search_spec.md)
-       * [As a dev, I want a web page that outputs a welcome message via HTML, so that I can learn how to test web pages](chapter_1_code_rails/as_a_dev,_i_want_a_web_page_that_outputs_a_welcome_message_via_html,_so_that_i_can_learn_how_to_test_web_pages.md)
+       * [Simple Server on port 4000](chapter_1_code_rails/as_a_dev,_i_want_a_web_page_that_outputs_a_welcome_message_via_html,_so_that_i_can_learn_how_to_test_web_pages.md)
            * [Example local html spec](chapter_1_code_rails/example_spec.md)
        * [As a dev, I want a basic Rails app up and running on port 3000 of my computer](chapter_1_code_rails/as_a_dev,_i_want_a_basic_rails_app_up_and_running_on_port_3000_of_my_computer.md)
    * [As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions](chapter_1_code_rails/as_a_rails_developer,_i_want_to_understand_the_structure_of_a_rails_app_so_that_i_can_understand_rails_conventions.md)
