@@ -136,7 +136,6 @@
        * [Deploy to Heroku](chapter_4_rails_theming,_continuous_integration,_and_deployment/deploy_to_heroku.md)
        * [Get a domain name](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_your_custom_domain_name_and_aws.md)
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
-   * new
 * [Chapter 6: Rails Authentication](chapter_6_rails_authentication/README.md)
    * [Authentication From Scratch](chapter_6_rails_authentication/authentication_from_scratch.md)
    * [Authentication with Devise](chapter_6_rails_authentication/authentication_with_devise.md)
