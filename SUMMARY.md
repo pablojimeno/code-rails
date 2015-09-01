@@ -65,7 +65,7 @@
        * [Add Fixtures](chapter_3_rails_resources/do_add_fixtures.md)
            * [Example spec replaced with fixtures](chapter_3_rails_resources/example_spec_replaced_with_fixtures.md)
 * [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming,_continuous_integration,_and_deployment/README.md)
-   * [Read This!](chapter_4_rails_theming,_continuous_integration,_and_deployment/intro.md)
+   * [Read This!](chapter_4_rails_theming/themes)
    * [Watch This!](chapter_4_rails_theming,_continuous_integration,_and_deployment/watch_this.md)
    * [As a developer, I want a front-end framework so that I can easily modify the look and feel of my site](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_a_front-end_framework_so_that_i_can_easily_modify_the_look_and_feel_of_my_site.md)
    * [As a developer, I want to integrate a theme, so that my site doesn't look like all the other bootstrap sites out there](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_to_integrate_a_theme,_so_that_my_site_doesnt_look_like_all_the_other_bootstrap_sites_out_there.md)
