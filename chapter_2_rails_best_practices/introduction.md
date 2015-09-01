@@ -1,4 +1,6 @@
-#As a developer, I want to use version control so that I can save history and collaborate with others
+# Version Control
+
+### As a developer, I want to use version control so that I can save history and collaborate with others
 
 #### Git & DVCS
 
