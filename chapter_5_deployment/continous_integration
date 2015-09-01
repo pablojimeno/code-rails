@@ -1,3 +1,9 @@
+# Continous Integration
+
+### As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.
+
+In this section you'll get continuous integration running with your application so that your code deploys when tests are passing.
+
 ## Set up a Continuous Integration server for your repo
 
 Get your tests running in the cloud, and put a nice green badge on your README on GitHub. Can it auto-deploy when your tests pass?
@@ -23,3 +29,4 @@ Read about [Getting Started with Travis CI](http://about.travis-ci.org/docs/user
 * `gem install travis`
 
 * `travis login`
+

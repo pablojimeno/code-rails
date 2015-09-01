@@ -1,4 +1,6 @@
-# As a developer, I want to integrate a theme, so that my site doesn't look like all the other "bootstrap-y" sites out there
+# Themes
+
+### As a developer, I want to integrate a theme, so that my site doesn't look like all the other "bootstrap-y" sites out there
 
 ## Design Your Own
 
