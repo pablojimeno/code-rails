@@ -1,4 +1,6 @@
-# As a dev, I want a spec to test a web search, so that I can learn more about automating interaction with web pages
+# Simple Web Search
+
+### As a dev, I want a spec to test a web search, so that I can learn more about automating interaction with web pages
 
 To complete this user story, you will create a spec file that uses a headless browser to interact with a web page.
 
