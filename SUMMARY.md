@@ -188,4 +188,5 @@
 * [Week 6: JavaScript](week_6_javascript/README.md)
 * [Week 7: AngularJS with Rails API](week_7_angularjs_with_rails_api/README.md)
 * [Week 8: Project Week](week_8_project_week/README.md)
+* chapter 5: Rails Deployment
 
