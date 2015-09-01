@@ -78,8 +78,6 @@
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
    * [As a developer, I want my app to only go to production when all tests pass, so that I know my live code is working and I don't deploy bugs.](chapter_4_rails_theming,_continuous_integration,_and_deployment/as_a_developer,_i_want_my_app_to_only_go_to_production_when_all_tests_pass,_so_that_i_know_my_live_code_is_working_and_i_dont_deploy_bugs.md)
        * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
-* [chapter 5: Rails Deployment](chapter_5_deployment/README.md)
-   * Deploy to Heroku
 * [Chapter 5: Rails MVC Breakdown](chapter_5_rails_mvc_breakdown/README.md)
    * [Pre-requisite Reading](chapter_5_rails_mvc_breakdown/51_activerecord_basics.md)
    * [Clean Up Test and Features Directory](chapter_5_rails_mvc_breakdown/section_2.md)
@@ -186,6 +184,8 @@
    * [GREEN Polymorphic](chapter_10_polymorphic_comments/green_polymorphic.md)
    * [REFACTOR Polymorphic](chapter_10_polymorphic_comments/refactor_polymorphic.md)
 * [Chapter 11: Rails Mailers](chapter_12_rails_mailers/README.md)
+* [chapter 5: Rails Deployment](chapter_5_deployment/README.md)
+   * Deploy to Heroku
 * [Week 5](week_5/README.md)
 * [Week 6: JavaScript](week_6_javascript/README.md)
 * [Week 7: AngularJS with Rails API](week_7_angularjs_with_rails_api/README.md)
