@@ -107,7 +107,7 @@
            * [Unhappy Path: Create Project](chapter_6_rails_mvc_breakdown/unhappy_path.md)
                * [Unhappy Create Project RED](chapter_6_rails_mvc_breakdown/unhappy_path_red.md)
                    * [Write a User Story](chapter_6_rails_mvc_breakdown/write_a_user_story.md)
-                   * [Translate to Code](chapter_5_rails_mvc_breakdown/translate_to_code.md)
+                   * [Translate to Code](chapter_6_rails_mvc_breakdown/translate_to_code.md)
                * [Unhappy Create Project GREEN](chapter_5_rails_mvc_breakdown/unhappy_path_green.md)
                    * [Failure 1](chapter_5_rails_mvc_breakdown/failure_1.md)
                    * [Validations](chapter_5_rails_mvc_breakdown/validations.md)
