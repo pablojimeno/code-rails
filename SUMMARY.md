@@ -166,7 +166,7 @@
        * [ERROR Num Args](chapter_9_rails_authorization/error_num_args.md)
        * [ERROR Missing Author Fixture](chapter_9_rails_authorization/error_missing_author_fixture.md)
        * [ERROR Missing Role Column](chapter_9_rails_authorization/error_missing_role_column.md)
-       * [FAILURE Missing Published Label](chapter_8_rails_authorization/fail_missing_published_label.md)
+       * [FAILURE Missing Published Label](chapter_9_rails_authorization/fail_missing_published_label.md)
        * [ERROR No Method Published](chapter_8_rails_authorization/error_no_method_published.md)
        * [FAILURE No Published Label](chapter_8_rails_authorization/error_no_published_label.md)
    * [REFACTOR Creating Articles](chapter_8_rails_authorization/refactor_creating_articles.md)
