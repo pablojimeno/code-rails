@@ -138,7 +138,7 @@
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 7: Rails Authentication](chapter_7_rails_authentication/README.md)
    * [Authentication From Scratch](chapter_7_rails_authentication/authentication_from_scratch.md)
-   * [Authentication with Devise](chapter_6_rails_authentication/authentication_with_devise.md)
+   * [Authentication with Devise](chapter_7_rails_authentication/authentication_with_devise.md)
    * [As the site owner, I want to restrict who can access the site so that my friends don't prank me with "poopin'" posts](chapter_6_rails_authentication/as_the_site_owner,_i_want_to_restrict_who_can_access_the_site_so_that_my_friends_dont_prank_me_with_poopin_posts.md)
        * [RED: write the spec and watch it fail](chapter_6_rails_authentication/red_write_the_spec_and_watch_it_fail.md)
        * [GREEN: Work through the errors](chapter_6_rails_authentication/green_work_through_the_errors.md)
