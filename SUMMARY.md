@@ -161,7 +161,7 @@
        * [REFACTOR Article Authors](chapter_6_rails_authentication/refactor_article_authors.md)
 * [Chapter 7: Rails relationships](chapter_7_rails_relationships/README.md)
 * [Chapter 9: Rails Authorization](chapter_9_rails_authorization/README.md)
-   * [RED Creating Articles](chapter_8_rails_authorization/red_creating_articles.md)
+   * [RED Creating Articles](chapter_9_rails_authorization/red_creating_articles.md)
    * [GREEN Creating Articles](chapter_8_rails_authorization/green_creating_articles.md)
        * [ERROR Num Args](chapter_8_rails_authorization/error_num_args.md)
        * [ERROR Missing Author Fixture](chapter_8_rails_authorization/error_missing_author_fixture.md)
