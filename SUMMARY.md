@@ -170,7 +170,7 @@
        * [ERROR No Method Published](chapter_9_rails_authorization/error_no_method_published.md)
        * [FAILURE No Published Label](chapter_9_rails_authorization/error_no_published_label.md)
    * [REFACTOR Creating Articles](chapter_9_rails_authorization/refactor_creating_articles.md)
-   * [RED Permissions](chapter_8_rails_authorization/red_permissions.md)
+   * [RED Permissions](chapter_9_rails_authorization/red_permissions.md)
    * [GREEN Permissions](chapter_8_rails_authorization/green_permissions.md)
    * [REFACTOR Permissions](chapter_8_rails_authorization/refactor_permissions.md)
 * [Chapter 10: Rails Resource Generator, OmniAuth](chapter_10_rails_resource_generator,_omniauth/README.md)
