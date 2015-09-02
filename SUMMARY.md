@@ -151,7 +151,7 @@
        * [REFACTOR: Clean and DRY](chapter_7_rails_authentication/refactor_clean_and_dry.md)
    * [As a user, I want posts connected to my account so that I can be attributed as author](chapter_7_rails_authentication/as_a_user,_i_want_posts_connected_to_my_account_so_that_i_can_be_attributed_as_author.md)
        * [RED Article Authors](chapter_7_rails_authentication/red_article_authors.md)
-       * [GREEN Article Authors](chapter_6_rails_authentication/green_article_authors.md)
+       * [GREEN Article Authors](chapter_7_rails_authentication/green_article_authors.md)
            * [FAIL User Not Found](chapter_6_rails_authentication/fail_user_not_found.md)
            * [ERROR No Method Author](chapter_6_rails_authentication/error_no_method_author.md)
            * [ERROR No Method Email](chapter_6_rails_authentication/error_no_method_email.md)
