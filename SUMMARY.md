@@ -131,7 +131,7 @@
                * [Happy Edit Project REFACTOR](chapter_6_rails_mvc_breakdown/happy_edit_project_refactor.md)
            * [Unhappy Path: Edit Project](chapter_6_rails_mvc_breakdown/unhappy_path_edit_project.md)
                * [Unhappy Edit Project RED](chapter_6_rails_mvc_breakdown/unhappy_edit_project_red.md)
-               * [Unhappy Edit Project GREEN](chapter_5_rails_mvc_breakdown/unhappy_edit_project_green.md)
+               * [Unhappy Edit Project GREEN](chapter_6_rails_mvc_breakdown/unhappy_edit_project_green.md)
                * [Unhappy Edit Project REFACTOR](chapter_5_rails_mvc_breakdown/unhappy_edit_project_refactor.md)
        * [Spec the show & index views](chapter_5_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
