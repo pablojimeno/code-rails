@@ -133,7 +133,7 @@
                * [Unhappy Edit Project RED](chapter_6_rails_mvc_breakdown/unhappy_edit_project_red.md)
                * [Unhappy Edit Project GREEN](chapter_6_rails_mvc_breakdown/unhappy_edit_project_green.md)
                * [Unhappy Edit Project REFACTOR](chapter_6_rails_mvc_breakdown/unhappy_edit_project_refactor.md)
-       * [Spec the show & index views](chapter_5_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
+       * [Spec the show & index views](chapter_6_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 7: Rails Authentication](chapter_7_rails_authentication/README.md)
