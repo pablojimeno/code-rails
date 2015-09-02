@@ -158,7 +158,7 @@
            * [ERROR No Method Articles](chapter_7_rails_authentication/error_no_method_authors.md)
            * [ERROR No Field Title](chapter_7_rails_authentication/error_no_method_title.md)
            * [ERROR Missing Attribute](chapter_7_rails_authentication/error_missing_attribute.md)
-       * [REFACTOR Article Authors](chapter_6_rails_authentication/refactor_article_authors.md)
+       * [REFACTOR Article Authors](chapter_7_rails_authentication/refactor_article_authors.md)
 * [Chapter 8: Rails relationships](chapter_8_rails_relationships/README.md)
 * [Chapter 9: Rails Authorization](chapter_9_rails_authorization/README.md)
    * [RED Creating Articles](chapter_9_rails_authorization/red_creating_articles.md)
