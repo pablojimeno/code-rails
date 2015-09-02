@@ -131,7 +131,7 @@
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 5: Deployment](chapter_5_deployment/README.md)
    * [Production](chapter_5_deployment/production.md)
-       * [Deploy to Heroku](chapter_4_rails_theming,_continuous_integration,_and_deployment/deploy_to_heroku.md)
+       * [Deploy to Heroku](chapter_4_deployment/deploy_to_heroku.md/Deploy To Heroku)
        * [Get a domain name](chapter_4_deployment/continous_integration.md/Continous Integration)
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
    * [Continous Integration](chapter_5_deployment/continous_integration.md)
