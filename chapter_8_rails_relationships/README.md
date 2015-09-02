@@ -1,4 +1,4 @@
-# Chapter 7: Rails Practice
+# Chapter 8: Rails Practice
 
 We've covered many core aspects of how modern web development works. Get some extra practice with a Code School course, like one of these:
 
