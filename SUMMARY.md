@@ -67,7 +67,7 @@
 * [Chapter 4: Rails Theming](chapter_4_rails_theming/README.md)
    * [Read This!](chapter_4_rails_theming/intro.md)
    * [Watch This!](chapter_4_rails_theming/watch_this.md)
-   * [Front-end Frameworks](chapter_4_rails_theming/frameworks.md)
+   * [Front-end Frameworks](chapter_4_rails_theming/frameworks)
    * [Themes](chapter_4_rails_theming/themes.md)
        * [RED](chapter_4_rails_theming/red_2.md)
        * [GREEN](chapter_4_rails_theming/green_2.md)
