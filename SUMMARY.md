@@ -179,7 +179,7 @@
    * [REFACTOR Comments](chapter_10_rails_resource_generator,_omniauth/refactor_comments.md)
    * [RED OAuth](chapter_10_rails_resource_generator,_omniauth/red_oauth.md)
    * [GREEN OAuth](chapter_10_rails_resource_generator,_omniauth/green_oauth.md)
-   * [REFACTOR OAuth](chapter_9_rails_resource_generator,_omniauth/refactor_oauth.md)
+   * [REFACTOR OAuth](chapter_10_rails_resource_generator,_omniauth/refactor_oauth.md)
 * [Chapter 11: Polymorphic Comments](chapter_11_polymorphic_comments/README.md)
    * [RED Polymorphic](chapter_11_polymorphic_comments/red_polymorphic.md)
    * [GREEN Polymorphic](chapter_11_polymorphic_comments/green_polymorphic.md)
