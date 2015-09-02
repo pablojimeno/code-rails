@@ -100,7 +100,7 @@
                    * [ERROR 11](chapter_6_rails_mvc_breakdown/error_11.md)
                    * [ERROR 12](chapter_6_rails_mvc_breakdown/error_12.md)
                    * [ERROR 13](chapter_6_rails_mvc_breakdown/error_13.md)
-                   * [ERROR 14](chapter_5_rails_mvc_breakdown/error_14.md)
+                   * [ERROR 14](chapter_6_rails_mvc_breakdown/error_14.md)
                    * [FAILURE](chapter_5_rails_mvc_breakdown/the_flash.md)
                    * [Test it Out](chapter_5_rails_mvc_breakdown/test_it_out.md)
                * [Happy Create Project REFACTOR](chapter_5_rails_mvc_breakdown/refactor.md)
