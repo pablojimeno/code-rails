@@ -130,7 +130,7 @@
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
    * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 5: Deployment](chapter_5_deployment/README.md)
-   * [Deploy to Heroku](chapter_5_deployment/deploy_to_heroku.md)
+   * [Production](chapter_5_deployment/production.md)
        * [Deploy to Heroku](chapter_4_rails_theming,_continuous_integration,_and_deployment/deploy_to_heroku.md)
        * [Get a domain name](chapter_4_deployment/continous_integration.md/Continous Integration)
        * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
