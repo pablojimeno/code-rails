@@ -86,7 +86,7 @@
        * [As the site owner, I want to add a portfolio item so that I can show off my work](chapter_6_rails_mvc_breakdown/as_the_site_owner,_i_want_to_add_a_portfolio_item_so_that_i_can_show_off_my_work.md)
            * [Happy Path: Create Project](chapter_6_rails_mvc_breakdown/happy_path.md)
                * [Happy Create Project RED](chapter_6_rails_mvc_breakdown/red.md)
-               * [Happy Create Project GREEN](chapter_5_rails_mvc_breakdown/green.md)
+               * [Happy Create Project GREEN](chapter_6_rails_mvc_breakdown/green.md)
                    * [ERROR 1](chapter_5_rails_mvc_breakdown/error.md)
                    * [ERROR 2](chapter_5_rails_mvc_breakdown/error_2.md)
                    * [ERROR 3](chapter_5_rails_mvc_breakdown/error_3.md)
