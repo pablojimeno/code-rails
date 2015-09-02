@@ -135,7 +135,7 @@
                * [Unhappy Edit Project REFACTOR](chapter_6_rails_mvc_breakdown/unhappy_edit_project_refactor.md)
        * [Spec the show & index views](chapter_6_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
    * [As the site owner, I want to delete a portfolio item so that I can keep the list focused on my best work](chapter_6_rails_mvc_breakdown/as_the_site_owner,_i_want_to_delete_a_portfolio_item_so_that_i_can_keep_the_list_focused_on_my_best_work.md)
-   * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_5_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
+   * [Extra Credit: AWS S3 (Amazon Web Services: Simple Storage Service)](chapter_6_rails_mvc_breakdown/extra_credit_aws_s3_amazon_web_services_simple_storage_service.md)
 * [Chapter 7: Rails Authentication](chapter_7_rails_authentication/README.md)
    * [Authentication From Scratch](chapter_7_rails_authentication/authentication_from_scratch.md)
    * [Authentication with Devise](chapter_7_rails_authentication/authentication_with_devise.md)
