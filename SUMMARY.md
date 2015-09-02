@@ -148,7 +148,7 @@
    * [As the site owner, I want to sign out a user to prevent fraud](chapter_7_rails_authentication/as_the_site_owner,_i_want_to_sign_out_a_user_to_prevent_fraud.md)
        * [RED: Write the spec](chapter_7_rails_authentication/red_write_the_spec.md)
        * [GREEN: Get the test to pass](chapter_7_rails_authentication/green_get_the_test_to_pass.md)
-       * [REFACTOR: Clean and DRY](chapter_6_rails_authentication/refactor_clean_and_dry.md)
+       * [REFACTOR: Clean and DRY](chapter_7_rails_authentication/refactor_clean_and_dry.md)
    * [As a user, I want posts connected to my account so that I can be attributed as author](chapter_6_rails_authentication/as_a_user,_i_want_posts_connected_to_my_account_so_that_i_can_be_attributed_as_author.md)
        * [RED Article Authors](chapter_6_rails_authentication/red_article_authors.md)
        * [GREEN Article Authors](chapter_6_rails_authentication/green_article_authors.md)
