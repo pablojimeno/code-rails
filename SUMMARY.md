@@ -88,7 +88,7 @@
                * [Happy Create Project RED](chapter_6_rails_mvc_breakdown/red.md)
                * [Happy Create Project GREEN](chapter_6_rails_mvc_breakdown/green.md)
                    * [ERROR 1](chapter_6_rails_mvc_breakdown/error.md)
-                   * [ERROR 2](chapter_5_rails_mvc_breakdown/error_2.md)
+                   * [ERROR 2](chapter_6_rails_mvc_breakdown/error_2.md)
                    * [ERROR 3](chapter_5_rails_mvc_breakdown/error_3.md)
                    * [ERROR 4](chapter_5_rails_mvc_breakdown/error_4.md)
                    * [ERROR 5](chapter_5_rails_mvc_breakdown/error_5.md)
