@@ -128,7 +128,7 @@
                    * [ERROR 19](chapter_6_rails_mvc_breakdown/error_19.md)
                    * [ERROR 20](chapter_6_rails_mvc_breakdown/error_20.md)
                    * [ERROR 21](chapter_6_rails_mvc_breakdown/error_21.md)
-               * [Happy Edit Project REFACTOR](chapter_5_rails_mvc_breakdown/happy_edit_project_refactor.md)
+               * [Happy Edit Project REFACTOR](chapter_6_rails_mvc_breakdown/happy_edit_project_refactor.md)
            * [Unhappy Path: Edit Project](chapter_5_rails_mvc_breakdown/unhappy_path_edit_project.md)
                * [Unhappy Edit Project RED](chapter_5_rails_mvc_breakdown/unhappy_edit_project_red.md)
                * [Unhappy Edit Project GREEN](chapter_5_rails_mvc_breakdown/unhappy_edit_project_green.md)
