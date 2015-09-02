@@ -1,6 +1,6 @@
 # As an employer, I want to see a custom blog so that I know this developer has good communication skills, is an expert in their field, and demonstrates technical expertise
 
-Describe the behavior with a spec. Go write a spec file for this storynow.
+Describe the behavior with a spec. Go write a spec file for this story now.
 
 After you've tried do create your own spec from scratch, check out the hidden hints.
 
