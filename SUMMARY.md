@@ -65,7 +65,7 @@
        * [Add Fixtures](chapter_3_rails_resources/do_add_fixtures.md)
            * [Example spec replaced with fixtures](chapter_3_rails_resources/example_spec_replaced_with_fixtures.md)
 * [Chapter 4: Rails Theming](chapter_4_rails_theming/README.md)
-   * [Read This!](chapter_4_rails_theming/read_this.md)
+   * [Read This!](chapter_4_rails_theming/intro.md)
    * [Watch This!](chapter_4_rails_theming/watch_this.md)
    * [Front-end Frameworks](chapter_4_rails_theming/frameworks)
    * [Themes](chapter_4_rails_theming/themes.md)
