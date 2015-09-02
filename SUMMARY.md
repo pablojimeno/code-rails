@@ -181,7 +181,7 @@
    * [GREEN OAuth](chapter_9_rails_resource_generator,_omniauth/green_oauth.md)
    * [REFACTOR OAuth](chapter_9_rails_resource_generator,_omniauth/refactor_oauth.md)
 * [Chapter 11: Polymorphic Comments](chapter_11_polymorphic_comments/README.md)
-   * [RED Polymorphic](chapter_10_polymorphic_comments/red_polymorphic.md)
+   * [RED Polymorphic](chapter_11_polymorphic_comments/redpolymorphic_md.md)
    * [GREEN Polymorphic](chapter_10_polymorphic_comments/green_polymorphic.md)
    * [REFACTOR Polymorphic](chapter_10_polymorphic_comments/refactor_polymorphic.md)
 * [Chapter 12: Rails Mailers](chapter_12_rails_mailers/README.md)
