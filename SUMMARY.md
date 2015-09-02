@@ -130,7 +130,7 @@
                    * [ERROR 21](chapter_6_rails_mvc_breakdown/error_21.md)
                * [Happy Edit Project REFACTOR](chapter_6_rails_mvc_breakdown/happy_edit_project_refactor.md)
            * [Unhappy Path: Edit Project](chapter_6_rails_mvc_breakdown/unhappy_path_edit_project.md)
-               * [Unhappy Edit Project RED](chapter_5_rails_mvc_breakdown/unhappy_edit_project_red.md)
+               * [Unhappy Edit Project RED](chapter_6_rails_mvc_breakdown/unhappy_edit_project_red.md)
                * [Unhappy Edit Project GREEN](chapter_5_rails_mvc_breakdown/unhappy_edit_project_green.md)
                * [Unhappy Edit Project REFACTOR](chapter_5_rails_mvc_breakdown/unhappy_edit_project_refactor.md)
        * [Spec the show & index views](chapter_5_rails_mvc_breakdown/write_spec_for_show_&_index_views.md)
