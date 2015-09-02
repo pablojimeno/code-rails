@@ -81,7 +81,7 @@
        * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
 * [Chapter 6: Rails MVC Breakdown](chapter_6_deployment/README.md)
    * [Pre-requisite Reading](chapter_6_rails_mvc_breakdown/51_activerecord_basics.md)
-   * [Clean Up Test and Features Directory](chapter_5_rails_mvc_breakdown/section_2.md)
+   * [Clean Up Test and Features Directory](chapter_6_rails_mvc_breakdown/section_2.md)
    * [As an employer, I want to see this developer's portfolio so that I can judge their work](chapter_5_rails_mvc_breakdown/as_an_employer,_i_want_to_see_this_developers_portfolio_so_that_i_can_judge_their_work.md)
        * [As the site owner, I want to add a portfolio item so that I can show off my work](chapter_5_rails_mvc_breakdown/as_the_site_owner,_i_want_to_add_a_portfolio_item_so_that_i_can_show_off_my_work.md)
            * [Happy Path: Create Project](chapter_5_rails_mvc_breakdown/happy_path.md)
