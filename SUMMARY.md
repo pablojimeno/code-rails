@@ -149,7 +149,7 @@
        * [RED: Write the spec](chapter_7_rails_authentication/red_write_the_spec.md)
        * [GREEN: Get the test to pass](chapter_7_rails_authentication/green_get_the_test_to_pass.md)
        * [REFACTOR: Clean and DRY](chapter_7_rails_authentication/refactor_clean_and_dry.md)
-   * [As a user, I want posts connected to my account so that I can be attributed as author](chapter_6_rails_authentication/as_a_user,_i_want_posts_connected_to_my_account_so_that_i_can_be_attributed_as_author.md)
+   * [As a user, I want posts connected to my account so that I can be attributed as author](chapter_7_rails_authentication/as_a_user,_i_want_posts_connected_to_my_account_so_that_i_can_be_attributed_as_author.md)
        * [RED Article Authors](chapter_6_rails_authentication/red_article_authors.md)
        * [GREEN Article Authors](chapter_6_rails_authentication/green_article_authors.md)
            * [FAIL User Not Found](chapter_6_rails_authentication/fail_user_not_found.md)
