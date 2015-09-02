@@ -1,4 +1,6 @@
-# As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions
+# Rails
+
+### As a Rails developer, I want to understand the structure of a Rails app so that I can understand Rails conventions
 
 WTF just happened when I ran `$ rails new` ???
 

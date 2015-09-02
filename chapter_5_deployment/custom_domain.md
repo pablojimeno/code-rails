@@ -1,4 +1,6 @@
-# Get a custom domain name
+# Your very own domain
+
+Now it is time to set up your very own custom domain.
 
 Your personal portfolio domain name should be:
 

@@ -1,4 +1,4 @@
-# Chapter 8: Rails Authorization
+# Chapter 9: Rails Authorization
 
 Use BDD to build ***authorization*** roles for your Portfolio application.
 

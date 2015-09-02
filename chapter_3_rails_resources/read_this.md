@@ -8,7 +8,7 @@ Read our modified copy of [Sections 5 through 6 Rails Getting Started Guide](htt
 
 Not very BDD, is it? Try not to skip over the contents of the table showing files generated.
 
-###Then, read this blog post
+### Then, read this blog post
 
 Read this [Code Fellows Alumnus' Blog Post](http://strandcode.com/2013/07/28/reading-rails-mvc-and-scaffolding-for-rails-newbs).
 

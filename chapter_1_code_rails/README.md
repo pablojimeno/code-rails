@@ -1,5 +1,5 @@
 
-#Chapter 1: BDD & TATFT
+# Chapter 1: BDD & TATFT
 
 ## Welcome Aboard
 
@@ -13,7 +13,7 @@ For this class, we recreate the environment, tools, and techniques used by real 
 
 ## A Metaphor
 
-There are plenty of online learning experiences that outline detailed *paths* for you to follow, tutorials to complete, and badges to earn. There are also many step-by-step books. I'm not interested in replicating that in a classroom environment. Why bother? You are all all smart enough to follow step-by-step directions. What we need is a creative space for learning together. We'll call this your sandbox (borrowing the metaphor from Steven P. Anderson). Remember how much fun you could have in the sandbox as a kid? Building and shaping your own structures and road ways, destroying and recreating whatever your imagination came up with... This is learning without handholding.
+There are plenty of online learning experiences that outline detailed *paths* for you to follow, tutorials to complete, and badges to earn. There are also many step-by-step books. I'm not interested in replicating that in a classroom environment. Why bother? You are all smart enough to follow step-by-step directions. What we need is a creative space for learning together. We'll call this your sandbox (borrowing the metaphor from Steven P. Anderson). Remember how much fun you could have in the sandbox as a kid? Building and shaping your own structures and road ways, destroying and recreating whatever your imagination came up with... This is learning without handholding.
 
 Don't worry, we will be here to point the way, whenever you may need that (and there will be plenty of times when you will!). But ulitmately, we can't *give* you web development skills. We can only show you the way, play along side you, and ensure you have all that you need to **do** web development yourself. That's where the learning happens.
 

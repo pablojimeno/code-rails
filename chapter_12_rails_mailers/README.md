@@ -1,4 +1,4 @@
-# Chapter 11: Rails Mailers
+# Chapter 12: Rails Mailers
 
 ### Intro:
 

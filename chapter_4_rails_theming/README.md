@@ -1,4 +1,4 @@
-# Chapter 4: Rails Theming, Continuous Integration, and Deployment
+# Chapter 4: Rails Theming
 
 ## Intro:
 On day four, we cover two main things: making your site look good, and sharing (deploying) your site to the internet. A bonus is that since we have been doing BDD, we can deploy based on whether our tests pass.

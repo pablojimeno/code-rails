@@ -1,4 +1,6 @@
-# As a Rails developer, I want my code to follow industry-standard best practices so that my projects are readable, scalable, and secure
+# Best Practices
+
+### As a Rails developer, I want my code to follow industry-standard best practices so that my projects are readable, scalable, and secure
 
 ## Rails conventions:
 ### Read about READMEs
