@@ -64,7 +64,7 @@
        * [A Guide to Testing Rails Applications](chapter_3_rails_resources/read_a_guide_to_testing_rails_applications,_section_2_fixtures.md)
        * [Add Fixtures](chapter_3_rails_resources/do_add_fixtures.md)
            * [Example spec replaced with fixtures](chapter_3_rails_resources/example_spec_replaced_with_fixtures.md)
-* [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming/readmemd.md)
+* [Chapter 4: Rails Theming, Continuous Integration, and Deployment](chapter_4_rails_theming/README.mdd/Chapter 4: Rails Theming)
    * [Read This!](chapter_4_rails_theming/themes)
    * [Watch This!](chapter_4_rails_theming/watch_this.md)
    * [Front-end Frameworks](chapter_4_rails_theming/frameworks)
