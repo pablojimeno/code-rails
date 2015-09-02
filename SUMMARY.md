@@ -183,7 +183,7 @@
 * [Chapter 11: Polymorphic Comments](chapter_11_polymorphic_comments/README.md)
    * [RED Polymorphic](chapter_11_polymorphic_comments/red_polymorphic.md)
    * [GREEN Polymorphic](chapter_11_polymorphic_comments/green_polymorphic.md)
-   * [REFACTOR Polymorphic](chapter_10_polymorphic_comments/refactor_polymorphic.md)
+   * [REFACTOR Polymorphic](chapter_11_polymorphic_comments/refactor_polymorphic.md)
 * [Chapter 12: Rails Mailers](chapter_12_rails_mailers/README.md)
 * [Week 5](week_5/README.md)
 * [Week 6: JavaScript](week_6_javascript/README.md)
