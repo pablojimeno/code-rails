@@ -94,7 +94,7 @@
                    * [ERROR 5](chapter_6_rails_mvc_breakdown/error_5.md)
                    * [ERROR 6](chapter_6_rails_mvc_breakdown/error_6.md)
                    * [ERROR 7](chapter_6_rails_mvc_breakdown/error_7.md)
-                   * [ERROR 8](chapter_5_rails_mvc_breakdown/error_8.md)
+                   * [ERROR 8](chapter_6_rails_mvc_breakdown/error_8.md)
                    * [ERROR 9](chapter_5_rails_mvc_breakdown/error_9.md)
                    * [ERROR 10](chapter_5_rails_mvc_breakdown/error_10.md)
                    * [ERROR 11](chapter_5_rails_mvc_breakdown/error_11.md)
