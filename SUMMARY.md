@@ -118,7 +118,7 @@
                * [Unhappy Create Project REFACTOR](chapter_6_rails_mvc_breakdown/unhappy_path_refactor.md)
            * [About Params](chapter_6_rails_mvc_breakdown/about_params.md)
        * [As the site owner, I want to edit a portfolio item so that I can update new project details](chapter_6_rails_mvc_breakdown/as_the_site_owner,_i_want_to_edit_a_portfolio_item_so_that_i_can_update_new_project_details.md)
-           * [Happy Path: Edit Project](chapter_5_rails_mvc_breakdown/happy_path_edit_project.md)
+           * [Happy Path: Edit Project](chapter_6_rails_mvc_breakdown/happy_path_edit_project.md)
                * [Happy Edit Project RED](chapter_5_rails_mvc_breakdown/happy_edit_project_red.md)
                * [Happy Edit Project GREEN](chapter_5_rails_mvc_breakdown/happy_edit_project_green.md)
                    * [ERROR 15](chapter_5_rails_mvc_breakdown/error_15.md)
