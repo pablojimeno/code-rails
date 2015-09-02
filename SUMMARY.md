@@ -122,7 +122,7 @@
                * [Happy Edit Project RED](chapter_6_rails_mvc_breakdown/happy_edit_project_red.md)
                * [Happy Edit Project GREEN](chapter_6_rails_mvc_breakdown/happy_edit_project_green.md)
                    * [ERROR 15](chapter_6_rails_mvc_breakdown/error_15.md)
-                   * [ERROR 16](chapter_5_rails_mvc_breakdown/error_16.md)
+                   * [ERROR 16](chapter_6_rails_mvc_breakdown/error_16.md)
                    * [ERROR 17](chapter_5_rails_mvc_breakdown/error_17.md)
                    * [ERROR 18](chapter_5_rails_mvc_breakdown/error_18.md)
                    * [ERROR 19](chapter_5_rails_mvc_breakdown/error_19.md)
