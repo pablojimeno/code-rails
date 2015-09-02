@@ -113,7 +113,7 @@
                    * [Validations](chapter_6_rails_mvc_breakdown/validations.md)
                    * [Error: Missing Template](chapter_6_rails_mvc_breakdown/error_missing_template.md)
                    * [Failure 2](chapter_6_rails_mvc_breakdown/failure_2.md)
-                   * [Failure 3](chapter_5_rails_mvc_breakdown/failure_3.md)
+                   * [Failure 3](chapter_6_rails_mvc_breakdown/failure_3.md)
                    * [Extra Credit: Error Msg](chapter_5_rails_mvc_breakdown/extra_credit_error_msg.md)
                * [Unhappy Create Project REFACTOR](chapter_5_rails_mvc_breakdown/unhappy_path_refactor.md)
            * [About Params](chapter_5_rails_mvc_breakdown/about_params.md)
