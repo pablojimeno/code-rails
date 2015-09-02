@@ -133,7 +133,7 @@
    * [Production](chapter_5_deployment/production.md)
        * [Deploy to Heroku](chapter_4_deployment/deploy_to_heroku.md/Deploy To Heroku)
        * [Get a domain name](chapter_5_deployment/custom_domain.md)
-       * [AWS](chapter_4_rails_theming,_continuous_integration,_and_deployment/aws.md)
+       * [AWS](chapter_5_deployment/AWS)
    * [Continous Integration](chapter_5_deployment/continous_integration.md)
        * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
 * [Chapter 6: Rails Authentication](chapter_6_rails_authentication/README.md)
