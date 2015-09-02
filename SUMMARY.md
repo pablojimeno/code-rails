@@ -104,7 +104,7 @@
                    * [FAILURE](chapter_6_rails_mvc_breakdown/the_flash.md)
                    * [Test it Out](chapter_6_rails_mvc_breakdown/test_it_out.md)
                * [Happy Create Project REFACTOR](chapter_6_rails_mvc_breakdown/refactor.md)
-           * [Unhappy Path: Create Project](chapter_5_rails_mvc_breakdown/unhappy_path.md)
+           * [Unhappy Path: Create Project](chapter_6_rails_mvc_breakdown/unhappy_path.md)
                * [Unhappy Create Project RED](chapter_5_rails_mvc_breakdown/unhappy_path_red.md)
                    * [Write a User Story](chapter_5_rails_mvc_breakdown/write_a_user_story.md)
                    * [Translate to Code](chapter_5_rails_mvc_breakdown/translate_to_code.md)
