@@ -1,4 +1,4 @@
-# Chapter 5: Rails MVC Breakdown
+# Chapter 6: Rails MVC Breakdown
 
 ## Intro: MVC
 

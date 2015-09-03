@@ -1,4 +1,4 @@
-# 5.1 Pre-requisite Reading
+# 6.1 Pre-requisite Reading
 
 Rails uses Object-Relational Mapping (ORM) through Active Record to acces data in the database (e.g. SQLite, PostgreSQL, MySQL).
 
