@@ -79,7 +79,7 @@
        * [AWS](chapter_5_deployment/aws.md)
    * [Continous Integration](chapter_5_deployment/continous_integration.md)
        * [Set up a Continuous Integration server for your repo.](chapter_5_deployment/continous_integration2.md)
-* [Chapter 6: Rails MVC Breakdown](chapter_6_deployment/README.md)
+* [Chapter 6: Rails MVC Breakdown](chapter_6_rails_mvc_breakdown/README.md)
    * [Pre-requisite Reading](chapter_6_rails_mvc_breakdown/51_activerecord_basics.md)
    * [Clean Up Test and Features Directory](chapter_6_rails_mvc_breakdown/section_2.md)
    * [As an employer, I want to see this developer's portfolio so that I can judge their work](chapter_6_rails_mvc_breakdown/as_an_employer,_i_want_to_see_this_developers_portfolio_so_that_i_can_judge_their_work.md)
