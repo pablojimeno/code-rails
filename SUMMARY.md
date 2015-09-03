@@ -78,7 +78,7 @@
        * [Get a domain name](chapter_5_deployment/custom_domain.md)
        * [AWS](chapter_5_deployment/aws.md)
    * [Continous Integration](chapter_5_deployment/continous_integration.md)
-       * [Set up a Continuous Integration server for your repo.](chapter_4_rails_theming,_continuous_integration,_and_deployment/set_up_a_continuous_integration_server_for_your_repo.md)
+       * [Set up a Continuous Integration server for your repo.](chapter_5_deployment/continous_integration2.md)
 * [Chapter 6: Rails MVC Breakdown](chapter_6_deployment/README.md)
    * [Pre-requisite Reading](chapter_6_rails_mvc_breakdown/51_activerecord_basics.md)
    * [Clean Up Test and Features Directory](chapter_6_rails_mvc_breakdown/section_2.md)
