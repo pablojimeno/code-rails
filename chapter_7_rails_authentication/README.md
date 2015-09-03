@@ -1,4 +1,4 @@
-# Chapter 6: Rails Authentication
+# Chapter 7: Rails Authentication
 
 Are your users **authentic**?
 
