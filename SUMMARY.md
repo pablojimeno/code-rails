@@ -177,7 +177,7 @@
    * [RED Comments](chapter_10_rails_resource_generator_with_comments/red_comments.md)
    * [GREEN Comments](chapter_10_rails_resource_generator_with_comments/green_comments.md)
    * [REFACTOR Comments](chapter_10_rails_resource_generator_with_comments/refactor_comments.md)
-* [Chapter 11: Omniauth](chapter_11_omniauth)
+* [Chapter 11: Omniauth](chapter_11_omniauth/README.md)
   * [RED OAuth](chapter_11_omniauth/red_oauth.md)
   * [GREEN OAuth](chapter_11_omniauth/green_oauth.md)
   * [REFACTOR OAuth](chapter_11_omniauth/refactor_oauth.md)
