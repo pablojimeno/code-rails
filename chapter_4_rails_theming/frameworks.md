@@ -14,7 +14,7 @@ Write a spec to check for zurb foundation loading on `root_path`.
     $ rails generate minitest:feature
 
 
-What can you look for your on your page to indicate that Zurb is in effect?
+What can you look for, on your page, to indicate that Zurb is in effect?
 
 **Hint**:
 
