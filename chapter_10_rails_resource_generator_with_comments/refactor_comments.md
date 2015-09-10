@@ -1,4 +1,4 @@
-### REFACTOR: Comments
+## REFACTOR: Comments
 
 Actually, don't refactor just yet. The client just called in some additional requirements. "Just a quick thing," they said, "wouldn't it be faster for a commenter to fill in those name & url fields if they could use their Twitter accounts to sign up?"
 
@@ -6,7 +6,7 @@ Actually, don't refactor just yet. The client just called in some additional req
 
 "That'd be so cool! Thanks," they say. It's nice to be appreciated.
 
-## Now, lets make signing in a breeze with one click authorization.
+#### Now, lets make signing in a breeze with one click authorization.
 
 Hmm, in order to do this, we need to understand how OAuth works.
 
