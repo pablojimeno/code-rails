@@ -20,10 +20,12 @@
   You can use that to set a password like this:
 </span>
 
+```yaml
 <pre style="color: #f7f7f7">
 dude:
   email: dude@example.com
   encrypted_password: <%= User.new.send(:password_digest, 'password') %>
 </pre>
+```
 
 What HTTP verb should you use to `destroy` a user `session`?
