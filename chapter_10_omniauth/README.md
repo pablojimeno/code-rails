@@ -1,10 +1,8 @@
 # Chapter 10: OmniAuth
 
-By now you have the ability to authenticate users.  But I keep hearing from everyone that signing in all the time is such a pain.
+By now you have the ability to authenticate users.  But we know how much of a pain in is to log in all the time.
 
-first(:a, '.delete')
-
-The client just called in some additional requirements. "Just a quick thing," they said, "wouldn't it be faster for a commenter to fill in those name & url fields if they could use their Twitter accounts to sign up?"
+Furthermore, the client just called in some additional requirements. "Just a quick thing," they said, "wouldn't it be faster for a commenter to fill in those name & url fields if they could use their Twitter accounts to sign up?"
 
 So... while we're at it, why don't we make it super easy, and let Google, Github, Facebook or Twitter handle the sign in process for us.
 
