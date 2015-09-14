@@ -1,7 +1,5 @@
 ## REFACTOR: Comments
 
-Actually, don't refactor just yet. The client just called in some additional requirements. "Just a quick thing," they said, "wouldn't it be faster for a commenter to fill in those name & url fields if they could use their Twitter accounts to sign up?"
-
 "Like, one-click authorization," you suggest helpfully.
 
 "That'd be so cool! Thanks," they say. It's nice to be appreciated.
