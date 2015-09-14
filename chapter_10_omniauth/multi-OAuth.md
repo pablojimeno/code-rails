@@ -1,1 +1,0 @@
-GitHub (and others) OAuth

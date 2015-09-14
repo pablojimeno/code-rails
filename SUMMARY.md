@@ -177,6 +177,7 @@
    * [RED OAuth](chapter_10_omniauth/red_oauth.md)
    * [GREEN OAuth](chapter_10_omniauth/green_oauth.md)
    * [REFACTOR OAuth](chapter_10_omniauth/refactor_oauth.md)
+   * [Multi Oauth (extra)](chapter_10_omniauth/multiOauth.md)
 * [Chapter 11: Rails Resource Generator with Comments](chapter_11_rails_resource_generator_with_comments/README.md)
    * [RED Comments](chapter_11_rails_resource_generator_with_comments/red_comments.md)
    * [GREEN Comments](chapter_11_rails_resource_generator_with_comments/green_comments.md)
