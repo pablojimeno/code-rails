@@ -26,4 +26,5 @@ dude:
   encrypted_password: <%= User.new.send(:password_digest, 'password') %>
 </span>
 
+
 What HTTP verb should you use to `destroy` a user `session`?
