@@ -1,6 +1,6 @@
 # GREEN: OAuth
 
-You have the feature spec'd out, so you are now ready to write code. 
+You have the feature spec'd out, so you are now ready to write code.
 
 Use your test to guide you, and hints from the path here help you when you are stuck.
 
@@ -31,6 +31,8 @@ Do not miss the "Isolating the configuration" section of that article, as that i
     https://dev.twitter.com/apps/new
 
 - Use `http://127.0.0.1:3000/users/auth/twitter/callback` as the callback URL. That special IP address is an alias for "localhost" that you should use, as a literal "localhost" string will not validate.
+You may need to use
+`http://127.0.0.1:3000/auth/twitter/callback`
 
 - After your Twitter app is created, you'll have to edit the app's settings and check off "Allow this application to be used to sign in with twitter."
 

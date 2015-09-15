@@ -16,8 +16,9 @@ In the previous section we used forman as our server.  If you didn't like that p
 http://pow.cx/ (only for macs)
 
 Register your app with Github
-https://github.com/settings/applications/new
-use http://127.0.0.1:3000/users/auth/twitter/callback again
+`https://github.com/settings/developers`
+
+use `http://127.0.0.1:3000/users/auth/github/callback`
 
 configure your devise initializer for github
 ``` ruby
