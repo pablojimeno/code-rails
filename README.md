@@ -9,7 +9,7 @@ Welcome to Code Rails, a workbook that has one objective: Help you rapidly learn
 ## Contribute to the Book
 
 
-1. Visit [GitBook.io](https://www.gitbook.io) to learn about GitBook publishing tools
+1. Visit [GitBook.io](https://www.gitbook.com) to learn about GitBook publishing tools
 - Visit the [GitBook help section](http://help.gitbook.io/markdown/README.html
 ) for help with getting started in writing Markdown
 - Download the [GitBook text editor](https://www.gitbook.io/editor/download)
